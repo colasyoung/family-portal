@@ -3,7 +3,7 @@
  * 本地预览：在本目录执行 python3 -m http.server 8765，打开 http://127.0.0.1:8765/
  *
  * 默认入口：选择班级并输入该班学生姓名（与登记一致）验证后查看榜单；同一会话内刷新可保持验证（sessionStorage）。
- * 若 URL 带有效 portalClassTokens 口令（?token=），则直接进入该班榜单，无需姓名验证。
+ * 免验证入口二选一：① URL 带有效 portalClassTokens 口令（?token=）；② ?classId=&studentId= 与简报页一致，花名册有效即可（无需在数据中配置口令）。
  */
 
 import { loadPortalCupData } from "./cup-data-loader.js";
@@ -33,6 +33,14 @@ let currentProjectId = "proj_333";
 let activePortalToken = "";
 /** 若 URL ?token= 有效且能在数据中解析到班级，则跳过验证门直接进入该班榜单 */
 let tokenLockedClassId = "";
+/** 若 URL ?classId=&studentId= 与花名册一致，则免验证进入该班（与 report.html 参数一致，不依赖 portalClassTokens） */
+let shareLinkLockedClassId = "";
+/** 从 classId+studentId 链接进入时锚定的学生 id，用于「复制分享链接」 */
+let activeShareLinkStudentId = "";
+
+function gateBypassClassId() {
+    return tokenLockedClassId || shareLinkLockedClassId;
+}
 
 function getPortalTokenMap() {
     const m = rawData?.portalClassTokens;
@@ -49,26 +57,27 @@ function resolveClassIdFromPortalTokenParam(token) {
 }
 
 function applyTokenGateUI() {
+    const gid = gateBypassClassId();
     const field = document.getElementById("gateClassField");
     const hint = document.getElementById("gateTokenHint");
     const nameLabel = document.getElementById("gateNameStepLabel");
-    if (field) field.classList.toggle("hidden", !!tokenLockedClassId);
-    if (hint) hint.classList.toggle("hidden", !tokenLockedClassId);
+    if (field) field.classList.toggle("hidden", !!gid);
+    if (hint) hint.classList.toggle("hidden", !gid);
     const n = document.getElementById("gateTokenClassName");
-    if (n && tokenLockedClassId) {
-        const c = getClasses().find((x) => x.id === tokenLockedClassId);
+    if (n && gid) {
+        const c = getClasses().find((x) => x.id === gid);
         n.textContent = c ? (c.archived ? `${c.name}（已归档）` : c.name) : "—";
     }
     const sel = document.getElementById("gateClassSelect");
     if (sel) {
-        if (tokenLockedClassId) {
-            sel.value = tokenLockedClassId;
+        if (gid) {
+            sel.value = gid;
             sel.removeAttribute("required");
         } else {
             sel.setAttribute("required", "required");
         }
     }
-    if (nameLabel) nameLabel.textContent = tokenLockedClassId ? "① 学生姓名" : "② 学生姓名";
+    if (nameLabel) nameLabel.textContent = gid ? "① 学生姓名" : "② 学生姓名";
 }
 
 function applySiteLeadText() {
@@ -76,7 +85,10 @@ function applySiteLeadText() {
     if (!el) return;
     if (tokenLockedClassId) {
         el.textContent =
-            "当前通过班级分享链接浏览本班榜单（无需输入学生姓名）。数据由教师不定期更新。";
+            "当前通过班级口令链接浏览本班榜单（无需输入学生姓名）。数据由教师不定期更新。";
+    } else if (shareLinkLockedClassId) {
+        el.textContent =
+            "当前通过班级分享链接浏览本班榜单（与简报页相同参数，无需再次输入姓名）。数据由教师不定期更新。";
     } else {
         el.textContent =
             "只读榜单：选择班级并输入该班学生姓名验证通过后即可查看课堂成绩；数据由教师不定期更新。";
@@ -514,20 +526,41 @@ function enterMainFromUnlock() {
     updateCopyShareLinkButton();
 }
 
+/** 生成首页分享链接时使用的学生 id：优先本会话验证身份，其次分享链接锚点，最后花名册稳定排序首人 */
+function getAnchorStudentIdForShare() {
+    if (!currentClassId || !rawData) return "";
+    const roster = getStudentsInClass(currentClassId);
+    if (!roster.length) return "";
+    const sess = readSessionUnlock();
+    if (sess && sess.classId === currentClassId) {
+        const m = roster.find((s) => normalizeName(s.name) === sess.nameNorm);
+        if (m) return m.id;
+    }
+    if (activeShareLinkStudentId) {
+        const m = roster.find((s) => s.id === activeShareLinkStudentId);
+        if (m) return m.id;
+    }
+    const sorted = [...roster].sort((a, b) => String(a.id).localeCompare(String(b.id)));
+    return sorted[0]?.id || "";
+}
+
 function getShareUrlForCurrentClass() {
-    const tok = getPortalTokenMap()[currentClassId];
-    if (!tok) return "";
+    const cid = currentClassId;
+    const sid = getAnchorStudentIdForShare();
+    if (!cid || !sid) return "";
     const u = new URL("index.html", window.location.href);
-    u.searchParams.set("token", String(tok));
+    u.searchParams.set("classId", cid);
+    u.searchParams.set("studentId", sid);
+    const tok = activePortalToken || getPortalTokenMap()[currentClassId];
+    if (tok) u.searchParams.set("token", String(tok));
     return u.href;
 }
 
 function updateCopyShareLinkButton() {
     const btn = document.getElementById("copyShareLinkBtn");
     if (!btn) return;
-    const tok = getPortalTokenMap()[currentClassId];
-    btn.hidden = !tok;
-    if (tok) btn.disabled = false;
+    btn.hidden = false;
+    btn.disabled = !getAnchorStudentIdForShare();
 }
 
 function bindCopyShareLink() {
@@ -537,14 +570,14 @@ function bindCopyShareLink() {
     btn.addEventListener("click", async () => {
         const href = getShareUrlForCurrentClass();
         if (!href) {
-            alert(
-                "当前班级未在数据中配置 portalClassTokens，无法生成免验证链接。请教师更新导出数据。"
-            );
+            alert("当前班级暂无可用学生锚点，无法生成分享链接。");
             return;
         }
         try {
             await navigator.clipboard.writeText(href);
-            alert("已复制本班分享链接。对方打开后无需验证即可查看班级榜。");
+            alert(
+                "已复制本班分享链接（含班级与学生标识，与简报页参数一致）。对方打开后无需验证即可查看班级榜。"
+            );
         } catch {
             window.prompt("请手动复制以下链接：", href);
         }
@@ -555,7 +588,7 @@ function bindMainControls() {
     document.getElementById("sortSelect")?.addEventListener("change", () => renderRankings());
 
     document.getElementById("switchClassBtn")?.addEventListener("click", () => {
-        if (tokenLockedClassId) {
+        if (tokenLockedClassId || shareLinkLockedClassId) {
             if (
                 window.confirm(
                     "切换班级将离开本班分享链接（免验证），并打开总入口（需重新选择班级并验证）。确定吗？"
@@ -604,6 +637,9 @@ async function boot() {
 
     const pageParams = new URLSearchParams(window.location.search);
     const rawUrlToken = (pageParams.get("token") || pageParams.get("t") || "").trim();
+    const urlClassId = (pageParams.get("classId") || "").trim();
+    const urlStudentId = (pageParams.get("studentId") || "").trim();
+
     tokenLockedClassId = resolveClassIdFromPortalTokenParam(rawUrlToken) || "";
     activePortalToken = tokenLockedClassId ? rawUrlToken : "";
 
@@ -611,24 +647,36 @@ async function boot() {
         activePortalToken = "";
     }
 
-    if (tokenLockedClassId && !getClasses().some((c) => c.id === tokenLockedClassId)) {
+    const classes = getClasses();
+    if (tokenLockedClassId && !classes.some((c) => c.id === tokenLockedClassId)) {
         tokenLockedClassId = "";
         activePortalToken = "";
     }
 
-    if (tokenLockedClassId) {
+    shareLinkLockedClassId = "";
+    activeShareLinkStudentId = "";
+    if (!tokenLockedClassId && urlClassId && urlStudentId) {
+        if (classes.some((c) => c.id === urlClassId)) {
+            const stu = getStudentsInClass(urlClassId).find((s) => s.id === urlStudentId);
+            if (stu) {
+                shareLinkLockedClassId = urlClassId;
+                activeShareLinkStudentId = urlStudentId;
+            }
+        }
+    }
+
+    if (gateBypassClassId()) {
         const o = readSessionUnlock();
-        if (o && o.classId !== tokenLockedClassId) clearSessionUnlock();
+        if (o && o.classId !== gateBypassClassId()) clearSessionUnlock();
     }
 
     populateGateClassSelect();
-    if (tokenLockedClassId) {
+    const gid = gateBypassClassId();
+    if (gid) {
         const sel = document.getElementById("gateClassSelect");
-        if (sel) sel.value = tokenLockedClassId;
+        if (sel) sel.value = gid;
     }
-    if (!tokenLockedClassId) {
-        applyTokenGateUI();
-    }
+    applyTokenGateUI();
     applySiteLeadText();
 
     const lu = rawData.lastUpdated;
@@ -642,7 +690,6 @@ async function boot() {
         meta.textContent = dataSourceLabel ? `数据来源：${dataSourceLabel}` : "";
     }
 
-    const classes = getClasses();
     if (!classes.length) {
         showGatePanel();
         setGateError("当前数据中没有班级，请教师更新 data/ 下成绩文件后再试。");
@@ -650,7 +697,12 @@ async function boot() {
         return;
     }
 
-    if (rawUrlToken && !tokenLockedClassId) {
+    if (urlClassId && urlStudentId && !shareLinkLockedClassId && !tokenLockedClassId) {
+        clearSessionUnlock();
+        setGateError(
+            "分享链接无效或已过期（班级或学生不存在，或教师已更新数据）。请从总入口选择班级并验证。"
+        );
+    } else if (rawUrlToken && !tokenLockedClassId && !shareLinkLockedClassId) {
         clearSessionUnlock();
         setGateError(
             "链接中的班级口令无效或已停用。请向老师索取最新链接，或从总入口手动选择班级。"
@@ -696,6 +748,17 @@ async function boot() {
     if (tokenLockedClassId) {
         clearSessionUnlock();
         currentClassId = tokenLockedClassId;
+        enterMainFromUnlock();
+        showMainPanel();
+        return;
+    }
+
+    if (shareLinkLockedClassId) {
+        currentClassId = shareLinkLockedClassId;
+        const st = getStudentsInClass(shareLinkLockedClassId).find(
+            (s) => s.id === activeShareLinkStudentId
+        );
+        if (st) writeSessionUnlock(shareLinkLockedClassId, normalizeName(st.name));
         enterMainFromUnlock();
         showMainPanel();
         return;

@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="auto">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#1a2332">
+    <meta name="theme-color" content="#1a2332" data-dark="#1a2332" data-light="#e8edf2">
     <title>竞技叠杯课堂成绩 · 公开查询</title>
-    <link rel="stylesheet" href="./styles.css">
+    <script src="./theme-init.js"></script>
+    <link rel="stylesheet" href="./styles.css?v=6">
 </head>
 <body>
     <header class="site-header">
-        <h1>竞技叠杯课堂成绩 · 公开查询</h1>
+        <div class="site-header__top">
+            <h1>竞技叠杯课堂成绩 · 公开查询</h1>
+            <div class="theme-switcher" role="group" aria-label="界面主题">
+                <button type="button" class="theme-switcher__btn" data-theme-value="light" title="浅色背景">浅色</button>
+                <button type="button" class="theme-switcher__btn" data-theme-value="dark" title="深色背景">深色</button>
+                <button type="button" class="theme-switcher__btn" data-theme-value="auto" title="跟随系统">自动</button>
+            </div>
+        </div>
         <p id="siteLead" class="lead">只读榜单：选择班级并输入该班学生姓名验证通过后即可查看课堂成绩；数据由教师不定期更新。</p>
         <p class="site-beta-notice">测试中，目前仅显示可乐老师每周所执教的班级。敬请期待未来更新。</p>
     </header>
+
+    <div id="appBootLoading" class="app-boot-loading" aria-busy="true" aria-live="polite">
+        <div class="app-boot-loading__inner">
+            <span class="app-boot-loading__spinner" aria-hidden="true"></span>
+            <p class="app-boot-loading__text">正在加载成绩数据…</p>
+        </div>
+    </div>
 
     <div id="loadError" class="panel panel--error hidden" role="alert"></div>
 
@@ -44,14 +59,18 @@
     <section id="mainPanel" class="panel hidden">
         <div class="toolbar toolbar--main">
             <div class="current-class-bar">
-                <span class="field-label">当前班级</span>
-                <span id="currentClassLabel" class="current-class-name"></span>
-                <button type="button" class="btn btn-outline" id="switchClassBtn">切换班级</button>
-                <button type="button" class="btn btn-outline" id="copyShareLinkBtn">
-                    复制分享链接
-                </button>
+                <div class="current-class-bar__head">
+                    <span class="field-label">当前班级</span>
+                    <span id="currentClassLabel" class="current-class-name"></span>
+                </div>
+                <div class="current-class-bar__actions">
+                    <button type="button" class="btn btn-outline" id="switchClassBtn">切换班级</button>
+                    <button type="button" class="btn btn-outline" id="copyShareLinkBtn" data-label-default="复制分享链接">
+                        复制分享链接
+                    </button>
+                </div>
             </div>
-            <label class="field">
+            <label class="field toolbar__sort">
                 <span class="field-label">排序</span>
                 <select id="sortSelect" aria-label="排序方式">
                     <option value="best">最佳成绩</option>
@@ -67,10 +86,15 @@
         <div id="rankingsContainer" class="rankings-wrap"></div>
 
         <footer class="meta-footer">
-            <span id="dataUpdated"></span>
+            <p class="meta-footer__disclaimer" role="note">
+                榜单为课堂随堂练习记录，便于了解近期表现；不代表阶段性或期末评定，具体以教师说明为准。
+            </p>
+            <p class="meta-footer__updated"><span id="dataUpdated"></span></p>
         </footer>
     </section>
 
-    <script type="module" src="./app.js?v=3"></script>
+    <div id="toastHost" class="toast-host" aria-live="polite"></div>
+
+    <script type="module" src="./app.js?v=9"></script>
 </body>
 </html>

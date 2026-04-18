@@ -6,7 +6,7 @@
  * 免验证入口二选一：① URL 带有效 portalClassTokens 口令（?token=）；② ?classId= 对应数据中存在该班即可（无需在数据中配置口令；简报页仍为 classId+studentId）。
  */
 
-import { loadPortalCupData } from "./cup-data-loader.js";
+import { loadPortalCupData, parseStackClassBackupFilename } from "./cup-data-loader.js";
 import {
     CORE_PROJECTS,
     getScoresMap,
@@ -21,6 +21,66 @@ import {
 } from "./cup-core.js";
 
 const SESSION_KEY = "family_portal_unlock_v1";
+
+/** @type {ReturnType<typeof setTimeout> | undefined} */
+let toastHideTimer;
+/** @type {ReturnType<typeof setTimeout> | undefined} */
+let toastRemoveTimer;
+
+function showToast(message, variant = "info") {
+    const host = document.getElementById("toastHost");
+    if (!host) return;
+    window.clearTimeout(toastHideTimer);
+    window.clearTimeout(toastRemoveTimer);
+    host.replaceChildren();
+
+    const el = document.createElement("div");
+    el.className = `toast toast--${variant}`;
+    el.setAttribute("role", "status");
+    el.textContent = message;
+    host.appendChild(el);
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => el.classList.add("toast--visible"));
+    });
+    toastHideTimer = window.setTimeout(() => {
+        el.classList.remove("toast--visible");
+        toastRemoveTimer = window.setTimeout(() => {
+            el.remove();
+            toastRemoveTimer = undefined;
+        }, 300);
+    }, 3400);
+}
+
+function hideBootLoading() {
+    const el = document.getElementById("appBootLoading");
+    if (!el) return;
+    el.classList.add("hidden");
+    el.setAttribute("aria-busy", "false");
+}
+
+function syncThemeSwitcherActiveState() {
+    const mode = document.documentElement.getAttribute("data-theme") || "auto";
+    document.querySelectorAll("[data-theme-value]").forEach((btn) => {
+        const v = btn.getAttribute("data-theme-value");
+        btn.classList.toggle("theme-switcher__btn--active", v === mode);
+    });
+}
+
+function initThemeControls() {
+    const buttons = document.querySelectorAll("[data-theme-value]");
+    if (!buttons.length || buttons[0].dataset.boundTheme) return;
+    buttons[0].dataset.boundTheme = "1";
+    buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            const mode = btn.getAttribute("data-theme-value");
+            if (mode && typeof window.familyPortalSetTheme === "function") {
+                window.familyPortalSetTheme(mode);
+            }
+            syncThemeSwitcherActiveState();
+        });
+    });
+    syncThemeSwitcherActiveState();
+}
 
 /** @type {any} */
 let rawData = null;
@@ -435,9 +495,11 @@ function paintTable(container, list, sortType, isAll) {
 
     let html =
         '<table class="rank-table rank-table--stack"><thead><tr>' +
-        `<th class="col-num">排名</th><th>姓名</th><th>${escLabel(scoreLabel)}</th>` +
-        `<th>与前一名差距</th><th>近10次平均</th><th>较首次</th><th>距第一名差距</th><th class="col-share">分享</th>` +
-        "</tr></thead>";
+        `<th class="col-num" scope="col">排名</th><th class="col-name-head" scope="col">姓名</th>` +
+        `<th class="col-metric" scope="col">${escLabel(scoreLabel)}</th>` +
+        `<th class="col-metric" scope="col">与前一名差距</th><th class="col-metric" scope="col">近10次平均</th>` +
+        `<th class="col-metric" scope="col">较首次</th><th class="col-metric" scope="col">距第一名差距</th>` +
+        `<th class="col-share" scope="col">分享</th></tr></thead>`;
 
     for (let i = 0; i < list.length; i++) {
         const item = list[i];
@@ -480,11 +542,11 @@ function paintTable(container, list, sortType, isAll) {
         html += `<tr class="rank-entry__metrics">`;
         html += `<td class="col-num desktop-only">${item.rank}</td>`;
         html += `<td class="col-name desktop-only">${nameEsc}</td>`;
-        html += `<td data-label="${escLabel(scoreLabel)}">${scoreHtml}</td>`;
-        html += `<td data-label="与前一名">${gapHtml}</td>`;
-        html += `<td data-label="近10次平均">${avgHtml}</td>`;
-        html += `<td data-label="较首次">${firstHtml}</td>`;
-        html += `<td data-label="距第一名">${gapFirst}</td>`;
+        html += `<td class="col-metric" data-label="${escLabel(scoreLabel)}">${scoreHtml}</td>`;
+        html += `<td class="col-metric" data-label="与前一名">${gapHtml}</td>`;
+        html += `<td class="col-metric" data-label="近10次平均">${avgHtml}</td>`;
+        html += `<td class="col-metric" data-label="较首次">${firstHtml}</td>`;
+        html += `<td class="col-metric" data-label="距第一名">${gapFirst}</td>`;
         html += `<td class="col-share" data-label="分享简报"><a class="share-report-link" href="${escapeHtml(
             shareHref
         )}" target="_blank" rel="noopener noreferrer">分享页</a></td>`;
@@ -506,6 +568,28 @@ async function loadData() {
     const { data, source } = await loadPortalCupData();
     rawData = data;
     dataSourceLabel = source || "";
+}
+
+function updateDataFooterMeta() {
+    const meta = document.getElementById("dataUpdated");
+    if (!meta) return;
+    const lu = rawData?.lastUpdated;
+    if (lu) {
+        const d = new Date(Number(lu));
+        let t = `数据快照时间：${d.toLocaleString("zh-CN")}（以导出为准）`;
+        if (dataSourceLabel) t += ` · ${dataSourceLabel}`;
+        meta.textContent = t;
+        return;
+    }
+    if (dataSourceLabel) {
+        const fname = dataSourceLabel.replace(/^.*\//, "");
+        const parsed = parseStackClassBackupFilename(fname);
+        meta.textContent = parsed
+            ? `成绩备份日期：${parsed.date}（来自文件 ${fname}）`
+            : `数据来源：${dataSourceLabel}`;
+        return;
+    }
+    meta.textContent = "";
 }
 
 function populateGateClassSelect() {
@@ -558,16 +642,27 @@ function bindCopyShareLink() {
     const btn = document.getElementById("copyShareLinkBtn");
     if (!btn || btn.dataset.bound) return;
     btn.dataset.bound = "1";
+    const defaultLabel = btn.dataset.labelDefault || btn.textContent?.trim() || "复制分享链接";
     btn.addEventListener("click", async () => {
         const href = getShareUrlForCurrentClass();
         if (!href) {
-            alert("无法生成分享链接。");
+            showToast("无法生成分享链接。", "err");
             return;
         }
         try {
             await navigator.clipboard.writeText(href);
-            alert("已复制本班分享链接。通过分享链接打开无需验证即可查看班级排行榜。");
+            btn.textContent = "已复制 ✓";
+            btn.classList.add("btn-copied");
+            showToast(
+                "已复制本班分享链接。通过分享链接打开无需验证即可查看班级排行榜。",
+                "ok"
+            );
+            window.setTimeout(() => {
+                btn.textContent = defaultLabel;
+                btn.classList.remove("btn-copied");
+            }, 1800);
         } catch {
+            showToast("无法自动复制，请手动选择并复制下方链接。", "err");
             window.prompt("请手动复制以下链接：", href);
         }
     });
@@ -613,15 +708,18 @@ function showError(msg) {
 }
 
 async function boot() {
+    initThemeControls();
     try {
         await loadData();
     } catch (e) {
+        hideBootLoading();
         showError(
             (e && e.message) ||
                 "加载失败。请将 stack_class_backup_*.json 放入 data/ 并维护 manifest.json（见 data/README.txt），用本地 HTTP 打开（勿用 file://）。"
         );
         return;
     }
+    hideBootLoading();
     document.getElementById("loadError")?.classList.add("hidden");
 
     const pageParams = new URLSearchParams(window.location.search);
@@ -660,16 +758,7 @@ async function boot() {
     applyTokenGateUI();
     applySiteLeadText();
 
-    const lu = rawData.lastUpdated;
-    const meta = document.getElementById("dataUpdated");
-    if (meta && lu) {
-        const d = new Date(Number(lu));
-        let t = `数据快照时间：${d.toLocaleString("zh-CN")}（以导出文件为准）`;
-        if (dataSourceLabel) t += ` · ${dataSourceLabel}`;
-        meta.textContent = t;
-    } else if (meta) {
-        meta.textContent = dataSourceLabel ? `数据来源：${dataSourceLabel}` : "";
-    }
+    updateDataFooterMeta();
 
     if (!classes.length) {
         showGatePanel();

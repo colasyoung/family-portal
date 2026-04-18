@@ -13,8 +13,16 @@ import {
     getStudentsInClass
 } from "./cup-core.js";
 
-function pickTagline(rows) {
-    const top3 = rows.filter((r) => r.rank !== null && r.rank <= 3);
+/**
+ * @param {{ kind: string, rank: number | null, total: number | null }[]} rows
+ * @param {{ hasImprovement: boolean }} extra
+ */
+function pickTagline(rows, extra) {
+    const withRank = rows.filter(
+        (r) => r.rank !== null && r.total !== null && r.total > 0 && typeof r.rank === "number"
+    );
+    const top3 = withRank.filter((r) => r.rank <= 3);
+
     if (top3.length >= 2) {
         return "多项成绩位居班级前列，继续保持节奏，稳定发挥！";
     }
@@ -25,7 +33,122 @@ function pickTagline(rows) {
     if (aa && aa.rank !== null && aa.rank <= 3) {
         return "全能总成绩在班里非常靠前，值得骄傲的一刻！";
     }
-    return "坚持练习就会有回报，下一次测验继续突破自己。";
+
+    if (withRank.length === 0) {
+        return "先认真完成每一次课堂计时，记录会慢慢体现出你的投入与进步。";
+    }
+
+    const avgPct =
+        withRank.reduce((acc, r) => acc + (r.rank - 1) / Math.max(1, r.total - 1), 0) /
+        withRank.length;
+
+    if (avgPct > 0.58) {
+        let t =
+            "当前名次只是这一刻的快照，不代表上限。叠杯最吃反复练习：多练一圈、动作稳一点，就会离自己的目标更近。";
+        if (extra.hasImprovement) {
+            t += " 你相较「首次」已有进步，说明方向是对的，保持节奏就好。";
+        }
+        return t;
+    }
+
+    if (avgPct > 0.42) {
+        return "你在跟上全班节奏的路上，坚持本身就很可贵。下一次只和昨天的自己比，稳定完成就是收获。";
+    }
+
+    let t = "坚持练习就会有回报，每一次计时都是在往更好的一点靠近。";
+    if (extra.hasImprovement) {
+        t += " 相较首次的成绩也说明你在进步，继续保持。";
+    }
+    return t;
+}
+
+/**
+ * 为排名偏后的同学额外打打气（与主文案互补，避免空泛说教）。
+ * @param {{ kind: string, rank: number | null, total: number | null }[]} rows
+ */
+function fillEncouragementBox(el, rows) {
+    if (!el) return;
+    const withRank = rows.filter(
+        (r) => r.rank !== null && r.total !== null && r.total > 0 && typeof r.rank === "number"
+    );
+    const hasTop3 = withRank.some((r) => r.rank <= 3);
+    if (withRank.length === 0 || hasTop3) {
+        el.textContent = "";
+        el.classList.add("hidden");
+        return;
+    }
+    const avgPct =
+        withRank.reduce((acc, r) => acc + (r.rank - 1) / Math.max(1, r.total - 1), 0) /
+        withRank.length;
+    if (avgPct <= 0.48) {
+        el.textContent = "";
+        el.classList.add("hidden");
+        return;
+    }
+    el.textContent =
+        "给你打打气：叠杯进步常常是「练够一定量就突然顺起来」的，不必和任何人比进度；认真练过的每一次，都会算在未来的成绩里。";
+    el.classList.remove("hidden");
+}
+
+/** 底部留白（px），避免贴边 */
+const FIT_VIEWPORT_GAP_PX = 6;
+
+function clearFitReportToOneScreen() {
+    document.documentElement.classList.remove("rep-ready");
+    document.body.classList.remove("rep-ready");
+    const stack = document.getElementById("repStack");
+    if (stack) {
+        stack.style.transform = "";
+        stack.style.marginBottom = "";
+        stack.style.willChange = "";
+    }
+}
+
+function scheduleFitReportToOneScreen() {
+    const main = document.getElementById("mainRoot");
+    const stack = document.getElementById("repStack");
+    if (!main || !stack || main.classList.contains("hidden")) {
+        clearFitReportToOneScreen();
+        return;
+    }
+
+    const run = () => {
+        document.documentElement.classList.add("rep-ready");
+        document.body.classList.add("rep-ready");
+        stack.style.transform = "";
+        stack.style.marginBottom = "";
+
+        const vh = window.visualViewport?.height ?? window.innerHeight;
+        const top = stack.getBoundingClientRect().top;
+        const avail = vh - top - FIT_VIEWPORT_GAP_PX;
+        const h = stack.offsetHeight;
+        if (h <= 0 || avail <= 4) return;
+        if (h <= avail) return;
+
+        const s = Math.min(1, avail / h);
+        stack.style.transformOrigin = "top center";
+        stack.style.transform = `scale(${s})`;
+        stack.style.willChange = "transform";
+        stack.style.marginBottom = `${-h * (1 - s)}px`;
+    };
+
+    requestAnimationFrame(() => requestAnimationFrame(run));
+}
+
+let fitListenersBound = false;
+/** @type {ReturnType<typeof setTimeout> | undefined} */
+let fitDebounceTimer;
+
+function ensureFitReportListeners() {
+    if (fitListenersBound) return;
+    fitListenersBound = true;
+    const onResize = () => {
+        window.clearTimeout(fitDebounceTimer);
+        fitDebounceTimer = window.setTimeout(scheduleFitReportToOneScreen, 50);
+    };
+    window.addEventListener("resize", onResize);
+    window.visualViewport?.addEventListener("resize", onResize);
+    window.addEventListener("orientationchange", onResize);
 }
 
 async function boot() {
@@ -37,6 +160,7 @@ async function boot() {
     const mainEl = document.getElementById("mainRoot");
 
     const fail = (msg) => {
+        clearFitReportToOneScreen();
         errEl.textContent = msg;
         errEl.classList.remove("hidden");
         mainEl.classList.add("hidden");
@@ -90,6 +214,7 @@ async function boot() {
     const aaSection = document.getElementById("repAa");
     const aaBody = document.getElementById("repAaBody");
     const rowsForTag = [];
+    let hasImprovement = false;
 
     if (aa) {
         aaSection.classList.remove("hidden");
@@ -105,7 +230,7 @@ async function boot() {
         strong.textContent = aa.sum.toFixed(3);
         aaBody.appendChild(strong);
         aaBody.appendChild(document.createTextNode(" 秒"));
-        rowsForTag.push({ kind: "aa", rank: aa.rank });
+        rowsForTag.push({ kind: "aa", rank: aa.rank, total: aa.total });
     } else {
         aaSection.classList.add("hidden");
         aaBody.replaceChildren();
@@ -151,14 +276,18 @@ async function boot() {
             if (first !== null && Number.isFinite(first)) {
                 const delta = first - best;
                 if (delta > 0.005) {
+                    hasImprovement = true;
                     const hint = document.createElement("span");
-                    hint.style.color = "#8b949e";
-                    hint.style.fontSize = "0.85rem";
+                    hint.className = "rep-proj-delta";
                     hint.textContent = ` · 较首次快 ${delta.toFixed(3)} 秒`;
                     meta.appendChild(hint);
                 }
             }
-            rowsForTag.push({ kind: "proj", rank: rankInfo ? rankInfo.rank : null });
+            rowsForTag.push({
+                kind: "proj",
+                rank: rankInfo ? rankInfo.rank : null,
+                total: rankInfo ? rankInfo.total : null
+            });
         }
 
         li.appendChild(nameSpan);
@@ -166,11 +295,18 @@ async function boot() {
         ul.appendChild(li);
     }
 
-    document.getElementById("repTagline").textContent = pickTagline(rowsForTag);
+    document.getElementById("repTagline").textContent = pickTagline(rowsForTag, { hasImprovement });
+    fillEncouragementBox(document.getElementById("repEncourage"), rowsForTag);
 
     errEl.classList.add("hidden");
     mainEl.classList.remove("hidden");
     document.title = `${student.name || "训练"} · 竞技叠杯课堂成绩简报`;
+
+    ensureFitReportListeners();
+    scheduleFitReportToOneScreen();
+    if (document.fonts?.ready) {
+        document.fonts.ready.then(() => scheduleFitReportToOneScreen());
+    }
 }
 
 boot();

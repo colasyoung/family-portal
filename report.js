@@ -167,7 +167,7 @@ async function boot() {
     };
 
     if (!classId || !studentId) {
-        fail("链接不完整。请从班级排行榜中的「分享页」入口打开。");
+        fail("链接不完整。请从班级成绩页中的「分享页」入口打开。");
         return;
     }
 

@@ -15,6 +15,15 @@ const manifestPath = path.join(dataDir, "manifest.json");
 
 const re = /^stack_class_backup_\d{4}-\d{2}-\d{2}(?:_\d+)?\.json$/i;
 
+function readExistingManifest() {
+    if (!fs.existsSync(manifestPath)) return {};
+    try {
+        return JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+    } catch {
+        return {};
+    }
+}
+
 function main() {
     if (!fs.existsSync(dataDir)) {
         fs.mkdirSync(dataDir, { recursive: true });
@@ -24,11 +33,15 @@ function main() {
         .filter((f) => re.test(f) && f !== "manifest.json")
         .sort(compareStackClassBackupDesc);
 
+    const prev = readExistingManifest();
     const manifest = {
         comment:
+            prev.comment ||
             "由 tools/update-data-manifest.mjs 生成；也可手动编辑 files。网页会取其中「最新」命名的一份。",
         files: names
     };
+    if (Array.isArray(prev.visibleClassIds)) manifest.visibleClassIds = prev.visibleClassIds;
+    if (Array.isArray(prev.hiddenClassIds)) manifest.hiddenClassIds = prev.hiddenClassIds;
 
     fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n", "utf-8");
     console.log(`已写入 ${path.relative(root, manifestPath)}，共 ${names.length} 个 stack_class 备份：`);

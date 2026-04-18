@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#1a2332" data-dark="#1a2332" data-light="#e8edf2">
-    <title>竞技叠杯课堂成绩 · 公开查询</title>
+    <title>竞技叠杯 · 课堂成绩查询</title>
     <script src="./theme-init.js"></script>
-    <link rel="stylesheet" href="./styles.css?v=6">
+    <link rel="stylesheet" href="./styles.css?v=25">
 </head>
 <body>
     <header class="site-header">
         <div class="site-header__top">
-            <h1>竞技叠杯课堂成绩 · 公开查询</h1>
+            <h1>竞技叠杯 · 课堂成绩查询</h1>
             <div class="theme-switcher" role="group" aria-label="界面主题">
                 <button type="button" class="theme-switcher__btn" data-theme-value="light" title="浅色背景">浅色</button>
                 <button type="button" class="theme-switcher__btn" data-theme-value="dark" title="深色背景">深色</button>
                 <button type="button" class="theme-switcher__btn" data-theme-value="auto" title="跟随系统">自动</button>
             </div>
         </div>
-        <p id="siteLead" class="lead">只读榜单：选择班级并输入该班学生姓名验证通过后即可查看课堂成绩；数据由教师不定期更新。</p>
-        <p class="site-beta-notice">测试中，目前仅显示可乐老师每周所执教的班级。敬请期待未来更新。</p>
+        <p id="siteLead" class="lead">本页为课堂成绩的公开只读查询。数据由教师录入，更新时间不设固定周期。</p>
+        <p class="site-beta-notice">试运行中：当前可选班级为开发者可乐老师每周实际授课的班级；后续范围将逐步扩大。</p>
     </header>
 
     <div id="appBootLoading" class="app-boot-loading" aria-busy="true" aria-live="polite">
@@ -33,25 +33,62 @@
 
     <section id="gatePanel" class="panel gate-panel hidden" aria-labelledby="gateTitle">
         <div class="gate-card">
-            <h2 id="gateTitle" class="gate-title">查看本班排行榜</h2>
-            <p class="gate-hint">请先选择班级，并输入该班一名学生的<strong>真实姓名</strong>（须与系统登记<strong>完全一致</strong>）。验证通过后即可查看该班榜单。</p>
+            <h2 id="gateTitle" class="gate-title">按姓名查找所在班级</h2>
+            <p class="gate-hint">请输入与登记一致的<strong>全名</strong>（汉字或无声调拼音；可连写或加空格，英文名可先名后姓）。不能只填姓或名。若多班同名，请在结果中点选班级。</p>
             <p id="gateTokenHint" class="gate-token-hint hidden" role="status">
                 <span class="gate-token-hint__label">本链接仅限班级：</span>
                 <strong id="gateTokenClassName"></strong>
             </p>
             <form id="gateForm" class="gate-form" novalidate>
-                <label class="field" id="gateClassField">
-                    <span class="field-label">① 班级</span>
-                    <select id="gateClassSelect" aria-label="选择班级" required>
-                        <option value="">请选择班级</option>
-                    </select>
-                </label>
-                <label class="field">
-                    <span class="field-label" id="gateNameStepLabel">② 学生姓名</span>
-                    <input type="text" id="gateNameInput" name="studentName" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="请输入该班一名学生的姓名" maxlength="64" />
-                </label>
-                <p id="gateError" class="gate-error hidden" role="alert" aria-live="polite"></p>
-                <button type="submit" class="btn btn-primary" id="gateSubmitBtn">验证并查看</button>
+                <div id="gateSearchBlock" class="gate-search-block">
+                    <div class="gate-search-fields">
+                        <p class="gate-section-label">输入学生姓名</p>
+                        <div class="field gate-field-name">
+                            <label class="field-label" for="gateNameInput" id="gateNameFieldLabel">姓名或拼音全拼</label>
+                            <div class="gate-input-row">
+                                <input
+                                    type="text"
+                                    id="gateNameInput"
+                                    name="studentName"
+                                    class="gate-name-input"
+                                    autocomplete="off"
+                                    autocorrect="off"
+                                    autocapitalize="off"
+                                    spellcheck="false"
+                                    placeholder="完整汉字名或全拼，如 张三 或 zhangsan"
+                                    maxlength="64"
+                                    enterkeyhint="search"
+                                />
+                                <button type="submit" class="btn btn-primary gate-search-submit" id="gateSearchBtn">
+                                    查找所在班级
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="gateError" class="gate-error hidden" role="alert" aria-live="polite"></p>
+                    <div
+                        id="gateMatchSection"
+                        class="gate-results hidden"
+                        role="region"
+                        aria-labelledby="gateMatchHeading"
+                        aria-hidden="true"
+                    >
+                        <div class="gate-results__head">
+                            <p id="gateMatchHeading" class="gate-results__title">选择班级</p>
+                        </div>
+                        <div id="gateMatchSummary" class="gate-match-summary hidden">
+                            <span class="gate-match-summary__eyebrow">登记姓名</span>
+                            <p class="gate-match-summary__name" id="gateMatchName"></p>
+                        </div>
+                        <p id="gateMatchHint" class="gate-match-instruction hidden" aria-live="polite"></p>
+                        <ul
+                            id="gateMatchList"
+                            class="gate-match-list hidden"
+                            role="list"
+                            aria-label="可选班级"
+                        ></ul>
+                    </div>
+                </div>
             </form>
         </div>
     </section>
@@ -87,14 +124,52 @@
 
         <footer class="meta-footer">
             <p class="meta-footer__disclaimer" role="note">
-                榜单为课堂随堂练习记录，便于了解近期表现；不代表阶段性或期末评定，具体以教师说明为准。
+                本页成绩为课堂随堂练习记录，便于了解近期表现；不代表阶段性或期末评定，具体以教师说明为准。
             </p>
             <p class="meta-footer__updated"><span id="dataUpdated"></span></p>
         </footer>
     </section>
 
+    <footer class="site-footer" role="contentinfo" aria-label="关于本站">
+        <div class="site-footer__intro">
+            <p class="site-footer__eyebrow">联系与支持</p>
+            <p class="site-footer__line">开发者<strong>可乐老师</strong>负责本站的开发与维护。课堂成绩相关疑问，请先向<strong>实际任课教师</strong>确认。</p>
+            <p class="site-footer__line">联系开发者或自愿以微信赞赏支持本站，请扫下方二维码；赞赏完全自愿。</p>
+            <p class="site-footer__cta">请使用微信「扫一扫」。</p>
+        </div>
+        <hr class="site-footer__rule" aria-hidden="true" />
+        <div class="site-footer__qr-grid" role="group" aria-label="开发者微信与赞赏二维码">
+            <figure class="site-footer__qr-card">
+                <figcaption class="site-footer__qr-label">开发者微信 · 可乐老师</figcaption>
+                <img
+                    class="site-footer__qrcode"
+                    src="./assets/weixin-developer-wechat-qrcode.png"
+                    width="500"
+                    height="500"
+                    alt="开发者可乐老师的微信二维码，扫码添加好友"
+                    loading="lazy"
+                    decoding="async"
+                />
+                <p class="site-footer__qr-hint">备注来意，更快通过</p>
+            </figure>
+            <figure class="site-footer__qr-card">
+                <figcaption class="site-footer__qr-label">微信赞赏 · 支持本站</figcaption>
+                <img
+                    class="site-footer__qrcode"
+                    src="./assets/weixin-appreciation-qrcode.png"
+                    width="2109"
+                    height="2109"
+                    alt="向开发者微信赞赏的二维码"
+                    loading="lazy"
+                    decoding="async"
+                />
+                <p class="site-footer__qr-hint">金额随意，感谢支持</p>
+            </figure>
+        </div>
+    </footer>
+
     <div id="toastHost" class="toast-host" aria-live="polite"></div>
 
-    <script type="module" src="./app.js?v=9"></script>
+    <script type="module" src="./app.js?v=40"></script>
 </body>
 </html>

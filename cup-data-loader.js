@@ -46,7 +46,26 @@ async function fetchJsonOk(url) {
 }
 
 /**
- * @returns {Promise<{ data: any, source: string }>}
+ * 门户班级展示：manifest.json 可选字段，与 files 并列。
+ * - visibleClassIds：非空时仅展示列表中的 classId（白名单）
+ * - hiddenClassIds：从门户列表中排除这些 classId
+ * @param {any} manifest
+ * @returns {{ visibleClassIds: string[] | null, hiddenClassIds: string[] | null }}
+ */
+export function parseManifestPortal(manifest) {
+    if (!manifest || typeof manifest !== "object") {
+        return { visibleClassIds: null, hiddenClassIds: null };
+    }
+    const vis = manifest.visibleClassIds;
+    const hid = manifest.hiddenClassIds;
+    return {
+        visibleClassIds: Array.isArray(vis) ? vis.map(String) : null,
+        hiddenClassIds: Array.isArray(hid) ? hid.map(String) : null
+    };
+}
+
+/**
+ * @returns {Promise<{ data: any, source: string, portal: ReturnType<typeof parseManifestPortal> }>}
  */
 export async function loadPortalCupData() {
     const bust = Date.now();
@@ -59,6 +78,8 @@ export async function loadPortalCupData() {
         /* ignore */
     }
 
+    const portal = parseManifestPortal(manifest);
+
     const listed = Array.isArray(manifest?.files) ? manifest.files.map(String) : [];
     const parsed = sortNewestFirst(listed);
     const extras = listed.filter((f) => !parseStackClassBackupFilename(f));
@@ -67,14 +88,14 @@ export async function loadPortalCupData() {
     for (const name of tryOrder) {
         const url = `./data/${encodeURIComponent(name)}`;
         const data = await fetchJsonOk(`${url}?bust=${bust}`);
-        if (data) return { data, source: `data/${name}` };
+        if (data) return { data, source: `data/${name}`, portal };
     }
 
     const alias = await fetchJsonOk(`${FIXED_ALIAS}?bust=${bust}`);
-    if (alias) return { data: alias, source: "data/stack_class_backup.json" };
+    if (alias) return { data: alias, source: "data/stack_class_backup.json", portal };
 
     const legacy = await fetchJsonOk(`${LEGACY_DATA_JSON}?bust=${bust}`);
-    if (legacy) return { data: legacy, source: "data.json（根目录遗留）" };
+    if (legacy) return { data: legacy, source: "data.json（根目录遗留）", portal };
 
     throw new Error(
         "无法加载成绩数据。请将 stack_class_backup_*.json 放入 data/ 并维护 data/manifest.json，或运行 node tools/update-data-manifest.mjs"

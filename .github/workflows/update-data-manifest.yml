@@ -7,10 +7,10 @@ name: Update data manifest
 on:
   push:
     branches: [main, master]
+    # 仅 paths（不可与 paths-ignore 同用）；用 ! 排除 manifest，避免仅改 manifest 时循环触发
     paths:
       - "data/**"
-    paths-ignore:
-      - "data/manifest.json"
+      - "!data/manifest.json"
 
 permissions:
   contents: write

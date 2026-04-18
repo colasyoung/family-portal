@@ -1,0 +1,62 @@
+family-portal（独立站点，与「竞技叠杯成绩管理系统 Server 版」主程序无关）
+
+【Git 仓库位置】本文件夹即为仓库根目录（与 index.html、data/、.github/ 同级）；请在此目录执行 git init / remote / push。勿在上级目录（例如 ~/Documents/INBOX）再初始化 Git，以免与「仅 family-portal 站点」这一仓库混淆。
+
+一、成绩数据放哪（重要）
+  1. 所有快照 JSON 放在本目录下的 **data/** 里维护即可（GitHub 上主要提交、更新这个文件夹）。
+  2. 命名须与课堂系统「导出数据备份」一致，例如：
+       stack_class_backup_YYYY-MM-DD.json
+       同一天多次导出：stack_class_backup_YYYY-MM-DD_2.json、_3 …
+  3. **data/manifest.json** 的 **files** 列出当前仓库里有哪些备份文件；页面会从中自动选 **最新** 的一份加载（按日期，同日按 _2、_3 序号）。
+  4. **不必手动跑脚本（推荐）**：仓库已含 **GitHub Actions**（见 `.github/workflows/update-data-manifest.yml`）。你只要把新的 `stack_class_backup_*.json` 放进 **data/** 并 **push** 到 `main` / `master`，CI 会自动重写 `manifest.json` 并再提交一次。**仅修改 manifest.json 的提交不会再次触发**，避免死循环。
+  5. 若只在本地改 data、不经过 GitHub：可执行  
+       node tools/update-data-manifest.mjs  
+     或手改 `manifest.json`。
+  6. 可选兼容：
+     - 若存在 **data/stack_class_backup.json**（手动把当前要用的文件复制成此固定名），在 manifest 不可用时会尝试加载；
+     - 若项目根目录仍有旧的 **data.json**，会作为最后兜底（不推荐长期使用）。
+
+二、本地预览（开发用）
+  1. 将导出的 stack_class_backup_*.json 放入 data/；若尚未 push、需要本地立刻看到最新列表，可执行 `node tools/update-data-manifest.mjs`，或临时手改 manifest。
+  2. 在本目录打开终端，执行：
+       python3 -m http.server 8765
+  3. 浏览器打开 http://127.0.0.1:8765/
+  说明：不要直接双击 index.html 用 file:// 打开，否则浏览器通常无法 fetch 本地 JSON。
+
+三、更新线上数据（手动）
+  1. 在教室/办公室导出最新备份，复制到 **data/**，文件名符合 stack_class 规范。
+  2. git add data/ → git commit → git push（**无需本地跑 node**；Actions 会更新 manifest）。
+  3. 等 Actions 跑完（约 1 分钟内）再等待 Pages 刷新；若第二次提交只改了 manifest，属正常。
+  4. 纯本地预览、未用 GitHub 时，仍需自行运行脚本或编辑 manifest。
+
+四、GitHub 上开仓库与 Pages
+  1. 在 GitHub 新建空仓库（可命名为 family-portal 等）。
+  2. 本地：在本目录 git init，添加远程，首次 push。
+  3. 仓库 Settings → Pages → Build and deployment：
+     - Source 选「Deploy from a branch」
+     - Branch 选 main（或 master）与 / (root)，保存。
+  4. 几分钟后访问：https://<你的用户名>.github.io/<仓库名>/
+
+五、隐私说明
+  - 公开仓库时，data/ 内 JSON 中的姓名与成绩对任何能打开链接的人可见。
+  - 若需限制访问，请使用私有仓库并确认你的 GitHub 方案支持私有 Pages，或勿将完整名单提交到公开库。
+
+六、与主程序的关系
+  - 主程序仍在原文件夹用 server.py + 局域网使用；本目录仅放「只读快照」页面。
+  - 报告生成、大屏等仍在主程序；本页目前仅展示班级排行榜与分享简报（与主界面逻辑对齐的只读版）。
+
+七、访问方式（家长端）
+  - 总入口（不带 token）：须先选择班级，并输入该班一名学生的真实姓名（须与系统中登记完全一致），验证通过后才显示该班排行榜。
+  - 同一浏览器会话内刷新页面一般会保持验证；点「切换班级」或关闭标签后需重新验证。
+  - 若教师配置了 portalClassTokens 并分享带 ?token= 的链接：打开后直接进入该班榜，无需姓名验证。在榜单页可点「复制分享链接」得到同类地址。
+
+八、分享简报页（report.html）
+  - 排行榜每位学生一行末尾有「分享页」，打开 report.html?classId=…&studentId=…，为适合截屏分享的简易单人简报（含 All-around 与各项目班内名次）。
+  - 若在数据中配置了 portalClassTokens，从榜单打开的分享链接会附带 token；简报页会校验口令是否与该班一致。
+  - 该页不校验姓名，持有链接即可查看；公开仓库时请勿在公开场合传播具体链接。
+
+九、班级专用链接（教师分给各校）
+  1. 在成绩 JSON 根级增加 portalClassTokens：每个班级一个 classId → 口令字符串（见 data/README.txt）。
+  2. 分享地址示例：https://<用户>.github.io/<仓库>/index.html?token=<口令>
+  3. 打开后直接进入该班排行榜，无需输入学生姓名；总入口仍为不带参数的 index.html（需姓名验证）。
+  4. 口令在公开仓库中可见；持链接者即可浏览该班榜，请自行评估隐私与合规。

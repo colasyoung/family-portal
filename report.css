@@ -1,0 +1,233 @@
+:root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --text: #f0f6fc;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --gold: #e3b341;
+    --good: #3fb950;
+    --border: rgba(240, 246, 252, 0.12);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: radial-gradient(120% 80% at 50% -10%, rgba(88, 166, 255, 0.18), transparent 52%), var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: max(0.75rem, env(safe-area-inset-top, 0px)) max(0.75rem, env(safe-area-inset-right, 0px))
+        max(1.25rem, env(safe-area-inset-bottom, 0px)) max(0.75rem, env(safe-area-inset-left, 0px));
+}
+
+.hidden {
+    display: none !important;
+}
+
+.rep-error {
+    max-width: 28rem;
+    margin: 2rem auto;
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    background: rgba(248, 81, 73, 0.12);
+    border: 1px solid rgba(248, 81, 73, 0.35);
+    color: #ffb4b0;
+}
+
+.rep-main {
+    max-width: 28rem;
+    margin: 0 auto;
+}
+
+/* 截屏主卡片：内容集中、对比清晰 */
+.rep-capture {
+    padding: 1.35rem 1.25rem 1.15rem;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(88, 166, 255, 0.08) 0%, var(--card) 28%);
+    border: 1px solid var(--border);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+}
+
+.rep-cap-head {
+    text-align: center;
+    margin-bottom: 1.15rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.rep-kicker {
+    margin: 0 0 0.5rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.rep-h1 {
+    margin: 0 0 0.35rem;
+    font-size: clamp(1.45rem, 5vw, 1.85rem);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.rep-class {
+    margin: 0 0 0.35rem;
+    font-size: 0.95rem;
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.rep-updated {
+    margin: 0;
+    font-size: 0.78rem;
+    color: var(--muted);
+}
+
+.rep-block {
+    margin-bottom: 1.1rem;
+}
+
+.rep-h2 {
+    margin: 0 0 0.55rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+}
+
+.rep-aa {
+    padding: 0.85rem 0.95rem;
+    border-radius: 12px;
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.22);
+}
+
+.rep-aa-body {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.45;
+}
+
+.rep-aa-rank {
+    font-size: 1.65rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    color: var(--gold);
+}
+
+.rep-proj-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rep-proj-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(240, 246, 252, 0.08);
+    font-size: 0.95rem;
+}
+
+.rep-proj-item:last-child {
+    border-bottom: none;
+}
+
+.rep-proj-name {
+    flex: 1;
+    min-width: 0;
+    font-weight: 600;
+}
+
+.rep-proj-meta {
+    flex-shrink: 0;
+    text-align: right;
+    font-size: 0.88rem;
+    color: var(--muted);
+}
+
+.rep-proj-meta strong {
+    color: var(--text);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
+.rep-tagline {
+    margin: 0.85rem 0 0;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--border);
+    font-size: 0.92rem;
+    color: #c9d1d9;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.rep-foot {
+    margin-top: 0.75rem;
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-align: center;
+}
+
+.rep-hint {
+    margin: 1rem 0 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.45;
+}
+
+.rank-badge {
+    display: inline-block;
+    padding: 0.12rem 0.45rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    background: rgba(63, 185, 80, 0.18);
+    color: var(--good);
+}
+
+.rank-badge--top {
+    background: rgba(227, 179, 65, 0.22);
+    color: var(--gold);
+}
+
+@media print {
+    body {
+        background: #fff;
+        color: #111;
+        padding: 0;
+    }
+
+    .rep-hint {
+        display: none !important;
+    }
+
+    .rep-capture {
+        border: none;
+        box-shadow: none;
+        background: #fff;
+        color: #111;
+    }
+
+    .rep-kicker,
+    .rep-class,
+    .rep-updated,
+    .rep-h2,
+    .rep-proj-meta,
+    .rep-foot,
+    .rep-tagline {
+        color: #333;
+    }
+
+    .rep-h1 {
+        color: #000;
+    }
+}

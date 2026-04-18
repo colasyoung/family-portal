@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1a2332">
+    <title>竞技叠杯课堂成绩 · 公开查询</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>竞技叠杯课堂成绩 · 公开查询</h1>
+        <p id="siteLead" class="lead">只读榜单：选择班级并输入该班学生姓名验证通过后即可查看课堂成绩；数据由教师不定期更新。</p>
+        <p class="site-beta-notice">测试中，目前仅显示可乐老师每周所执教的班级。敬请期待未来更新。</p>
+    </header>
+
+    <div id="loadError" class="panel panel--error hidden" role="alert"></div>
+
+    <section id="gatePanel" class="panel gate-panel hidden" aria-labelledby="gateTitle">
+        <div class="gate-card">
+            <h2 id="gateTitle" class="gate-title">查看本班排行榜</h2>
+            <p class="gate-hint">请先选择班级，并输入该班一名学生的<strong>真实姓名</strong>（须与系统登记<strong>完全一致</strong>）。验证通过后即可查看该班榜单。</p>
+            <p id="gateTokenHint" class="gate-token-hint hidden" role="status">
+                <span class="gate-token-hint__label">本链接仅限班级：</span>
+                <strong id="gateTokenClassName"></strong>
+            </p>
+            <form id="gateForm" class="gate-form" novalidate>
+                <label class="field" id="gateClassField">
+                    <span class="field-label">① 班级</span>
+                    <select id="gateClassSelect" aria-label="选择班级" required>
+                        <option value="">请选择班级</option>
+                    </select>
+                </label>
+                <label class="field">
+                    <span class="field-label" id="gateNameStepLabel">② 学生姓名</span>
+                    <input type="text" id="gateNameInput" name="studentName" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="请输入该班一名学生的姓名" maxlength="64" />
+                </label>
+                <p id="gateError" class="gate-error hidden" role="alert" aria-live="polite"></p>
+                <button type="submit" class="btn btn-primary" id="gateSubmitBtn">验证并查看</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="mainPanel" class="panel hidden">
+        <div class="toolbar toolbar--main">
+            <div class="current-class-bar">
+                <span class="field-label">当前班级</span>
+                <span id="currentClassLabel" class="current-class-name"></span>
+                <button type="button" class="btn btn-outline" id="switchClassBtn">切换班级</button>
+                <button type="button" class="btn btn-outline" id="copyShareLinkBtn" hidden>
+                    复制分享链接
+                </button>
+            </div>
+            <label class="field">
+                <span class="field-label">排序</span>
+                <select id="sortSelect" aria-label="排序方式">
+                    <option value="best">最佳成绩</option>
+                    <option value="latest">最新成绩</option>
+                    <option value="improve">进步幅度</option>
+                    <option value="avg">近10次平均</option>
+                </select>
+            </label>
+        </div>
+
+        <div id="projectTabs" class="project-tabs" role="tablist" aria-label="项目"></div>
+
+        <div id="rankingsContainer" class="rankings-wrap"></div>
+
+        <footer class="meta-footer">
+            <span id="dataUpdated"></span>
+        </footer>
+    </section>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>

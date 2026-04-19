@@ -191,25 +191,6 @@ body {
     gap: 0.6rem;
 }
 
-@media (min-width: 420px) {
-    .gate-input-row {
-        flex-direction: row;
-        align-items: stretch;
-        gap: 0.5rem;
-    }
-
-    .gate-name-input {
-        flex: 1;
-        min-width: 0;
-    }
-
-    .gate-search-submit {
-        flex-shrink: 0;
-        align-self: stretch;
-        min-width: max-content;
-    }
-}
-
 .gate-name-input {
     width: 100%;
     min-width: 0;

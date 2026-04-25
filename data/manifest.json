@@ -1,6 +1,7 @@
 {
   "comment": "files 可由 tools/update-data-manifest.mjs 自动生成；也可手动列出 data 目录下所有 stack_class_backup_*.json",
   "files": [
+    "stack_class_backup_2026-04-25_4.json",
     "stack_class_backup_2026-04-24.json",
     "stack_class_backup_2026-04-18_2.json",
     "stack_class_backup_2026-04-18.json"

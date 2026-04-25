@@ -1,0 +1,6045 @@
+{
+  "classes": [
+    {
+      "id": "class_1774379587906",
+      "name": "东高地四小进阶班周四"
+    },
+    {
+      "id": "class_1774531636617",
+      "name": "西罗园六小周五班"
+    },
+    {
+      "id": "class_1774680547181",
+      "name": "可乐老师春季训练班周六"
+    },
+    {
+      "id": "class_1774857444387",
+      "name": "东高地二小周一班"
+    },
+    {
+      "id": "class_1774941739077",
+      "name": "十八中实验小学部周二班"
+    }
+  ],
+  "students": [
+    {
+      "id": "stu_1774379595825_dvzaem",
+      "name": "徐泽晨",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_zdwm1s",
+      "name": "车相辰",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_w3oc7w",
+      "name": "麻志杰",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_vcdak8",
+      "name": "刘俊熙",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_0txpcl",
+      "name": "李翊宁",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_zxetfr",
+      "name": "刘雨彤",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_wofamk",
+      "name": "付馨然",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_hw9onw",
+      "name": "赵芮涵",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_d11ega",
+      "name": "陈彦豪",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_iaz3kg",
+      "name": "张舒砚",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_plwugz",
+      "name": "李思琳",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_8dw6oy",
+      "name": "王茜",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774379595825_57xt39",
+      "name": "郗晁阳",
+      "classId": "class_1774379587906",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_ixcxsv",
+      "name": "张晨熙",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_zfyk67",
+      "name": "杨瑞涵",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_840owl",
+      "name": "褚钰琳",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_2m8o3e",
+      "name": "陈若芊",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_vkcnt0",
+      "name": "张宸赫",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_cujv7p",
+      "name": "游楚瑜",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_4i0k1s",
+      "name": "李韩相宜",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_eqtnw4",
+      "name": "徐正洋",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_4do14v",
+      "name": "高一筝",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_27xgps",
+      "name": "刘宇轩",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_4sgcn4",
+      "name": "陈雨涵",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_my0x51",
+      "name": "李筱漫",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_9oe47h",
+      "name": "王倬宇",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_tgmmu7",
+      "name": "赵若辰",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_excnaj",
+      "name": "李一洋",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_guycvl",
+      "name": "朱宇辰",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_jdb6ti",
+      "name": "高伟恒",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_9bfggv",
+      "name": "曹佑霆",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_3ntpx3",
+      "name": "张宇莀",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_zm3670",
+      "name": "刘璟涵",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_ncgskv",
+      "name": "王赫骁",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_dcidbf",
+      "name": "邵宸钰",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_xlzr1a",
+      "name": "李传浩",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_pc9t9n",
+      "name": "肖帅桐",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_myvf38",
+      "name": "王禹霖",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_qmnh9z",
+      "name": "徐靖珺",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_w3vd9j",
+      "name": "李淞泽",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_5krucm",
+      "name": "毋梓骞",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774531642994_whfzby",
+      "name": "王凯熙",
+      "classId": "class_1774531636617",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774680593901_sfrawy",
+      "name": "董齐家",
+      "classId": "class_1774680547181",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774680593901_0yb94x",
+      "name": "麻志杰",
+      "classId": "class_1774680547181",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774680593901_unifpg",
+      "name": "陈若芊",
+      "classId": "class_1774680547181",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_2ntp6r",
+      "name": "李浩宇",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_unb8xo",
+      "name": "周一言",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_zv6b6s",
+      "name": "刘蕊瑶",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_548zbo",
+      "name": "李嘉阳",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_1pdvhw",
+      "name": "朱可恬",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_xqih1l",
+      "name": "史新阳",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_1s28mm",
+      "name": "张家源",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_irx136",
+      "name": "刘玥妤",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_ghhgb6",
+      "name": "尹思珩",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_2agyix",
+      "name": "张自蹊",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_rqg2s6",
+      "name": "赵恩诺",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_t6u399",
+      "name": "周祺妙",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_l6pilf",
+      "name": "王丁禹",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_yg9ove",
+      "name": "梁睿安",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_b5fa0b",
+      "name": "高锐",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_42jujr",
+      "name": "袁璟瞳",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_7vw9nv",
+      "name": "陈宇宁",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_528w78",
+      "name": "张海睿",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_dfazwx",
+      "name": "杜懿萱",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_9e4g3d",
+      "name": "田芮豪",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_v2rh2u",
+      "name": "于明鑫",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_8wswga",
+      "name": "綦泽升",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_ixjy4j",
+      "name": "刘玥希",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_vda2kw",
+      "name": "李雨昂",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_zxescf",
+      "name": "郭悦瑶",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_uij6cm",
+      "name": "崔妙伦",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_tutc2s",
+      "name": "贾博羽",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_57pcek",
+      "name": "张妤墨",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_is3pyy",
+      "name": "庞卓怿",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774857627784_plz2oy",
+      "name": "王嘉逸",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_xpsq5x",
+      "name": "周辰阳",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_5ybapb",
+      "name": "石泓宇",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_o4fwus",
+      "name": "牛泓睿",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_7wbpid",
+      "name": "王安钥",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_g2pew6",
+      "name": "董甜儿",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_h75veb",
+      "name": "满晨轩",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_9hq2og",
+      "name": "李宇烔",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_pm45o4",
+      "name": "赵宇杭",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_331f5o",
+      "name": "刘沣瑞",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_4k5gr1",
+      "name": "马唯文",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_ibpi0q",
+      "name": "林启恒",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_vk2jbo",
+      "name": "史言欢",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_9mz6gf",
+      "name": "沈亦凡",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_mso1n7",
+      "name": "程果",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_jgk1jm",
+      "name": "张妙程",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_qpl1sj",
+      "name": "宋姝瑶",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_aeo9g8",
+      "name": "姜皓天",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1774941797525_wuegto",
+      "name": "马婧妍",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1776157388779_tj94m4",
+      "name": "袁成毅",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1776157472931_pd68jy",
+      "name": "林颢宸",
+      "classId": "class_1774941739077",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1776676026409_usit8d",
+      "name": "王嘉尔",
+      "classId": "class_1774857444387",
+      "birthDate": ""
+    },
+    {
+      "id": "stu_1777097051534_r116nr",
+      "name": "张舒砚",
+      "classId": "class_1774680547181",
+      "birthDate": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_333",
+      "name": "3-3-3",
+      "isCustom": false
+    },
+    {
+      "id": "proj_366",
+      "name": "3-6-3",
+      "isCustom": false
+    },
+    {
+      "id": "proj_cycle",
+      "name": "Cycle",
+      "isCustom": false
+    }
+  ],
+  "scores": {
+    "stu_1774379595825_w3oc7w_proj_333": {
+      "bestTime": 2.374,
+      "latestTime": 2.374,
+      "latestDiff": -0.04999999999999982,
+      "scratch": false,
+      "updatedAt": 1776935998692
+    },
+    "stu_1774379595825_w3oc7w_proj_366": {
+      "bestTime": 3.175,
+      "latestTime": 3.729,
+      "latestDiff": 0.5540000000000003,
+      "scratch": false,
+      "updatedAt": 1776330056031
+    },
+    "stu_1774379595825_w3oc7w_proj_cycle": {
+      "bestTime": 9.037,
+      "latestTime": 9.716,
+      "latestDiff": 0.6789999999999985,
+      "scratch": false,
+      "updatedAt": 1776935285902
+    },
+    "stu_1774379595825_zdwm1s_proj_333": {
+      "bestTime": 2.865,
+      "latestTime": 2.865,
+      "latestDiff": -0.3259999999999996,
+      "scratch": false,
+      "updatedAt": 1776328350904
+    },
+    "stu_1774379595825_zdwm1s_proj_366": {
+      "bestTime": 3.635,
+      "latestTime": 3.635,
+      "latestDiff": -0.002000000000000224,
+      "scratch": false,
+      "updatedAt": 1776329685916
+    },
+    "stu_1774379595825_zdwm1s_proj_cycle": {
+      "bestTime": 12.71,
+      "latestTime": 12.71,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1775725205000
+    },
+    "stu_1774379595825_vcdak8_proj_333": {
+      "bestTime": 2.731,
+      "latestTime": 2.731,
+      "latestDiff": -0.1990000000000003,
+      "scratch": false,
+      "updatedAt": 1775113016629
+    },
+    "stu_1774379595825_vcdak8_proj_366": {
+      "bestTime": 3.381,
+      "latestTime": 3.381,
+      "latestDiff": -0.28300000000000036,
+      "scratch": false,
+      "updatedAt": 1776330555580
+    },
+    "stu_1774379595825_vcdak8_proj_cycle": {
+      "bestTime": 10.563,
+      "latestTime": 10.563,
+      "latestDiff": -1.1689999999999987,
+      "scratch": false,
+      "updatedAt": 1776935066545
+    },
+    "stu_1774379595825_plwugz_proj_333": {
+      "bestTime": 3.023,
+      "latestTime": 3.023,
+      "latestDiff": -0.06599999999999984,
+      "scratch": false,
+      "updatedAt": 1775114479898
+    },
+    "stu_1774379595825_plwugz_proj_366": {
+      "bestTime": 3.685,
+      "latestTime": 3.685,
+      "latestDiff": -0.3160000000000003,
+      "scratch": false,
+      "updatedAt": 1776330408642
+    },
+    "stu_1774379595825_plwugz_proj_cycle": {
+      "bestTime": 12.735,
+      "latestTime": 12.735,
+      "latestDiff": -0.5400000000000009,
+      "scratch": false,
+      "updatedAt": 1775726109851
+    },
+    "stu_1774379595825_iaz3kg_proj_333": {
+      "bestTime": 3.107,
+      "latestTime": 3.107,
+      "latestDiff": -0.05799999999999983,
+      "scratch": false,
+      "updatedAt": 1775115066206
+    },
+    "stu_1774379595825_iaz3kg_proj_366": {
+      "bestTime": 3.857,
+      "latestTime": 3.857,
+      "latestDiff": -0.30299999999999994,
+      "scratch": false,
+      "updatedAt": 1776331059704
+    },
+    "stu_1774379595825_iaz3kg_proj_cycle": {
+      "bestTime": 12.359,
+      "latestTime": 12.359,
+      "latestDiff": -0.8810000000000002,
+      "scratch": false,
+      "updatedAt": 1774516836142
+    },
+    "stu_1774379595825_dvzaem_proj_333": {
+      "bestTime": 3.59,
+      "latestTime": 3.654,
+      "latestDiff": 0.06400000000000006,
+      "scratch": false,
+      "updatedAt": 1775115116251
+    },
+    "stu_1774379595825_dvzaem_proj_366": {
+      "bestTime": 4.157,
+      "latestTime": 4.157,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776331191231
+    },
+    "stu_1774379595825_dvzaem_proj_cycle": {
+      "bestTime": 15.02,
+      "latestTime": 15.02,
+      "latestDiff": -1.4770000000000003,
+      "scratch": false,
+      "updatedAt": 1774517020630
+    },
+    "stu_1774379595825_hw9onw_proj_333": {
+      "bestTime": 3.202,
+      "latestTime": 3.202,
+      "latestDiff": -0.43900000000000006,
+      "scratch": false,
+      "updatedAt": 1775114706188
+    },
+    "stu_1774379595825_hw9onw_proj_366": {
+      "bestTime": 3.958,
+      "latestTime": 3.958,
+      "latestDiff": -0.5919999999999996,
+      "scratch": false,
+      "updatedAt": 1776329901264
+    },
+    "stu_1774379595825_hw9onw_proj_cycle": {
+      "bestTime": 14.937,
+      "latestTime": 14.937,
+      "latestDiff": -0.6610000000000014,
+      "scratch": false,
+      "updatedAt": 1776935688993
+    },
+    "stu_1774379595825_8dw6oy_proj_333": {
+      "bestTime": 3.499,
+      "latestTime": 3.499,
+      "latestDiff": -0.6839999999999997,
+      "scratch": false,
+      "updatedAt": 1775113471535
+    },
+    "stu_1774379595825_8dw6oy_proj_366": {
+      "bestTime": 4.24,
+      "latestTime": 4.24,
+      "latestDiff": -0.13100000000000023,
+      "scratch": false,
+      "updatedAt": 1776330298730
+    },
+    "stu_1774379595825_8dw6oy_proj_cycle": {
+      "bestTime": 12.941,
+      "latestTime": 12.941,
+      "latestDiff": -0.9209999999999994,
+      "scratch": false,
+      "updatedAt": 1774516739190
+    },
+    "stu_1774379595825_57xt39_proj_333": {
+      "bestTime": 3.024,
+      "latestTime": 3.024,
+      "latestDiff": -0.6819999999999999,
+      "scratch": false,
+      "updatedAt": 1776935425871
+    },
+    "stu_1774379595825_57xt39_proj_366": {
+      "bestTime": 4.141,
+      "latestTime": 4.141,
+      "latestDiff": -0.07200000000000006,
+      "scratch": false,
+      "updatedAt": 1776330656420
+    },
+    "stu_1774379595825_57xt39_proj_cycle": {
+      "bestTime": 14.02,
+      "latestTime": 14.02,
+      "latestDiff": -0.3460000000000001,
+      "scratch": false,
+      "updatedAt": 1776935210526
+    },
+    "stu_1774379595825_zxetfr_proj_333": {
+      "bestTime": 3.479,
+      "latestTime": 3.479,
+      "latestDiff": -0.1349999999999998,
+      "scratch": false,
+      "updatedAt": 1775114957650
+    },
+    "stu_1774379595825_zxetfr_proj_366": {
+      "bestTime": 3.9,
+      "latestTime": 3.9,
+      "latestDiff": -0.3430000000000004,
+      "scratch": false,
+      "updatedAt": 1776330933572
+    },
+    "stu_1774379595825_zxetfr_proj_cycle": {
+      "bestTime": 14.259,
+      "latestTime": 14.259,
+      "latestDiff": -1.1809999999999992,
+      "scratch": false,
+      "updatedAt": 1776329431858
+    },
+    "stu_1774379595825_wofamk_proj_333": {
+      "bestTime": 3.21,
+      "latestTime": 3.21,
+      "latestDiff": -0.121,
+      "scratch": false,
+      "updatedAt": 1775114510246
+    },
+    "stu_1774379595825_wofamk_proj_366": {
+      "bestTime": 4.185,
+      "latestTime": 4.185,
+      "latestDiff": -0.05900000000000016,
+      "scratch": false,
+      "updatedAt": 1776330513345
+    },
+    "stu_1774379595825_wofamk_proj_cycle": {
+      "bestTime": 14.159,
+      "latestTime": 14.159,
+      "latestDiff": -0.8039999999999985,
+      "scratch": false,
+      "updatedAt": 1776935016164
+    },
+    "stu_1774379595825_d11ega_proj_333": {
+      "bestTime": 3.211,
+      "latestTime": 3.779,
+      "latestDiff": 0.5680000000000001,
+      "scratch": false,
+      "updatedAt": 1775113158862
+    },
+    "stu_1774379595825_d11ega_proj_366": {
+      "bestTime": 4.162,
+      "latestTime": 4.162,
+      "latestDiff": -0.17499999999999982,
+      "scratch": false,
+      "updatedAt": 1776330623351
+    },
+    "stu_1774379595825_d11ega_proj_cycle": {
+      "bestTime": 15.569,
+      "latestTime": 15.569,
+      "latestDiff": -0.4919999999999991,
+      "scratch": false,
+      "updatedAt": 1776934687421
+    },
+    "stu_1774379595825_0txpcl_proj_333": {
+      "bestTime": 3.813,
+      "latestTime": 3.813,
+      "latestDiff": -0.17899999999999983,
+      "scratch": false,
+      "updatedAt": 1775115009761
+    },
+    "stu_1774379595825_0txpcl_proj_366": {
+      "bestTime": 5.241,
+      "latestTime": 5.241,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774379981590
+    },
+    "stu_1774379595825_0txpcl_proj_cycle": {
+      "bestTime": 15.987,
+      "latestTime": 15.987,
+      "latestDiff": -0.24499999999999922,
+      "scratch": false,
+      "updatedAt": 1774516430617
+    },
+    "stu_1774531642994_ixcxsv_proj_333": {
+      "bestTime": 4.886,
+      "latestTime": 4.886,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531665246
+    },
+    "stu_1774531642994_zfyk67_proj_333": {
+      "bestTime": 5.706,
+      "latestTime": 5.706,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531676917
+    },
+    "stu_1774531642994_840owl_proj_333": {
+      "bestTime": 6.892,
+      "latestTime": 6.892,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531685774
+    },
+    "stu_1774531642994_2m8o3e_proj_333": {
+      "bestTime": 4.561,
+      "latestTime": 4.561,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531692780
+    },
+    "stu_1774531642994_cujv7p_proj_333": {
+      "bestTime": 4.327,
+      "latestTime": 4.327,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531722407
+    },
+    "stu_1774531642994_eqtnw4_proj_333": {
+      "bestTime": 4.624,
+      "latestTime": 4.624,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531758422
+    },
+    "stu_1774531642994_4do14v_proj_333": {
+      "bestTime": 5.235,
+      "latestTime": 5.235,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531773084
+    },
+    "stu_1774531642994_27xgps_proj_333": {
+      "bestTime": 4.062,
+      "latestTime": 4.062,
+      "latestDiff": -0.02999999999999936,
+      "scratch": false,
+      "updatedAt": 1777020682309
+    },
+    "stu_1774531642994_vkcnt0_proj_333": {
+      "bestTime": 3.887,
+      "latestTime": 3.887,
+      "latestDiff": -0.27100000000000035,
+      "scratch": false,
+      "updatedAt": 1777022294836
+    },
+    "stu_1774531642994_4i0k1s_proj_333": {
+      "bestTime": 5.238,
+      "latestTime": 5.238,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531905542
+    },
+    "stu_1774531642994_4sgcn4_proj_333": {
+      "bestTime": 5.702,
+      "latestTime": 5.702,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531939477
+    },
+    "stu_1774531642994_my0x51_proj_333": {
+      "bestTime": 5.047,
+      "latestTime": 5.047,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531949028
+    },
+    "stu_1774531642994_9oe47h_proj_333": {
+      "bestTime": 5.848,
+      "latestTime": 5.848,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531967215
+    },
+    "stu_1774531642994_tgmmu7_proj_333": {
+      "bestTime": 6.73,
+      "latestTime": 6.73,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531978195
+    },
+    "stu_1774531642994_excnaj_proj_333": {
+      "bestTime": 4.231,
+      "latestTime": 4.231,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531989686
+    },
+    "stu_1774531642994_guycvl_proj_333": {
+      "bestTime": 5.14,
+      "latestTime": 5.14,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774531998169
+    },
+    "stu_1774531642994_jdb6ti_proj_333": {
+      "bestTime": 6.798,
+      "latestTime": 6.798,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532007365
+    },
+    "stu_1774531642994_9bfggv_proj_333": {
+      "bestTime": 5.872,
+      "latestTime": 5.872,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532014888
+    },
+    "stu_1774531642994_3ntpx3_proj_333": {
+      "bestTime": 7.081,
+      "latestTime": 7.081,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532024705
+    },
+    "stu_1774531642994_zm3670_proj_333": {
+      "bestTime": 6.201,
+      "latestTime": 6.201,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532032845
+    },
+    "stu_1774531642994_ncgskv_proj_333": {
+      "bestTime": 5.047,
+      "latestTime": 5.047,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532044102
+    },
+    "stu_1774531642994_dcidbf_proj_333": {
+      "bestTime": 4.921,
+      "latestTime": 4.921,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532053949
+    },
+    "stu_1774531642994_xlzr1a_proj_333": {
+      "bestTime": 3.419,
+      "latestTime": 3.419,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532068576
+    },
+    "stu_1774531642994_pc9t9n_proj_333": {
+      "bestTime": 5.599,
+      "latestTime": 5.599,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532075425
+    },
+    "stu_1774531642994_myvf38_proj_333": {
+      "bestTime": 5.836,
+      "latestTime": 5.836,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532086040
+    },
+    "stu_1774531642994_qmnh9z_proj_333": {
+      "bestTime": 4.23,
+      "latestTime": 4.23,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532094789
+    },
+    "stu_1774531642994_w3vd9j_proj_333": {
+      "bestTime": 4.883,
+      "latestTime": 4.883,
+      "latestDiff": -1.3979999999999997,
+      "scratch": false,
+      "updatedAt": 1777020758766
+    },
+    "stu_1774531642994_5krucm_proj_333": {
+      "bestTime": 5.766,
+      "latestTime": 5.766,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532121014
+    },
+    "stu_1774531642994_whfzby_proj_333": {
+      "bestTime": 4.089,
+      "latestTime": 4.089,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532139578
+    },
+    "stu_1774531642994_ixcxsv_proj_366": {
+      "bestTime": 5.484,
+      "latestTime": 5.484,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532217966
+    },
+    "stu_1774531642994_840owl_proj_366": {
+      "bestTime": 7.452,
+      "latestTime": 7.452,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532235086
+    },
+    "stu_1774531642994_2m8o3e_proj_366": {
+      "bestTime": 5.534,
+      "latestTime": 5.994,
+      "latestDiff": 0.45999999999999996,
+      "scratch": false,
+      "updatedAt": 1774532463138
+    },
+    "stu_1774531642994_vkcnt0_proj_366": {
+      "bestTime": 5.846,
+      "latestTime": 5.846,
+      "latestDiff": -0.23799999999999955,
+      "scratch": false,
+      "updatedAt": 1774532471508
+    },
+    "stu_1774531642994_cujv7p_proj_366": {
+      "bestTime": 5.347,
+      "latestTime": 5.347,
+      "latestDiff": -0.4969999999999999,
+      "scratch": false,
+      "updatedAt": 1777022191471
+    },
+    "stu_1774531642994_eqtnw4_proj_366": {
+      "bestTime": 6.485,
+      "latestTime": 7.126,
+      "latestDiff": 0.641,
+      "scratch": false,
+      "updatedAt": 1774532490040
+    },
+    "stu_1774531642994_27xgps_proj_366": {
+      "bestTime": 5.493,
+      "latestTime": 5.493,
+      "latestDiff": -0.7079999999999993,
+      "scratch": false,
+      "updatedAt": 1777022401869
+    },
+    "stu_1774531642994_4sgcn4_proj_366": {
+      "bestTime": 5.905,
+      "latestTime": 6.88,
+      "latestDiff": 0.9749999999999996,
+      "scratch": false,
+      "updatedAt": 1774532521327
+    },
+    "stu_1774531642994_jdb6ti_proj_366": {
+      "bestTime": 6.5,
+      "latestTime": 6.5,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532351133
+    },
+    "stu_1774531642994_dcidbf_proj_366": {
+      "bestTime": 5.084,
+      "latestTime": 5.084,
+      "latestDiff": -0.8710000000000004,
+      "scratch": false,
+      "updatedAt": 1774532570052
+    },
+    "stu_1774531642994_xlzr1a_proj_366": {
+      "bestTime": 3.68,
+      "latestTime": 3.885,
+      "latestDiff": 0.20499999999999963,
+      "scratch": false,
+      "updatedAt": 1774532575952
+    },
+    "stu_1774531642994_pc9t9n_proj_366": {
+      "bestTime": 4.624,
+      "latestTime": 4.624,
+      "latestDiff": -0.9160000000000004,
+      "scratch": false,
+      "updatedAt": 1774532582272
+    },
+    "stu_1774531642994_qmnh9z_proj_366": {
+      "bestTime": 4.706,
+      "latestTime": 4.706,
+      "latestDiff": -0.8719999999999999,
+      "scratch": false,
+      "updatedAt": 1774532593206
+    },
+    "stu_1774531642994_w3vd9j_proj_366": {
+      "bestTime": 8.671,
+      "latestTime": 8.671,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532399516
+    },
+    "stu_1774531642994_whfzby_proj_366": {
+      "bestTime": 4.698,
+      "latestTime": 4.698,
+      "latestDiff": -0.04999999999999982,
+      "scratch": false,
+      "updatedAt": 1774532606331
+    },
+    "stu_1774531642994_4do14v_proj_366": {
+      "bestTime": 6.55,
+      "latestTime": 6.55,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532497349
+    },
+    "stu_1774531642994_excnaj_proj_366": {
+      "bestTime": 4.7,
+      "latestTime": 4.7,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532531189
+    },
+    "stu_1774531642994_9bfggv_proj_366": {
+      "bestTime": 8.013,
+      "latestTime": 8.013,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532540614
+    },
+    "stu_1774531642994_3ntpx3_proj_366": {
+      "bestTime": 8.145,
+      "latestTime": 8.145,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532548813
+    },
+    "stu_1774531642994_zm3670_proj_366": {
+      "bestTime": 7.34,
+      "latestTime": 7.34,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532555356
+    },
+    "stu_1774531642994_ixcxsv_proj_cycle": {
+      "bestTime": 18.449,
+      "latestTime": 18.449,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532678278
+    },
+    "stu_1774531642994_zfyk67_proj_cycle": {
+      "bestTime": 19.457,
+      "latestTime": 19.457,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532690500
+    },
+    "stu_1774531642994_vkcnt0_proj_cycle": {
+      "bestTime": 19.231,
+      "latestTime": 19.231,
+      "latestDiff": -0.6999999999999993,
+      "scratch": false,
+      "updatedAt": 1775811072521
+    },
+    "stu_1774531642994_cujv7p_proj_cycle": {
+      "bestTime": 15.56,
+      "latestTime": 15.56,
+      "latestDiff": -0.06199999999999939,
+      "scratch": false,
+      "updatedAt": 1774601632516
+    },
+    "stu_1774531642994_eqtnw4_proj_cycle": {
+      "bestTime": 21.723,
+      "latestTime": 21.723,
+      "latestDiff": -0.6709999999999994,
+      "scratch": false,
+      "updatedAt": 1774602599712
+    },
+    "stu_1774531642994_27xgps_proj_cycle": {
+      "bestTime": 17.024,
+      "latestTime": 17.024,
+      "latestDiff": -0.10099999999999909,
+      "scratch": false,
+      "updatedAt": 1775812150733
+    },
+    "stu_1774531642994_excnaj_proj_cycle": {
+      "bestTime": 11.582,
+      "latestTime": 11.582,
+      "latestDiff": -1.016,
+      "scratch": false,
+      "updatedAt": 1774603208244
+    },
+    "stu_1774531642994_pc9t9n_proj_cycle": {
+      "bestTime": 17.973,
+      "latestTime": 17.973,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774532752188
+    },
+    "stu_1774531642994_9oe47h_proj_cycle": {
+      "bestTime": 21.498,
+      "latestTime": 21.498,
+      "latestDiff": -5.443999999999999,
+      "scratch": false,
+      "updatedAt": 1774602678699
+    },
+    "stu_1774531642994_2m8o3e_proj_cycle": {
+      "bestTime": 10.062,
+      "latestTime": 10.062,
+      "latestDiff": -2.402000000000001,
+      "scratch": false,
+      "updatedAt": 1774603195590
+    },
+    "stu_1774531642994_dcidbf_proj_cycle": {
+      "bestTime": 17.401,
+      "latestTime": 17.401,
+      "latestDiff": -10.428999999999998,
+      "scratch": false,
+      "updatedAt": 1775811549245
+    },
+    "stu_1774531642994_zm3670_proj_cycle": {
+      "bestTime": 31.179,
+      "latestTime": 31.179,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774603301846
+    },
+    "stu_1774531642994_qmnh9z_proj_cycle": {
+      "bestTime": 17.138,
+      "latestTime": 17.138,
+      "latestDiff": -1.5409999999999968,
+      "scratch": false,
+      "updatedAt": 1775811095132
+    },
+    "stu_1774680593901_0yb94x_proj_366": {
+      "bestTime": 3.48,
+      "latestTime": 3.48,
+      "latestDiff": -0.018000000000000238,
+      "scratch": false,
+      "updatedAt": 1777100088489
+    },
+    "stu_1774680593901_sfrawy_proj_366": {
+      "bestTime": 3.542,
+      "latestTime": 3.542,
+      "latestDiff": -0.057000000000000384,
+      "scratch": false,
+      "updatedAt": 1776497091681
+    },
+    "stu_1774680593901_unifpg_proj_366": {
+      "bestTime": 3.856,
+      "latestTime": 3.856,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1777100138294
+    },
+    "stu_1774857627784_2ntp6r_proj_333": {
+      "bestTime": 6.728,
+      "latestTime": 6.728,
+      "latestDiff": -1.822000000000001,
+      "scratch": false,
+      "updatedAt": 1774862102187
+    },
+    "stu_1774857627784_unb8xo_proj_333": {
+      "bestTime": 5.93,
+      "latestTime": 5.93,
+      "latestDiff": -0.8879999999999999,
+      "scratch": false,
+      "updatedAt": 1774862240691
+    },
+    "stu_1774857627784_zv6b6s_proj_333": {
+      "bestTime": 6.319,
+      "latestTime": 6.319,
+      "latestDiff": -2.6390000000000002,
+      "scratch": false,
+      "updatedAt": 1774861366211
+    },
+    "stu_1774857627784_548zbo_proj_333": {
+      "bestTime": 6.615,
+      "latestTime": 6.615,
+      "latestDiff": -2.789999999999999,
+      "scratch": false,
+      "updatedAt": 1774861493229
+    },
+    "stu_1774857627784_1pdvhw_proj_333": {
+      "bestTime": 6.268,
+      "latestTime": 6.268,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774859482883
+    },
+    "stu_1774857627784_xqih1l_proj_333": {
+      "bestTime": 7.428,
+      "latestTime": 7.428,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774859545716
+    },
+    "stu_1774857627784_1s28mm_proj_333": {
+      "bestTime": 9.066,
+      "latestTime": 9.066,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774859596441
+    },
+    "stu_1774857627784_irx136_proj_333": {
+      "bestTime": 8.324,
+      "latestTime": 8.324,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774859648813
+    },
+    "stu_1774857627784_ghhgb6_proj_333": {
+      "bestTime": 6.81,
+      "latestTime": 7.3,
+      "latestDiff": 0.4900000000000002,
+      "scratch": false,
+      "updatedAt": 1774862203134
+    },
+    "stu_1774857627784_2agyix_proj_333": {
+      "bestTime": 7.071,
+      "latestTime": 7.071,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774859775151
+    },
+    "stu_1774857627784_rqg2s6_proj_333": {
+      "bestTime": 9.441,
+      "latestTime": 9.441,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774859868839
+    },
+    "stu_1774857627784_t6u399_proj_333": {
+      "bestTime": 5.408,
+      "latestTime": 5.408,
+      "latestDiff": -0.21499999999999986,
+      "scratch": false,
+      "updatedAt": 1774861805298
+    },
+    "stu_1774857627784_l6pilf_proj_333": {
+      "bestTime": 5.914,
+      "latestTime": 5.914,
+      "latestDiff": -0.35000000000000053,
+      "scratch": false,
+      "updatedAt": 1774862002374
+    },
+    "stu_1774857627784_yg9ove_proj_333": {
+      "bestTime": 5.895,
+      "latestTime": 5.895,
+      "latestDiff": -0.20200000000000085,
+      "scratch": false,
+      "updatedAt": 1774861274384
+    },
+    "stu_1774857627784_b5fa0b_proj_333": {
+      "bestTime": 5.53,
+      "latestTime": 5.53,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774860085949
+    },
+    "stu_1774857627784_42jujr_proj_333": {
+      "bestTime": 5.955,
+      "latestTime": 5.955,
+      "latestDiff": -1.7219999999999995,
+      "scratch": false,
+      "updatedAt": 1774861613782
+    },
+    "stu_1774857627784_7vw9nv_proj_333": {
+      "bestTime": 4.762,
+      "latestTime": 4.762,
+      "latestDiff": -0.07900000000000063,
+      "scratch": false,
+      "updatedAt": 1774861670608
+    },
+    "stu_1774857627784_528w78_proj_333": {
+      "bestTime": 6.937,
+      "latestTime": 6.937,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774860307602
+    },
+    "stu_1774857627784_v2rh2u_proj_333": {
+      "bestTime": 5.656,
+      "latestTime": 5.961,
+      "latestDiff": 0.3050000000000006,
+      "scratch": false,
+      "updatedAt": 1774862284718
+    },
+    "stu_1774857627784_8wswga_proj_333": {
+      "bestTime": 4.29,
+      "latestTime": 4.366,
+      "latestDiff": 0.07599999999999962,
+      "scratch": false,
+      "updatedAt": 1774861401478
+    },
+    "stu_1774857627784_ixjy4j_proj_333": {
+      "bestTime": 6.092,
+      "latestTime": 6.092,
+      "latestDiff": -0.11400000000000077,
+      "scratch": false,
+      "updatedAt": 1774861938258
+    },
+    "stu_1774857627784_vda2kw_proj_333": {
+      "bestTime": 7.124,
+      "latestTime": 7.124,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774860635413
+    },
+    "stu_1774857627784_zxescf_proj_333": {
+      "bestTime": 5.286,
+      "latestTime": 5.547,
+      "latestDiff": 0.2610000000000001,
+      "scratch": false,
+      "updatedAt": 1774861567558
+    },
+    "stu_1774857627784_uij6cm_proj_333": {
+      "bestTime": 5.474,
+      "latestTime": 5.474,
+      "latestDiff": -0.48799999999999955,
+      "scratch": false,
+      "updatedAt": 1774862054865
+    },
+    "stu_1774857627784_tutc2s_proj_333": {
+      "bestTime": 5.899,
+      "latestTime": 6.026,
+      "latestDiff": 0.12699999999999978,
+      "scratch": false,
+      "updatedAt": 1774861893021
+    },
+    "stu_1774857627784_57pcek_proj_333": {
+      "bestTime": 6.56,
+      "latestTime": 6.56,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774860855365
+    },
+    "stu_1774857627784_is3pyy_proj_333": {
+      "bestTime": 6.689,
+      "latestTime": 6.689,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774860921761
+    },
+    "stu_1774857627784_plz2oy_proj_333": {
+      "bestTime": 5.397,
+      "latestTime": 7.454,
+      "latestDiff": 2.0569999999999995,
+      "scratch": false,
+      "updatedAt": 1774861861701
+    },
+    "stu_1774941797525_xpsq5x_proj_cycle": {
+      "bestTime": 17.556,
+      "latestTime": 17.556,
+      "latestDiff": -0.661999999999999,
+      "scratch": false,
+      "updatedAt": 1776763342045
+    },
+    "stu_1774941797525_7wbpid_proj_cycle": {
+      "bestTime": 19.956,
+      "latestTime": 19.956,
+      "latestDiff": -4.445,
+      "scratch": false,
+      "updatedAt": 1776762241892
+    },
+    "stu_1774941797525_mso1n7_proj_cycle": {
+      "bestTime": 28.917,
+      "latestTime": 28.917,
+      "latestDiff": -10.094999999999999,
+      "scratch": false,
+      "updatedAt": 1776158012545
+    },
+    "stu_1774941797525_jgk1jm_proj_cycle": {
+      "bestTime": 70.767,
+      "latestTime": 70.767,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1774947941126
+    },
+    "stu_1774941797525_9mz6gf_proj_cycle": {
+      "bestTime": 50.569,
+      "latestTime": 50.569,
+      "latestDiff": -6.101999999999997,
+      "scratch": false,
+      "updatedAt": 1776761947449
+    },
+    "stu_1774680593901_0yb94x_proj_cycle": {
+      "bestTime": 9.584,
+      "latestTime": 9.96,
+      "latestDiff": 0.3760000000000012,
+      "scratch": false,
+      "updatedAt": 1777099913637
+    },
+    "stu_1774680593901_sfrawy_proj_cycle": {
+      "bestTime": 9.19,
+      "latestTime": 9.524,
+      "latestDiff": 0.33399999999999963,
+      "scratch": false,
+      "updatedAt": 1776498519215
+    },
+    "stu_1774680593901_unifpg_proj_cycle": {
+      "bestTime": 8.753,
+      "latestTime": 8.818,
+      "latestDiff": 0.0649999999999995,
+      "scratch": false,
+      "updatedAt": 1777104484110
+    },
+    "stu_1774680593901_0yb94x_proj_333": {
+      "bestTime": 2.432,
+      "latestTime": 2.529,
+      "latestDiff": 0.09699999999999998,
+      "scratch": false,
+      "updatedAt": 1776497020813
+    },
+    "stu_1774941797525_xpsq5x_proj_333": {
+      "bestTime": 3.671,
+      "latestTime": 3.671,
+      "latestDiff": -0.49700000000000033,
+      "scratch": false,
+      "updatedAt": 1776156897285
+    },
+    "stu_1774941797525_5ybapb_proj_333": {
+      "bestTime": 5.519,
+      "latestTime": 5.519,
+      "latestDiff": -0.6520000000000001,
+      "scratch": false,
+      "updatedAt": 1775552841770
+    },
+    "stu_1774941797525_o4fwus_proj_333": {
+      "bestTime": 5.801,
+      "latestTime": 5.801,
+      "latestDiff": -0.49299999999999944,
+      "scratch": false,
+      "updatedAt": 1776158819270
+    },
+    "stu_1774941797525_7wbpid_proj_333": {
+      "bestTime": 5.459,
+      "latestTime": 5.459,
+      "latestDiff": -0.14400000000000013,
+      "scratch": false,
+      "updatedAt": 1776158472051
+    },
+    "stu_1774941797525_g2pew6_proj_333": {
+      "bestTime": 7.64,
+      "latestTime": 7.64,
+      "latestDiff": -0.49400000000000066,
+      "scratch": false,
+      "updatedAt": 1776157309697
+    },
+    "stu_1774941797525_h75veb_proj_333": {
+      "bestTime": 6.828,
+      "latestTime": 6.828,
+      "latestDiff": -1.8730000000000002,
+      "scratch": false,
+      "updatedAt": 1775553296557
+    },
+    "stu_1774941797525_9hq2og_proj_333": {
+      "bestTime": 5.237,
+      "latestTime": 5.374,
+      "latestDiff": 0.13699999999999957,
+      "scratch": false,
+      "updatedAt": 1775553660099
+    },
+    "stu_1774941797525_pm45o4_proj_333": {
+      "bestTime": 9.772,
+      "latestTime": 9.772,
+      "latestDiff": -0.629999999999999,
+      "scratch": false,
+      "updatedAt": 1776158307535
+    },
+    "stu_1774941797525_331f5o_proj_333": {
+      "bestTime": 5.786,
+      "latestTime": 5.858,
+      "latestDiff": 0.07200000000000006,
+      "scratch": false,
+      "updatedAt": 1775553759921
+    },
+    "stu_1774941797525_ibpi0q_proj_333": {
+      "bestTime": 7.18,
+      "latestTime": 7.18,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1775552324926
+    },
+    "stu_1774941797525_vk2jbo_proj_333": {
+      "bestTime": 6.576,
+      "latestTime": 6.576,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1775552384273
+    },
+    "stu_1774941797525_mso1n7_proj_333": {
+      "bestTime": 5.72,
+      "latestTime": 5.72,
+      "latestDiff": -0.11000000000000032,
+      "scratch": false,
+      "updatedAt": 1775553705402
+    },
+    "stu_1774941797525_jgk1jm_proj_333": {
+      "bestTime": 5.807,
+      "latestTime": 5.982,
+      "latestDiff": 0.17499999999999982,
+      "scratch": false,
+      "updatedAt": 1775553497996
+    },
+    "stu_1774941797525_qpl1sj_proj_333": {
+      "bestTime": 5.892,
+      "latestTime": 5.948,
+      "latestDiff": 0.05600000000000005,
+      "scratch": false,
+      "updatedAt": 1775553094983
+    },
+    "stu_1774941797525_wuegto_proj_333": {
+      "bestTime": 4.492,
+      "latestTime": 4.492,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1775552625637
+    },
+    "stu_1774531642994_whfzby_proj_cycle": {
+      "bestTime": 14.521,
+      "latestTime": 14.521,
+      "latestDiff": -0.9579999999999984,
+      "scratch": false,
+      "updatedAt": 1775812673366
+    },
+    "stu_1774857627784_2ntp6r_proj_366": {
+      "bestTime": 9.699,
+      "latestTime": 9.699,
+      "latestDiff": -2.567,
+      "scratch": false,
+      "updatedAt": 1776070393017
+    },
+    "stu_1774857627784_unb8xo_proj_366": {
+      "bestTime": 8.174,
+      "latestTime": 8.174,
+      "latestDiff": -0.29600000000000115,
+      "scratch": false,
+      "updatedAt": 1776070303786
+    },
+    "stu_1774857627784_zv6b6s_proj_366": {
+      "bestTime": 9.223,
+      "latestTime": 9.223,
+      "latestDiff": -0.9579999999999984,
+      "scratch": false,
+      "updatedAt": 1776071940556
+    },
+    "stu_1774857627784_548zbo_proj_366": {
+      "bestTime": 10.499,
+      "latestTime": 10.499,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776068477184
+    },
+    "stu_1774857627784_1pdvhw_proj_366": {
+      "bestTime": 11.037,
+      "latestTime": 11.037,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776068562486
+    },
+    "stu_1774857627784_xqih1l_proj_366": {
+      "bestTime": 9.367,
+      "latestTime": 9.367,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776068615163
+    },
+    "stu_1774857627784_1s28mm_proj_366": {
+      "bestTime": 9.081,
+      "latestTime": 9.081,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776068704013
+    },
+    "stu_1774857627784_irx136_proj_366": {
+      "bestTime": 10.461,
+      "latestTime": 10.461,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776068781030
+    },
+    "stu_1774857627784_ghhgb6_proj_366": {
+      "bestTime": 9.324,
+      "latestTime": 9.324,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776068867861
+    },
+    "stu_1774857627784_2agyix_proj_366": {
+      "bestTime": 8.806,
+      "latestTime": 8.806,
+      "latestDiff": -1.0130000000000017,
+      "scratch": false,
+      "updatedAt": 1776071765263
+    },
+    "stu_1774857627784_l6pilf_proj_366": {
+      "bestTime": 7.604,
+      "latestTime": 7.604,
+      "latestDiff": -0.20000000000000018,
+      "scratch": false,
+      "updatedAt": 1776071668713
+    },
+    "stu_1774857627784_yg9ove_proj_366": {
+      "bestTime": 9.929,
+      "latestTime": 9.929,
+      "latestDiff": -3.302999999999999,
+      "scratch": false,
+      "updatedAt": 1776071094533
+    },
+    "stu_1774857627784_42jujr_proj_366": {
+      "bestTime": 9.586,
+      "latestTime": 10.214,
+      "latestDiff": 0.6280000000000001,
+      "scratch": false,
+      "updatedAt": 1776071897108
+    },
+    "stu_1774857627784_7vw9nv_proj_366": {
+      "bestTime": 6.739,
+      "latestTime": 6.739,
+      "latestDiff": -2.002,
+      "scratch": false,
+      "updatedAt": 1776071851144
+    },
+    "stu_1774857627784_528w78_proj_366": {
+      "bestTime": 13.279,
+      "latestTime": 13.279,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776069404213
+    },
+    "stu_1774857627784_v2rh2u_proj_366": {
+      "bestTime": 7.809,
+      "latestTime": 7.809,
+      "latestDiff": -0.9690000000000003,
+      "scratch": false,
+      "updatedAt": 1776071327812
+    },
+    "stu_1774857627784_8wswga_proj_366": {
+      "bestTime": 6.537,
+      "latestTime": 6.746,
+      "latestDiff": 0.20900000000000052,
+      "scratch": false,
+      "updatedAt": 1776071457392
+    },
+    "stu_1774857627784_ixjy4j_proj_366": {
+      "bestTime": 8.46,
+      "latestTime": 8.46,
+      "latestDiff": -0.847999999999999,
+      "scratch": false,
+      "updatedAt": 1776070176831
+    },
+    "stu_1774857627784_zxescf_proj_366": {
+      "bestTime": 7.799,
+      "latestTime": 7.799,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776069683938
+    },
+    "stu_1774857627784_uij6cm_proj_366": {
+      "bestTime": 9.405,
+      "latestTime": 9.405,
+      "latestDiff": -0.14300000000000068,
+      "scratch": false,
+      "updatedAt": 1776071250936
+    },
+    "stu_1774857627784_tutc2s_proj_366": {
+      "bestTime": 8.515,
+      "latestTime": 8.515,
+      "latestDiff": -0.7599999999999998,
+      "scratch": false,
+      "updatedAt": 1776070464996
+    },
+    "stu_1774857627784_57pcek_proj_366": {
+      "bestTime": 8.652,
+      "latestTime": 10.197,
+      "latestDiff": 1.545,
+      "scratch": false,
+      "updatedAt": 1776072010623
+    },
+    "stu_1774857627784_plz2oy_proj_366": {
+      "bestTime": 10.809,
+      "latestTime": 10.817,
+      "latestDiff": 0.008000000000000895,
+      "scratch": false,
+      "updatedAt": 1776071522587
+    },
+    "stu_1774941797525_o4fwus_proj_366": {
+      "bestTime": 8.525,
+      "latestTime": 8.525,
+      "latestDiff": -0.625,
+      "scratch": false,
+      "updatedAt": 1776762905329
+    },
+    "stu_1774941797525_9mz6gf_proj_333": {
+      "bestTime": 5.581,
+      "latestTime": 5.581,
+      "latestDiff": -0.6019999999999994,
+      "scratch": false,
+      "updatedAt": 1776157954410
+    },
+    "stu_1774941797525_mso1n7_proj_366": {
+      "bestTime": 7.857,
+      "latestTime": 7.857,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776157104875
+    },
+    "stu_1774941797525_5ybapb_proj_cycle": {
+      "bestTime": 33.157,
+      "latestTime": 33.157,
+      "latestDiff": -4.390000000000001,
+      "scratch": false,
+      "updatedAt": 1776763293252
+    },
+    "stu_1774941797525_wuegto_proj_366": {
+      "bestTime": 7.016,
+      "latestTime": 7.016,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776157186800
+    },
+    "stu_1774941797525_5ybapb_proj_366": {
+      "bestTime": 8.803,
+      "latestTime": 8.803,
+      "latestDiff": -0.4029999999999987,
+      "scratch": false,
+      "updatedAt": 1776762116937
+    },
+    "stu_1774941797525_9hq2og_proj_cycle": {
+      "bestTime": 28.017,
+      "latestTime": 28.017,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776157574639
+    },
+    "stu_1774941797525_9mz6gf_proj_366": {
+      "bestTime": 9.2,
+      "latestTime": 9.2,
+      "latestDiff": -1.2640000000000011,
+      "scratch": false,
+      "updatedAt": 1776761501272
+    },
+    "stu_1776157388779_tj94m4_proj_333": {
+      "bestTime": 6.93,
+      "latestTime": 6.93,
+      "latestDiff": -0.4090000000000007,
+      "scratch": false,
+      "updatedAt": 1776158158193
+    },
+    "stu_1776157472931_pd68jy_proj_333": {
+      "bestTime": 5.411,
+      "latestTime": 5.411,
+      "latestDiff": -0.2190000000000003,
+      "scratch": false,
+      "updatedAt": 1776158865104
+    },
+    "stu_1774941797525_9hq2og_proj_366": {
+      "bestTime": 7.754,
+      "latestTime": 7.754,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776157857858
+    },
+    "stu_1774941797525_wuegto_proj_cycle": {
+      "bestTime": 21.581,
+      "latestTime": 21.581,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776157939444
+    },
+    "stu_1774941797525_xpsq5x_proj_366": {
+      "bestTime": 5.307,
+      "latestTime": 5.307,
+      "latestDiff": -1.1429999999999998,
+      "scratch": false,
+      "updatedAt": 1776761587984
+    },
+    "stu_1774941797525_aeo9g8_proj_333": {
+      "bestTime": 8.389,
+      "latestTime": 8.389,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776158233764
+    },
+    "stu_1774941797525_7wbpid_proj_366": {
+      "bestTime": 6.822,
+      "latestTime": 6.822,
+      "latestDiff": -0.16300000000000026,
+      "scratch": false,
+      "updatedAt": 1776762860221
+    },
+    "stu_1774531642994_vkcnt0_proj_1776416124160_ansr": {
+      "bestTime": 12.815,
+      "latestTime": 12.815,
+      "latestDiff": -0.43900000000000006,
+      "scratch": false,
+      "updatedAt": 1777021010476
+    },
+    "stu_1774531642994_27xgps_proj_1776416124160_ansr": {
+      "bestTime": 12.713,
+      "latestTime": 12.713,
+      "latestDiff": -4.359,
+      "scratch": false,
+      "updatedAt": 1776417186030
+    },
+    "stu_1774531642994_dcidbf_proj_1776416124160_ansr": {
+      "bestTime": 12.604,
+      "latestTime": 12.604,
+      "latestDiff": -2.4890000000000008,
+      "scratch": false,
+      "updatedAt": 1777020886292
+    },
+    "stu_1774531642994_9oe47h_proj_1776416124160_ansr": {
+      "bestTime": 15.373,
+      "latestTime": 16.693,
+      "latestDiff": 1.320000000000002,
+      "scratch": false,
+      "updatedAt": 1777022477617
+    },
+    "stu_1774531642994_eqtnw4_proj_1776416124160_ansr": {
+      "bestTime": 15.337,
+      "latestTime": 15.337,
+      "latestDiff": -2.7459999999999987,
+      "scratch": false,
+      "updatedAt": 1777020048548
+    },
+    "stu_1774531642994_w3vd9j_proj_1776416124160_ansr": {
+      "bestTime": 17.153,
+      "latestTime": 17.714,
+      "latestDiff": 0.5609999999999999,
+      "scratch": false,
+      "updatedAt": 1777021230250
+    },
+    "stu_1774531642994_2m8o3e_proj_1776416124160_ansr": {
+      "bestTime": 8.083,
+      "latestTime": 8.083,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776417118510
+    },
+    "stu_1774531642994_cujv7p_proj_1776416124160_ansr": {
+      "bestTime": 14.489,
+      "latestTime": 14.489,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776417247675
+    },
+    "stu_1774531642994_3ntpx3_proj_1776416124160_ansr": {
+      "bestTime": 18.836,
+      "latestTime": 18.836,
+      "latestDiff": -1.907,
+      "scratch": false,
+      "updatedAt": 1777021119132
+    },
+    "stu_1774531642994_9bfggv_proj_1776416124160_ansr": {
+      "bestTime": 16.992,
+      "latestTime": 16.992,
+      "latestDiff": -2.0619999999999976,
+      "scratch": false,
+      "updatedAt": 1777021477991
+    },
+    "stu_1774531642994_whfzby_proj_1776416124160_ansr": {
+      "bestTime": 12.715,
+      "latestTime": 12.715,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776417608750
+    },
+    "stu_1774680593901_unifpg_proj_333": {
+      "bestTime": 2.708,
+      "latestTime": 2.708,
+      "latestDiff": -0.0029999999999996696,
+      "scratch": false,
+      "updatedAt": 1776495226027
+    },
+    "stu_1774680593901_sfrawy_proj_333": {
+      "bestTime": 2.798,
+      "latestTime": 2.964,
+      "latestDiff": 0.16599999999999993,
+      "scratch": false,
+      "updatedAt": 1776495313869
+    },
+    "stu_1774857627784_8wswga_proj_cycle": {
+      "bestTime": 20.128,
+      "latestTime": 20.128,
+      "latestDiff": -5.861000000000001,
+      "scratch": false,
+      "updatedAt": 1776676490132
+    },
+    "stu_1774857627784_uij6cm_proj_cycle": {
+      "bestTime": 30.845,
+      "latestTime": 35.1,
+      "latestDiff": 4.255000000000003,
+      "scratch": false,
+      "updatedAt": 1776676680050
+    },
+    "stu_1774857627784_v2rh2u_proj_cycle": {
+      "bestTime": 34.018,
+      "latestTime": 38.642,
+      "latestDiff": 4.624000000000002,
+      "scratch": false,
+      "updatedAt": 1776676599853
+    },
+    "stu_1774857627784_zxescf_proj_cycle": {
+      "bestTime": 30.09,
+      "latestTime": 30.09,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776675169356
+    },
+    "stu_1774857627784_tutc2s_proj_cycle": {
+      "bestTime": 30.884,
+      "latestTime": 30.884,
+      "latestDiff": -1.6769999999999996,
+      "scratch": false,
+      "updatedAt": 1776676394894
+    },
+    "stu_1774857627784_zv6b6s_proj_cycle": {
+      "bestTime": 65.229,
+      "latestTime": 65.229,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776675534750
+    },
+    "stu_1774857627784_ghhgb6_proj_cycle": {
+      "bestTime": 44.391,
+      "latestTime": 44.391,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776675714580
+    },
+    "stu_1774857627784_548zbo_proj_cycle": {
+      "bestTime": 40.933,
+      "latestTime": 48.524,
+      "latestDiff": 7.591000000000001,
+      "scratch": false,
+      "updatedAt": 1776676759411
+    },
+    "stu_1774857627784_42jujr_proj_cycle": {
+      "bestTime": 51.277,
+      "latestTime": 51.277,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776676157987
+    },
+    "stu_1776676026409_usit8d_proj_cycle": {
+      "bestTime": 19.333,
+      "latestTime": 19.333,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776676426786
+    },
+    "stu_1774941797525_qpl1sj_proj_366": {
+      "bestTime": 9.954,
+      "latestTime": 9.954,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776761697625
+    },
+    "stu_1776157472931_pd68jy_proj_366": {
+      "bestTime": 9.708,
+      "latestTime": 9.708,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776762193617
+    },
+    "stu_1774941797525_h75veb_proj_366": {
+      "bestTime": 11.821,
+      "latestTime": 11.821,
+      "latestDiff": -0.9870000000000001,
+      "scratch": false,
+      "updatedAt": 1776762415662
+    },
+    "stu_1776157388779_tj94m4_proj_366": {
+      "bestTime": 15.183,
+      "latestTime": 15.183,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776762509549
+    },
+    "stu_1774941797525_g2pew6_proj_366": {
+      "bestTime": 12.423,
+      "latestTime": 12.423,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776762786255
+    },
+    "stu_1774941797525_qpl1sj_proj_cycle": {
+      "bestTime": 54.791,
+      "latestTime": 54.791,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1776763021411
+    },
+    "stu_1777097051534_r116nr_proj_cycle": {
+      "bestTime": 12.537,
+      "latestTime": 12.939,
+      "latestDiff": 0.40199999999999925,
+      "scratch": false,
+      "updatedAt": 1777103926367
+    },
+    "stu_1777097051534_r116nr_proj_333": {
+      "bestTime": 3.531,
+      "latestTime": 3.531,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1777103698923
+    },
+    "stu_1774531642994_zm3670_proj_1776416124160_ansr": {
+      "bestTime": 25.368,
+      "latestTime": 25.368,
+      "latestDiff": 0,
+      "scratch": false,
+      "updatedAt": 1777020744028
+    },
+    "stu_1774531642994_excnaj_proj_1776416124160_ansr": {
+      "bestTime": 11.045,
+      "latestTime": 11.045,
+      "latestDiff": -1.4670000000000005,
+      "scratch": false,
+      "updatedAt": 1777022083366
+    }
+  },
+  "scoresTombstones": {
+    "stu_1774531642994_81hwnu_proj_333": 1775811153545,
+    "stu_1774531642994_81hwnu_proj_366": 1775811153545,
+    "stu_1774531642994_81hwnu_proj_cycle": 1775811153545,
+    "stu_1774941797525_7wbpid_proj_366": 1776157271520
+  },
+  "rankSnapshots": {
+    "proj_333_class_1774379587906": {
+      "ranks": {
+        "stu_1774379595825_w3oc7w": 1,
+        "stu_1774379595825_vcdak8": 2,
+        "stu_1774379595825_zdwm1s": 3,
+        "stu_1774379595825_plwugz": 4,
+        "stu_1774379595825_57xt39": 5,
+        "stu_1774379595825_iaz3kg": 6,
+        "stu_1774379595825_hw9onw": 7,
+        "stu_1774379595825_wofamk": 8,
+        "stu_1774379595825_d11ega": 9,
+        "stu_1774379595825_zxetfr": 10,
+        "stu_1774379595825_8dw6oy": 11,
+        "stu_1774379595825_dvzaem": 12,
+        "stu_1774379595825_0txpcl": 13
+      },
+      "timestamp": 1776935998728
+    },
+    "proj_366_class_1774379587906": {
+      "ranks": {
+        "stu_1774379595825_w3oc7w": 1,
+        "stu_1774379595825_vcdak8": 2,
+        "stu_1774379595825_zdwm1s": 3,
+        "stu_1774379595825_plwugz": 4,
+        "stu_1774379595825_iaz3kg": 5,
+        "stu_1774379595825_zxetfr": 6,
+        "stu_1774379595825_hw9onw": 7,
+        "stu_1774379595825_57xt39": 8,
+        "stu_1774379595825_dvzaem": 9,
+        "stu_1774379595825_d11ega": 10,
+        "stu_1774379595825_wofamk": 11,
+        "stu_1774379595825_8dw6oy": 12,
+        "stu_1774379595825_0txpcl": 13
+      },
+      "timestamp": 1776935998738
+    },
+    "proj_cycle_class_1774379587906": {
+      "ranks": {
+        "stu_1774379595825_w3oc7w": 1,
+        "stu_1774379595825_vcdak8": 2,
+        "stu_1774379595825_iaz3kg": 3,
+        "stu_1774379595825_zdwm1s": 4,
+        "stu_1774379595825_plwugz": 5,
+        "stu_1774379595825_8dw6oy": 6,
+        "stu_1774379595825_57xt39": 7,
+        "stu_1774379595825_wofamk": 8,
+        "stu_1774379595825_zxetfr": 9,
+        "stu_1774379595825_hw9onw": 10,
+        "stu_1774379595825_dvzaem": 11,
+        "stu_1774379595825_d11ega": 12,
+        "stu_1774379595825_0txpcl": 13
+      },
+      "timestamp": 1776935998744
+    },
+    "proj_333_class_1774531636617": {
+      "ranks": {
+        "stu_1774531642994_xlzr1a": 1,
+        "stu_1774531642994_vkcnt0": 2,
+        "stu_1774531642994_27xgps": 3,
+        "stu_1774531642994_whfzby": 4,
+        "stu_1774531642994_qmnh9z": 5,
+        "stu_1774531642994_excnaj": 6,
+        "stu_1774531642994_cujv7p": 7,
+        "stu_1774531642994_2m8o3e": 8,
+        "stu_1774531642994_eqtnw4": 9,
+        "stu_1774531642994_w3vd9j": 10,
+        "stu_1774531642994_ixcxsv": 11,
+        "stu_1774531642994_dcidbf": 12,
+        "stu_1774531642994_my0x51": 13,
+        "stu_1774531642994_ncgskv": 14,
+        "stu_1774531642994_guycvl": 15,
+        "stu_1774531642994_4do14v": 16,
+        "stu_1774531642994_4i0k1s": 17,
+        "stu_1774531642994_pc9t9n": 18,
+        "stu_1774531642994_4sgcn4": 19,
+        "stu_1774531642994_zfyk67": 20,
+        "stu_1774531642994_5krucm": 21,
+        "stu_1774531642994_myvf38": 22,
+        "stu_1774531642994_9oe47h": 23,
+        "stu_1774531642994_9bfggv": 24,
+        "stu_1774531642994_zm3670": 25,
+        "stu_1774531642994_tgmmu7": 26,
+        "stu_1774531642994_jdb6ti": 27,
+        "stu_1774531642994_840owl": 28,
+        "stu_1774531642994_3ntpx3": 29
+      },
+      "timestamp": 1777022477642
+    },
+    "proj_366_class_1774531636617": {
+      "ranks": {
+        "stu_1774531642994_xlzr1a": 1,
+        "stu_1774531642994_pc9t9n": 2,
+        "stu_1774531642994_whfzby": 3,
+        "stu_1774531642994_excnaj": 4,
+        "stu_1774531642994_qmnh9z": 5,
+        "stu_1774531642994_dcidbf": 6,
+        "stu_1774531642994_cujv7p": 7,
+        "stu_1774531642994_ixcxsv": 8,
+        "stu_1774531642994_27xgps": 9,
+        "stu_1774531642994_2m8o3e": 10,
+        "stu_1774531642994_vkcnt0": 11,
+        "stu_1774531642994_4sgcn4": 12,
+        "stu_1774531642994_eqtnw4": 13,
+        "stu_1774531642994_jdb6ti": 14,
+        "stu_1774531642994_4do14v": 15,
+        "stu_1774531642994_zm3670": 16,
+        "stu_1774531642994_840owl": 17,
+        "stu_1774531642994_9bfggv": 18,
+        "stu_1774531642994_3ntpx3": 19,
+        "stu_1774531642994_w3vd9j": 20
+      },
+      "timestamp": 1777022477652
+    },
+    "proj_cycle_class_1774531636617": {
+      "ranks": {
+        "stu_1774531642994_2m8o3e": 1,
+        "stu_1774531642994_excnaj": 2,
+        "stu_1774531642994_whfzby": 3,
+        "stu_1774531642994_cujv7p": 4,
+        "stu_1774531642994_27xgps": 5,
+        "stu_1774531642994_qmnh9z": 6,
+        "stu_1774531642994_dcidbf": 7,
+        "stu_1774531642994_pc9t9n": 8,
+        "stu_1774531642994_ixcxsv": 9,
+        "stu_1774531642994_vkcnt0": 10,
+        "stu_1774531642994_zfyk67": 11,
+        "stu_1774531642994_9oe47h": 12,
+        "stu_1774531642994_eqtnw4": 13,
+        "stu_1774531642994_zm3670": 14
+      },
+      "timestamp": 1777022477662
+    },
+    "proj_333_class_1774680547181": {
+      "ranks": {
+        "stu_1774680593901_0yb94x": 1,
+        "stu_1774680593901_unifpg": 2,
+        "stu_1774680593901_sfrawy": 3,
+        "stu_1777097051534_r116nr": 4
+      },
+      "timestamp": 1777104484130
+    },
+    "proj_366_class_1774680547181": {
+      "ranks": {
+        "stu_1774680593901_0yb94x": 1,
+        "stu_1774680593901_sfrawy": 2,
+        "stu_1774680593901_unifpg": 3
+      },
+      "timestamp": 1777104484133
+    },
+    "proj_cycle_class_1774680547181": {
+      "ranks": {
+        "stu_1774680593901_unifpg": 1,
+        "stu_1774680593901_sfrawy": 2,
+        "stu_1774680593901_0yb94x": 3,
+        "stu_1777097051534_r116nr": 4
+      },
+      "timestamp": 1777104484136
+    },
+    "proj_333_class_1774857444387": {
+      "ranks": {
+        "stu_1774857627784_8wswga": 1,
+        "stu_1774857627784_7vw9nv": 2,
+        "stu_1774857627784_zxescf": 3,
+        "stu_1774857627784_plz2oy": 4,
+        "stu_1774857627784_t6u399": 5,
+        "stu_1774857627784_uij6cm": 6,
+        "stu_1774857627784_b5fa0b": 7,
+        "stu_1774857627784_v2rh2u": 8,
+        "stu_1774857627784_yg9ove": 9,
+        "stu_1774857627784_tutc2s": 10,
+        "stu_1774857627784_l6pilf": 11,
+        "stu_1774857627784_unb8xo": 12,
+        "stu_1774857627784_42jujr": 13,
+        "stu_1774857627784_ixjy4j": 14,
+        "stu_1774857627784_1pdvhw": 15,
+        "stu_1774857627784_zv6b6s": 16,
+        "stu_1774857627784_57pcek": 17,
+        "stu_1774857627784_548zbo": 18,
+        "stu_1774857627784_is3pyy": 19,
+        "stu_1774857627784_2ntp6r": 20,
+        "stu_1774857627784_ghhgb6": 21,
+        "stu_1774857627784_528w78": 22,
+        "stu_1774857627784_2agyix": 23,
+        "stu_1774857627784_vda2kw": 24,
+        "stu_1774857627784_xqih1l": 25,
+        "stu_1774857627784_irx136": 26,
+        "stu_1774857627784_1s28mm": 27,
+        "stu_1774857627784_rqg2s6": 28
+      },
+      "timestamp": 1776676759432
+    },
+    "proj_366_class_1774857444387": {
+      "ranks": {
+        "stu_1774857627784_8wswga": 1,
+        "stu_1774857627784_7vw9nv": 2,
+        "stu_1774857627784_l6pilf": 3,
+        "stu_1774857627784_zxescf": 4,
+        "stu_1774857627784_v2rh2u": 5,
+        "stu_1774857627784_unb8xo": 6,
+        "stu_1774857627784_ixjy4j": 7,
+        "stu_1774857627784_tutc2s": 8,
+        "stu_1774857627784_57pcek": 9,
+        "stu_1774857627784_2agyix": 10,
+        "stu_1774857627784_1s28mm": 11,
+        "stu_1774857627784_zv6b6s": 12,
+        "stu_1774857627784_ghhgb6": 13,
+        "stu_1774857627784_xqih1l": 14,
+        "stu_1774857627784_uij6cm": 15,
+        "stu_1774857627784_42jujr": 16,
+        "stu_1774857627784_2ntp6r": 17,
+        "stu_1774857627784_yg9ove": 18,
+        "stu_1774857627784_irx136": 19,
+        "stu_1774857627784_548zbo": 20,
+        "stu_1774857627784_plz2oy": 21,
+        "stu_1774857627784_1pdvhw": 22,
+        "stu_1774857627784_528w78": 23
+      },
+      "timestamp": 1776676759436
+    },
+    "proj_cycle_class_1774857444387": {
+      "ranks": {
+        "stu_1776676026409_usit8d": 1,
+        "stu_1774857627784_8wswga": 2,
+        "stu_1774857627784_zxescf": 3,
+        "stu_1774857627784_uij6cm": 4,
+        "stu_1774857627784_tutc2s": 5,
+        "stu_1774857627784_v2rh2u": 6,
+        "stu_1774857627784_548zbo": 7,
+        "stu_1774857627784_ghhgb6": 8,
+        "stu_1774857627784_42jujr": 9,
+        "stu_1774857627784_zv6b6s": 10
+      },
+      "timestamp": 1776676759442
+    },
+    "proj_333_class_1774941739077": {
+      "ranks": {
+        "stu_1774941797525_xpsq5x": 1,
+        "stu_1774941797525_wuegto": 2,
+        "stu_1774941797525_9hq2og": 3,
+        "stu_1776157472931_pd68jy": 4,
+        "stu_1774941797525_7wbpid": 5,
+        "stu_1774941797525_5ybapb": 6,
+        "stu_1774941797525_9mz6gf": 7,
+        "stu_1774941797525_mso1n7": 8,
+        "stu_1774941797525_331f5o": 9,
+        "stu_1774941797525_o4fwus": 10,
+        "stu_1774941797525_jgk1jm": 11,
+        "stu_1774941797525_qpl1sj": 12,
+        "stu_1774941797525_vk2jbo": 13,
+        "stu_1774941797525_h75veb": 14,
+        "stu_1776157388779_tj94m4": 15,
+        "stu_1774941797525_ibpi0q": 16,
+        "stu_1774941797525_g2pew6": 17,
+        "stu_1774941797525_aeo9g8": 18,
+        "stu_1774941797525_pm45o4": 19
+      },
+      "timestamp": 1776763342066
+    },
+    "proj_366_class_1774941739077": {
+      "ranks": {
+        "stu_1774941797525_xpsq5x": 1,
+        "stu_1774941797525_7wbpid": 2,
+        "stu_1774941797525_wuegto": 3,
+        "stu_1774941797525_9hq2og": 4,
+        "stu_1774941797525_mso1n7": 5,
+        "stu_1774941797525_o4fwus": 6,
+        "stu_1774941797525_5ybapb": 7,
+        "stu_1774941797525_9mz6gf": 8,
+        "stu_1776157472931_pd68jy": 9,
+        "stu_1774941797525_qpl1sj": 10,
+        "stu_1774941797525_h75veb": 11,
+        "stu_1774941797525_g2pew6": 12,
+        "stu_1776157388779_tj94m4": 13
+      },
+      "timestamp": 1776763342071
+    },
+    "proj_cycle_class_1774941739077": {
+      "ranks": {
+        "stu_1774941797525_xpsq5x": 1,
+        "stu_1774941797525_7wbpid": 2,
+        "stu_1774941797525_wuegto": 3,
+        "stu_1774941797525_9hq2og": 4,
+        "stu_1774941797525_mso1n7": 5,
+        "stu_1774941797525_5ybapb": 6,
+        "stu_1774941797525_9mz6gf": 7,
+        "stu_1774941797525_qpl1sj": 8,
+        "stu_1774941797525_jgk1jm": 9
+      },
+      "timestamp": 1776763342075
+    },
+    "proj_1776416124160_ansr_class_1774531636617": {
+      "ranks": {
+        "stu_1774531642994_2m8o3e": 1,
+        "stu_1774531642994_excnaj": 2,
+        "stu_1774531642994_dcidbf": 3,
+        "stu_1774531642994_27xgps": 4,
+        "stu_1774531642994_whfzby": 5,
+        "stu_1774531642994_vkcnt0": 6,
+        "stu_1774531642994_cujv7p": 7,
+        "stu_1774531642994_eqtnw4": 8,
+        "stu_1774531642994_9oe47h": 9,
+        "stu_1774531642994_9bfggv": 10,
+        "stu_1774531642994_w3vd9j": 11,
+        "stu_1774531642994_3ntpx3": 12,
+        "stu_1774531642994_zm3670": 13
+      },
+      "timestamp": 1777022477672
+    }
+  },
+  "allAroundSnapshots": {
+    "class_1774379587906": {
+      "ranks": {
+        "stu_1774379595825_w3oc7w": 1,
+        "stu_1774379595825_vcdak8": 2,
+        "stu_1774379595825_zdwm1s": 3,
+        "stu_1774379595825_iaz3kg": 4,
+        "stu_1774379595825_plwugz": 5,
+        "stu_1774379595825_8dw6oy": 6,
+        "stu_1774379595825_57xt39": 7,
+        "stu_1774379595825_wofamk": 8,
+        "stu_1774379595825_zxetfr": 9,
+        "stu_1774379595825_hw9onw": 10,
+        "stu_1774379595825_dvzaem": 11,
+        "stu_1774379595825_d11ega": 12,
+        "stu_1774379595825_0txpcl": 13
+      },
+      "timestamp": 1776935998761
+    },
+    "class_1774531636617": {
+      "ranks": {
+        "stu_1774531642994_2m8o3e": 1,
+        "stu_1774531642994_excnaj": 2,
+        "stu_1774531642994_whfzby": 3,
+        "stu_1774531642994_cujv7p": 4,
+        "stu_1774531642994_qmnh9z": 5,
+        "stu_1774531642994_27xgps": 6,
+        "stu_1774531642994_dcidbf": 7,
+        "stu_1774531642994_pc9t9n": 8,
+        "stu_1774531642994_ixcxsv": 9,
+        "stu_1774531642994_vkcnt0": 10,
+        "stu_1774531642994_eqtnw4": 11,
+        "stu_1774531642994_zm3670": 12
+      },
+      "timestamp": 1777022477696
+    },
+    "class_1774680547181": {
+      "ranks": {
+        "stu_1774680593901_unifpg": 1,
+        "stu_1774680593901_0yb94x": 2,
+        "stu_1774680593901_sfrawy": 3
+      },
+      "timestamp": 1777104484139
+    },
+    "class_1774857444387": {
+      "ranks": {
+        "stu_1774857627784_8wswga": 1,
+        "stu_1774857627784_zxescf": 2,
+        "stu_1774857627784_tutc2s": 3,
+        "stu_1774857627784_uij6cm": 4,
+        "stu_1774857627784_v2rh2u": 5,
+        "stu_1774857627784_548zbo": 6,
+        "stu_1774857627784_ghhgb6": 7,
+        "stu_1774857627784_42jujr": 8,
+        "stu_1774857627784_zv6b6s": 9
+      },
+      "timestamp": 1776676759452
+    },
+    "class_1774941739077": {
+      "ranks": {
+        "stu_1774941797525_xpsq5x": 1,
+        "stu_1774941797525_7wbpid": 2,
+        "stu_1774941797525_wuegto": 3,
+        "stu_1774941797525_9hq2og": 4,
+        "stu_1774941797525_mso1n7": 5,
+        "stu_1774941797525_5ybapb": 6,
+        "stu_1774941797525_9mz6gf": 7,
+        "stu_1774941797525_qpl1sj": 8
+      },
+      "timestamp": 1776763342093
+    }
+  },
+  "history": {
+    "stu_1774531642994_2m8o3e_proj_cycle": [
+      {
+        "time": 12.464,
+        "timestamp": 1774601980938
+      },
+      {
+        "time": 10.062,
+        "timestamp": 1774603195590
+      }
+    ],
+    "stu_1774941797525_wuegto_proj_cycle": [
+      {
+        "time": 21.581,
+        "timestamp": 1776157939444
+      }
+    ],
+    "stu_1774941797525_9mz6gf_proj_cycle": [
+      {
+        "time": 69.513,
+        "timestamp": 1774948204203
+      },
+      {
+        "time": 56.671,
+        "timestamp": 1776158530764
+      },
+      {
+        "time": 50.569,
+        "timestamp": 1776761947449
+      }
+    ],
+    "stu_1774531642994_jdb6ti_proj_366": [
+      {
+        "time": 6.5,
+        "timestamp": 1774532351133
+      }
+    ],
+    "stu_1777097051534_r116nr_proj_cycle": [
+      {
+        "time": 12.537,
+        "timestamp": 1777100230518
+      },
+      {
+        "time": 12.939,
+        "timestamp": 1777103926367
+      }
+    ],
+    "stu_1774857627784_v2rh2u_proj_366": [
+      {
+        "time": 8.778,
+        "timestamp": 1776069442426
+      },
+      {
+        "time": 9.122,
+        "timestamp": 1776070132520
+      },
+      {
+        "time": 9.175,
+        "timestamp": 1776071296028
+      },
+      {
+        "time": 7.809,
+        "timestamp": 1776071327812
+      }
+    ],
+    "stu_1774379595825_d11ega_proj_cycle": [
+      {
+        "time": 17.787,
+        "timestamp": 1774379966677
+      },
+      {
+        "time": 16.566,
+        "timestamp": 1775725200000
+      },
+      {
+        "time": 16.254,
+        "timestamp": 1775725211000
+      },
+      {
+        "time": 16.061,
+        "timestamp": 1776934291476
+      },
+      {
+        "time": 15.569,
+        "timestamp": 1776934687421
+      }
+    ],
+    "stu_1774857627784_uij6cm_proj_333": [
+      {
+        "time": 5.962,
+        "timestamp": 1774860718318
+      },
+      {
+        "time": 5.474,
+        "timestamp": 1774862054865
+      }
+    ],
+    "stu_1774941797525_7wbpid_proj_366": [
+      {
+        "time": 6.985,
+        "timestamp": 1776158348606
+      },
+      {
+        "time": 7.288,
+        "timestamp": 1776761756363
+      },
+      {
+        "time": 7.139,
+        "timestamp": 1776761873849
+      },
+      {
+        "time": 7.408,
+        "timestamp": 1776762585045
+      },
+      {
+        "time": 6.822,
+        "timestamp": 1776762860221
+      }
+    ],
+    "stu_1774531642994_ixcxsv_proj_366": [
+      {
+        "time": 5.484,
+        "timestamp": 1774532217966
+      }
+    ],
+    "stu_1774531642994_eqtnw4_proj_333": [
+      {
+        "time": 4.624,
+        "timestamp": 1774531758422
+      }
+    ],
+    "stu_1774531642994_qmnh9z_proj_366": [
+      {
+        "time": 5.578,
+        "timestamp": 1774532388065
+      },
+      {
+        "time": 4.706,
+        "timestamp": 1774532593206
+      }
+    ],
+    "stu_1774531642994_w3vd9j_proj_333": [
+      {
+        "time": 6.281,
+        "timestamp": 1774532114414
+      },
+      {
+        "time": 4.883,
+        "timestamp": 1777020758766
+      }
+    ],
+    "stu_1774531642994_xlzr1a_proj_333": [
+      {
+        "time": 3.419,
+        "timestamp": 1774532068577
+      }
+    ],
+    "stu_1774531642994_pc9t9n_proj_cycle": [
+      {
+        "time": 17.973,
+        "timestamp": 1774532752188
+      }
+    ],
+    "stu_1774857627784_528w78_proj_366": [
+      {
+        "time": 13.279,
+        "timestamp": 1776069404213
+      }
+    ],
+    "stu_1774857627784_2agyix_proj_333": [
+      {
+        "time": 7.071,
+        "timestamp": 1774859775152
+      }
+    ],
+    "stu_1774857627784_irx136_proj_333": [
+      {
+        "time": 8.324,
+        "timestamp": 1774859648813
+      }
+    ],
+    "stu_1774531642994_pc9t9n_proj_333": [
+      {
+        "time": 5.599,
+        "timestamp": 1774532075425
+      }
+    ],
+    "stu_1774379595825_zxetfr_proj_333": [
+      {
+        "time": 4,
+        "timestamp": 1774379883635
+      },
+      {
+        "time": 3.989,
+        "timestamp": 1775112556026
+      },
+      {
+        "time": 3.83,
+        "timestamp": 1775113530982
+      },
+      {
+        "time": 3.614,
+        "timestamp": 1775114384336
+      },
+      {
+        "time": 3.479,
+        "timestamp": 1775114957650
+      }
+    ],
+    "stu_1774531642994_jdb6ti_proj_333": [
+      {
+        "time": 6.798,
+        "timestamp": 1774532007365
+      }
+    ],
+    "stu_1774857627784_42jujr_proj_333": [
+      {
+        "time": 7.677,
+        "timestamp": 1774860144660
+      },
+      {
+        "time": 5.955,
+        "timestamp": 1774861613782
+      }
+    ],
+    "stu_1774379595825_wofamk_proj_366": [
+      {
+        "time": 5.629,
+        "timestamp": 1774379927789
+      },
+      {
+        "time": 5.644,
+        "timestamp": 1775112803143
+      },
+      {
+        "time": 5.019,
+        "timestamp": 1775114936813
+      },
+      {
+        "time": 4.74,
+        "timestamp": 1776329356583
+      },
+      {
+        "time": 4.545,
+        "timestamp": 1776329613711
+      },
+      {
+        "time": 4.432,
+        "timestamp": 1776330026649
+      },
+      {
+        "time": 4.244,
+        "timestamp": 1776330152545
+      },
+      {
+        "time": 4.185,
+        "timestamp": 1776330513345
+      }
+    ],
+    "stu_1774857627784_8wswga_proj_cycle": [
+      {
+        "time": 25.989,
+        "timestamp": 1776674963066
+      },
+      {
+        "time": 20.128,
+        "timestamp": 1776676490132
+      }
+    ],
+    "stu_1774531642994_zfyk67_proj_cycle": [
+      {
+        "time": 19.457,
+        "timestamp": 1774532690500
+      }
+    ],
+    "stu_1774941797525_xpsq5x_proj_cycle": [
+      {
+        "time": 18.218,
+        "timestamp": 1774946921384
+      },
+      {
+        "time": 19.977,
+        "timestamp": 1776157703083
+      },
+      {
+        "time": 17.556,
+        "timestamp": 1776763342045
+      }
+    ],
+    "stu_1774379595825_57xt39_proj_333": [
+      {
+        "time": 4.007,
+        "timestamp": 1774379853723
+      },
+      {
+        "time": 3.872,
+        "timestamp": 1775113504269
+      },
+      {
+        "time": 3.706,
+        "timestamp": 1775114841577
+      },
+      {
+        "time": 3.024,
+        "timestamp": 1776935425871
+      }
+    ],
+    "stu_1774531642994_2m8o3e_proj_333": [
+      {
+        "time": 4.561,
+        "timestamp": 1774531692780
+      }
+    ],
+    "stu_1774680593901_unifpg_proj_366": [
+      {
+        "time": 3.856,
+        "timestamp": 1774681598157
+      }
+    ],
+    "stu_1774941797525_g2pew6_proj_366": [
+      {
+        "time": 12.423,
+        "timestamp": 1776762786255
+      }
+    ],
+    "stu_1774941797525_wuegto_proj_333": [
+      {
+        "time": 4.492,
+        "timestamp": 1775552625637
+      }
+    ],
+    "stu_1774531642994_vkcnt0_proj_333": [
+      {
+        "time": 4.605,
+        "timestamp": 1774531850595
+      },
+      {
+        "time": 4.158,
+        "timestamp": 1777021884053
+      },
+      {
+        "time": 3.887,
+        "timestamp": 1777022294836
+      }
+    ],
+    "stu_1774531642994_zm3670_proj_1776416124160_ansr": [
+      {
+        "time": 25.368,
+        "timestamp": 1777020744028
+      }
+    ],
+    "stu_1774941797525_mso1n7_proj_366": [
+      {
+        "time": 7.857,
+        "timestamp": 1776157104875
+      }
+    ],
+    "stu_1774531642994_9bfggv_proj_333": [
+      {
+        "time": 5.872,
+        "timestamp": 1774532014888
+      }
+    ],
+    "stu_1774531642994_2m8o3e_proj_1776416124160_ansr": [
+      {
+        "time": 8.083,
+        "timestamp": 1776417118510
+      }
+    ],
+    "stu_1774379595825_8dw6oy_proj_366": [
+      {
+        "time": 5.083,
+        "timestamp": 1774379839466
+      },
+      {
+        "time": 4.637,
+        "timestamp": 1775113759831
+      },
+      {
+        "time": 4.468,
+        "timestamp": 1776329102370
+      },
+      {
+        "time": 4.371,
+        "timestamp": 1776329666888
+      },
+      {
+        "time": 4.24,
+        "timestamp": 1776330298730
+      }
+    ],
+    "stu_1774379595825_zxetfr_proj_366": [
+      {
+        "time": 5.605,
+        "timestamp": 1774379889726
+      },
+      {
+        "time": 5.19,
+        "timestamp": 1775113371510
+      },
+      {
+        "time": 4.83,
+        "timestamp": 1775114885511
+      },
+      {
+        "time": 4.512,
+        "timestamp": 1776330064018
+      },
+      {
+        "time": 4.243,
+        "timestamp": 1776330530821
+      },
+      {
+        "time": 3.9,
+        "timestamp": 1776330933572
+      }
+    ],
+    "stu_1774531642994_vkcnt0_proj_cycle": [
+      {
+        "time": 21.156,
+        "timestamp": 1774532701411
+      },
+      {
+        "time": 20.279,
+        "timestamp": 1774601561442
+      },
+      {
+        "time": 19.931,
+        "timestamp": 1774602726055
+      },
+      {
+        "time": 19.231,
+        "timestamp": 1775811072521
+      }
+    ],
+    "stu_1774857627784_zv6b6s_proj_cycle": [
+      {
+        "time": 65.229,
+        "timestamp": 1776675534750
+      }
+    ],
+    "stu_1774857627784_unb8xo_proj_366": [
+      {
+        "time": 8.47,
+        "timestamp": 1776068276228
+      },
+      {
+        "time": 8.174,
+        "timestamp": 1776070303786
+      }
+    ],
+    "stu_1774680593901_unifpg_proj_cycle": [
+      {
+        "time": 9.757,
+        "timestamp": 1775285031818
+      },
+      {
+        "time": 10.157,
+        "timestamp": 1775289261859
+      },
+      {
+        "time": 10.516,
+        "timestamp": 1775289403551
+      },
+      {
+        "time": 10.083,
+        "timestamp": 1775289546901
+      },
+      {
+        "time": 9.524,
+        "timestamp": 1775289591877
+      },
+      {
+        "time": 9.476,
+        "timestamp": 1775289743685
+      },
+      {
+        "time": 9.08,
+        "timestamp": 1776498717254
+      },
+      {
+        "time": 9.916,
+        "timestamp": 1777099585508
+      },
+      {
+        "time": 9.778,
+        "timestamp": 1777099610979
+      },
+      {
+        "time": 9.454,
+        "timestamp": 1777099819410
+      },
+      {
+        "time": 9.399,
+        "timestamp": 1777100001835
+      },
+      {
+        "time": 9.141,
+        "timestamp": 1777100029938
+      },
+      {
+        "time": 8.753,
+        "timestamp": 1777100144104
+      },
+      {
+        "time": 9.838,
+        "timestamp": 1777104356377
+      },
+      {
+        "time": 9.085,
+        "timestamp": 1777104400053
+      },
+      {
+        "time": 8.818,
+        "timestamp": 1777104484110
+      }
+    ],
+    "stu_1774379595825_d11ega_proj_366": [
+      {
+        "time": 5.97,
+        "timestamp": 1774379960057
+      },
+      {
+        "time": 5.372,
+        "timestamp": 1775114009178
+      },
+      {
+        "time": 4.622,
+        "timestamp": 1776329647827
+      },
+      {
+        "time": 4.494,
+        "timestamp": 1776330129974
+      },
+      {
+        "time": 4.337,
+        "timestamp": 1776330275487
+      },
+      {
+        "time": 4.162,
+        "timestamp": 1776330623351
+      }
+    ],
+    "stu_1774941797525_pm45o4_proj_333": [
+      {
+        "time": 10.402,
+        "timestamp": 1775552207484
+      },
+      {
+        "time": 9.772,
+        "timestamp": 1776158307535
+      }
+    ],
+    "stu_1774379595825_0txpcl_proj_cycle": [
+      {
+        "time": 21.794,
+        "timestamp": 1774379988356
+      },
+      {
+        "time": 15.987,
+        "timestamp": 1774516200363
+      },
+      {
+        "time": 15.987,
+        "timestamp": 1774516201676
+      },
+      {
+        "time": 16.232,
+        "timestamp": 1774516204589
+      },
+      {
+        "time": 17.019,
+        "timestamp": 1774516225758
+      },
+      {
+        "time": 15.987,
+        "timestamp": 1774516430617
+      }
+    ],
+    "stu_1774379595825_hw9onw_proj_cycle": [
+      {
+        "time": 16.376,
+        "timestamp": 1774379822465
+      },
+      {
+        "time": 16.006,
+        "timestamp": 1775725202000
+      },
+      {
+        "time": 15.598,
+        "timestamp": 1776934841057
+      },
+      {
+        "time": 14.937,
+        "timestamp": 1776935688993
+      }
+    ],
+    "stu_1774379595825_w3oc7w_proj_366": [
+      {
+        "time": 3.824,
+        "timestamp": 1774379665903
+      },
+      {
+        "time": 3.673,
+        "timestamp": 1774516223143
+      },
+      {
+        "time": 3.498,
+        "timestamp": 1775112435010
+      },
+      {
+        "time": 3.175,
+        "timestamp": 1775114821255
+      },
+      {
+        "time": 3.71,
+        "timestamp": 1776328973359
+      },
+      {
+        "time": 3.686,
+        "timestamp": 1776329325732
+      },
+      {
+        "time": 3.799,
+        "timestamp": 1776329417527
+      },
+      {
+        "time": 3.582,
+        "timestamp": 1776329457425
+      },
+      {
+        "time": 3.604,
+        "timestamp": 1776329487120
+      },
+      {
+        "time": 3.742,
+        "timestamp": 1776329544516
+      },
+      {
+        "time": 3.789,
+        "timestamp": 1776329933184
+      },
+      {
+        "time": 3.729,
+        "timestamp": 1776330056031
+      }
+    ],
+    "stu_1774531642994_whfzby_proj_1776416124160_ansr": [
+      {
+        "time": 12.715,
+        "timestamp": 1776417608750
+      }
+    ],
+    "stu_1774857627784_unb8xo_proj_333": [
+      {
+        "time": 7.285,
+        "timestamp": 1774859306850
+      },
+      {
+        "time": 6.818,
+        "timestamp": 1774861321071
+      },
+      {
+        "time": 5.93,
+        "timestamp": 1774862240692
+      }
+    ],
+    "stu_1774531642994_dcidbf_proj_1776416124160_ansr": [
+      {
+        "time": 15.093,
+        "timestamp": 1776416608598
+      },
+      {
+        "time": 12.604,
+        "timestamp": 1777020886292
+      }
+    ],
+    "stu_1774857627784_l6pilf_proj_366": [
+      {
+        "time": 7.804,
+        "timestamp": 1776069008352
+      },
+      {
+        "time": 7.604,
+        "timestamp": 1776071668713
+      }
+    ],
+    "stu_1774857627784_ghhgb6_proj_366": [
+      {
+        "time": 9.324,
+        "timestamp": 1776068867861
+      }
+    ],
+    "stu_1774531642994_9bfggv_proj_1776416124160_ansr": [
+      {
+        "time": 24.852,
+        "timestamp": 1776417509442
+      },
+      {
+        "time": 19.054,
+        "timestamp": 1777020566842
+      },
+      {
+        "time": 16.992,
+        "timestamp": 1777021477991
+      }
+    ],
+    "stu_1774531642994_whfzby_proj_333": [
+      {
+        "time": 4.089,
+        "timestamp": 1774532139578
+      }
+    ],
+    "stu_1774857627784_548zbo_proj_333": [
+      {
+        "time": 9.405,
+        "timestamp": 1774859413527
+      },
+      {
+        "time": 6.615,
+        "timestamp": 1774861493229
+      }
+    ],
+    "stu_1774531642994_tgmmu7_proj_333": [
+      {
+        "time": 6.73,
+        "timestamp": 1774531978195
+      }
+    ],
+    "stu_1774531642994_27xgps_proj_333": [
+      {
+        "time": 5.801,
+        "timestamp": 1774531785707
+      },
+      {
+        "time": 4.092,
+        "timestamp": 1777020136466
+      },
+      {
+        "time": 4.062,
+        "timestamp": 1777020682309
+      }
+    ],
+    "stu_1774531642994_excnaj_proj_cycle": [
+      {
+        "time": 14.346,
+        "timestamp": 1774532739190
+      },
+      {
+        "time": 12.598,
+        "timestamp": 1774601116677
+      },
+      {
+        "time": 11.582,
+        "timestamp": 1774603208244
+      }
+    ],
+    "stu_1776676026409_usit8d_proj_cycle": [
+      {
+        "time": 19.333,
+        "timestamp": 1776676426786
+      }
+    ],
+    "stu_1774857627784_xqih1l_proj_366": [
+      {
+        "time": 9.367,
+        "timestamp": 1776068615163
+      }
+    ],
+    "stu_1774857627784_7vw9nv_proj_366": [
+      {
+        "time": 8.762,
+        "timestamp": 1776069286374
+      },
+      {
+        "time": 8.741,
+        "timestamp": 1776070928880
+      },
+      {
+        "time": 6.739,
+        "timestamp": 1776071851144
+      }
+    ],
+    "stu_1774857627784_42jujr_proj_cycle": [
+      {
+        "time": 51.277,
+        "timestamp": 1776676157987
+      }
+    ],
+    "stu_1774379595825_plwugz_proj_333": [
+      {
+        "time": 3.729,
+        "timestamp": 1774379733285
+      },
+      {
+        "time": 3.641,
+        "timestamp": 1775112538492
+      },
+      {
+        "time": 3.376,
+        "timestamp": 1775113079842
+      },
+      {
+        "time": 3.129,
+        "timestamp": 1775113353896
+      },
+      {
+        "time": 3.123,
+        "timestamp": 1775113658481
+      },
+      {
+        "time": 3.089,
+        "timestamp": 1775114295309
+      },
+      {
+        "time": 3.023,
+        "timestamp": 1775114479898
+      }
+    ],
+    "stu_1774379595825_vcdak8_proj_366": [
+      {
+        "time": 4.19,
+        "timestamp": 1774379716581
+      },
+      {
+        "time": 3.664,
+        "timestamp": 1775113440050
+      },
+      {
+        "time": 3.381,
+        "timestamp": 1776330555580
+      }
+    ],
+    "stu_1774857627784_ghhgb6_proj_cycle": [
+      {
+        "time": 44.391,
+        "timestamp": 1776675714580
+      }
+    ],
+    "stu_1774531642994_9oe47h_proj_cycle": [
+      {
+        "time": 26.942,
+        "timestamp": 1774601939920
+      },
+      {
+        "time": 21.498,
+        "timestamp": 1774602678699
+      }
+    ],
+    "stu_1774379595825_8dw6oy_proj_cycle": [
+      {
+        "time": 16.834,
+        "timestamp": 1774379845488
+      },
+      {
+        "time": 13.862,
+        "timestamp": 1774516247993
+      },
+      {
+        "time": 12.941,
+        "timestamp": 1774516739190
+      }
+    ],
+    "stu_1774941797525_9hq2og_proj_cycle": [
+      {
+        "time": 28.017,
+        "timestamp": 1776157574639
+      }
+    ],
+    "stu_1774941797525_qpl1sj_proj_366": [
+      {
+        "time": 9.954,
+        "timestamp": 1776761697625
+      }
+    ],
+    "stu_1774941797525_9hq2og_proj_366": [
+      {
+        "time": 7.754,
+        "timestamp": 1776157857858
+      }
+    ],
+    "stu_1774941797525_h75veb_proj_333": [
+      {
+        "time": 8.701,
+        "timestamp": 1775551912618
+      },
+      {
+        "time": 6.828,
+        "timestamp": 1775553296557
+      }
+    ],
+    "stu_1774941797525_jgk1jm_proj_333": [
+      {
+        "time": 6.161,
+        "timestamp": 1775552510762
+      },
+      {
+        "time": 5.807,
+        "timestamp": 1775553032112
+      },
+      {
+        "time": 5.982,
+        "timestamp": 1775553497996
+      }
+    ],
+    "stu_1774379595825_dvzaem_proj_333": [
+      {
+        "time": 3.952,
+        "timestamp": 1774379780372
+      },
+      {
+        "time": 3.652,
+        "timestamp": 1775113418354
+      },
+      {
+        "time": 3.634,
+        "timestamp": 1775114281892
+      },
+      {
+        "time": 3.59,
+        "timestamp": 1775114574303
+      },
+      {
+        "time": 3.654,
+        "timestamp": 1775115116251
+      }
+    ],
+    "stu_1774941797525_9mz6gf_proj_366": [
+      {
+        "time": 10.464,
+        "timestamp": 1776157600618
+      },
+      {
+        "time": 9.2,
+        "timestamp": 1776761501272
+      }
+    ],
+    "stu_1774379595825_0txpcl_proj_333": [
+      {
+        "time": 4.243,
+        "timestamp": 1774379975905
+      },
+      {
+        "time": 4.38,
+        "timestamp": 1775113184973
+      },
+      {
+        "time": 3.992,
+        "timestamp": 1775114619827
+      },
+      {
+        "time": 3.813,
+        "timestamp": 1775115009761
+      }
+    ],
+    "stu_1774857627784_8wswga_proj_366": [
+      {
+        "time": 7.113,
+        "timestamp": 1776069533309
+      },
+      {
+        "time": 6.537,
+        "timestamp": 1776070252652
+      },
+      {
+        "time": 6.746,
+        "timestamp": 1776071457392
+      }
+    ],
+    "stu_1774941797525_wuegto_proj_366": [
+      {
+        "time": 7.016,
+        "timestamp": 1776157186800
+      }
+    ],
+    "stu_1774379595825_wofamk_proj_cycle": [
+      {
+        "time": 17.555,
+        "timestamp": 1774379933790
+      },
+      {
+        "time": 16.51,
+        "timestamp": 1775725208000
+      },
+      {
+        "time": 14.963,
+        "timestamp": 1775725220000
+      },
+      {
+        "time": 14.159,
+        "timestamp": 1776935016164
+      }
+    ],
+    "stu_1774379595825_vcdak8_proj_cycle": [
+      {
+        "time": 14.142,
+        "timestamp": 1774379723661
+      },
+      {
+        "time": 13.587,
+        "timestamp": 1774516227542
+      },
+      {
+        "time": 12.238,
+        "timestamp": 1774516250910
+      },
+      {
+        "time": 12.616,
+        "timestamp": 1774516254209
+      },
+      {
+        "time": 12.033,
+        "timestamp": 1774516867724
+      },
+      {
+        "time": 11.732,
+        "timestamp": 1775725215000
+      },
+      {
+        "time": 10.563,
+        "timestamp": 1776935066545
+      }
+    ],
+    "stu_1774941797525_mso1n7_proj_cycle": [
+      {
+        "time": 39.012,
+        "timestamp": 1774947717395
+      },
+      {
+        "time": 28.917,
+        "timestamp": 1776158012545
+      }
+    ],
+    "stu_1774379595825_dvzaem_proj_366": [
+      {
+        "time": 4.786,
+        "timestamp": 1774379786836
+      },
+      {
+        "time": 4.633,
+        "timestamp": 1776329588253
+      },
+      {
+        "time": 4.607,
+        "timestamp": 1776329969219
+      },
+      {
+        "time": 4.559,
+        "timestamp": 1776330072613
+      },
+      {
+        "time": 4.251,
+        "timestamp": 1776330788958
+      },
+      {
+        "time": 4.238,
+        "timestamp": 1776330909332
+      },
+      {
+        "time": 4.157,
+        "timestamp": 1776331153928
+      }
+    ],
+    "stu_1774531642994_4i0k1s_proj_333": [
+      {
+        "time": 5.238,
+        "timestamp": 1774531905542
+      }
+    ],
+    "stu_1774531642994_vkcnt0_proj_1776416124160_ansr": [
+      {
+        "time": 16.425,
+        "timestamp": 1776416438856
+      },
+      {
+        "time": 14.402,
+        "timestamp": 1776416470532
+      },
+      {
+        "time": 14.791,
+        "timestamp": 1776416942573
+      },
+      {
+        "time": 13.759,
+        "timestamp": 1776416964346
+      },
+      {
+        "time": 13.254,
+        "timestamp": 1777020402189
+      },
+      {
+        "time": 12.815,
+        "timestamp": 1777021010476
+      }
+    ],
+    "stu_1774531642994_3ntpx3_proj_366": [
+      {
+        "time": 8.145,
+        "timestamp": 1774532548813
+      }
+    ],
+    "stu_1774379595825_hw9onw_proj_333": [
+      {
+        "time": 4.201,
+        "timestamp": 1774379808950
+      },
+      {
+        "time": 4.176,
+        "timestamp": 1775112915304
+      },
+      {
+        "time": 4.062,
+        "timestamp": 1775113054296
+      },
+      {
+        "time": 3.901,
+        "timestamp": 1775113235750
+      },
+      {
+        "time": 3.866,
+        "timestamp": 1775113489025
+      },
+      {
+        "time": 3.797,
+        "timestamp": 1775113575032
+      },
+      {
+        "time": 3.688,
+        "timestamp": 1775113623366
+      },
+      {
+        "time": 3.641,
+        "timestamp": 1775113939910
+      },
+      {
+        "time": 3.202,
+        "timestamp": 1775114706188
+      }
+    ],
+    "stu_1774379595825_iaz3kg_proj_333": [
+      {
+        "time": 3.845,
+        "timestamp": 1774379756619
+      },
+      {
+        "time": 3.377,
+        "timestamp": 1775112714251
+      },
+      {
+        "time": 3.586,
+        "timestamp": 1775112766693
+      },
+      {
+        "time": 3.171,
+        "timestamp": 1775113313810
+      },
+      {
+        "time": 3.165,
+        "timestamp": 1775114637973
+      },
+      {
+        "time": 3.107,
+        "timestamp": 1775115066206
+      }
+    ],
+    "stu_1774531642994_3ntpx3_proj_1776416124160_ansr": [
+      {
+        "time": 23.401,
+        "timestamp": 1776417386547
+      },
+      {
+        "time": 20.743,
+        "timestamp": 1777020466919
+      },
+      {
+        "time": 18.836,
+        "timestamp": 1777021119132
+      }
+    ],
+    "stu_1774531642994_27xgps_proj_cycle": [
+      {
+        "time": 22.593,
+        "timestamp": 1774532727096
+      },
+      {
+        "time": 21.578,
+        "timestamp": 1774601217432
+      },
+      {
+        "time": 18.95,
+        "timestamp": 1774602230943
+      },
+      {
+        "time": 17.191,
+        "timestamp": 1775810218553
+      },
+      {
+        "time": 17.125,
+        "timestamp": 1775810506450
+      },
+      {
+        "time": 17.024,
+        "timestamp": 1775812150733
+      }
+    ],
+    "stu_1774941797525_o4fwus_proj_333": [
+      {
+        "time": 7.049,
+        "timestamp": 1775551770115
+      },
+      {
+        "time": 6.294,
+        "timestamp": 1775552983096
+      },
+      {
+        "time": 5.801,
+        "timestamp": 1776158819270
+      }
+    ],
+    "stu_1774531642994_27xgps_proj_1776416124160_ansr": [
+      {
+        "time": 17.072,
+        "timestamp": 1776416543774
+      },
+      {
+        "time": 17.376,
+        "timestamp": 1776417159705
+      },
+      {
+        "time": 12.713,
+        "timestamp": 1776417186030
+      }
+    ],
+    "stu_1774857627784_548zbo_proj_cycle": [
+      {
+        "time": 40.933,
+        "timestamp": 1776675876349
+      },
+      {
+        "time": 48.524,
+        "timestamp": 1776676759411
+      }
+    ],
+    "stu_1774857627784_2ntp6r_proj_333": [
+      {
+        "time": 8.55,
+        "timestamp": 1774859217459
+      },
+      {
+        "time": 6.728,
+        "timestamp": 1774862102187
+      }
+    ],
+    "stu_1774531642994_vkcnt0_proj_366": [
+      {
+        "time": 6.084,
+        "timestamp": 1774532251349
+      },
+      {
+        "time": 5.846,
+        "timestamp": 1774532471508
+      }
+    ],
+    "stu_1774680593901_sfrawy_proj_333": [
+      {
+        "time": 3.054,
+        "timestamp": 1776494894117
+      },
+      {
+        "time": 2.987,
+        "timestamp": 1776494978344
+      },
+      {
+        "time": 2.857,
+        "timestamp": 1776495073340
+      },
+      {
+        "time": 2.798,
+        "timestamp": 1776495176870
+      },
+      {
+        "time": 2.964,
+        "timestamp": 1776495313869
+      }
+    ],
+    "stu_1774531642994_w3vd9j_proj_366": [
+      {
+        "time": 8.671,
+        "timestamp": 1774532399516
+      }
+    ],
+    "stu_1774680593901_unifpg_proj_333": [
+      {
+        "time": 2.854,
+        "timestamp": 1776494099316
+      },
+      {
+        "time": 2.91,
+        "timestamp": 1776494468504
+      },
+      {
+        "time": 2.823,
+        "timestamp": 1776494607262
+      },
+      {
+        "time": 2.782,
+        "timestamp": 1776494665617
+      },
+      {
+        "time": 2.798,
+        "timestamp": 1776494744108
+      },
+      {
+        "time": 2.711,
+        "timestamp": 1776495150897
+      },
+      {
+        "time": 2.708,
+        "timestamp": 1776495226027
+      }
+    ],
+    "stu_1774379595825_zxetfr_proj_cycle": [
+      {
+        "time": 17.153,
+        "timestamp": 1774379896303
+      },
+      {
+        "time": 16.799,
+        "timestamp": 1774517184964
+      },
+      {
+        "time": 15.44,
+        "timestamp": 1775725203000
+      },
+      {
+        "time": 14.259,
+        "timestamp": 1776329431858
+      }
+    ],
+    "stu_1774531642994_9oe47h_proj_1776416124160_ansr": [
+      {
+        "time": 20.672,
+        "timestamp": 1776416764539
+      },
+      {
+        "time": 18.253,
+        "timestamp": 1777020260397
+      },
+      {
+        "time": 16.937,
+        "timestamp": 1777020800830
+      },
+      {
+        "time": 17.291,
+        "timestamp": 1777021383247
+      },
+      {
+        "time": 17.135,
+        "timestamp": 1777021718655
+      },
+      {
+        "time": 15.373,
+        "timestamp": 1777021748339
+      },
+      {
+        "time": 16.693,
+        "timestamp": 1777022477617
+      }
+    ],
+    "stu_1774531642994_zm3670_proj_366": [
+      {
+        "time": 7.34,
+        "timestamp": 1774532555356
+      }
+    ],
+    "stu_1774379595825_iaz3kg_proj_cycle": [
+      {
+        "time": 13.493,
+        "timestamp": 1774379770971
+      },
+      {
+        "time": 13.959,
+        "timestamp": 1774516220993
+      },
+      {
+        "time": 13.24,
+        "timestamp": 1774516795570
+      },
+      {
+        "time": 12.359,
+        "timestamp": 1774516836142
+      }
+    ],
+    "stu_1774941797525_7wbpid_proj_333": [
+      {
+        "time": 5.603,
+        "timestamp": 1775551816562
+      },
+      {
+        "time": 6.426,
+        "timestamp": 1775552924297
+      },
+      {
+        "time": 5.687,
+        "timestamp": 1775553370028
+      },
+      {
+        "time": 5.897,
+        "timestamp": 1776158033835
+      },
+      {
+        "time": 5.459,
+        "timestamp": 1776158472051
+      }
+    ],
+    "stu_1774857627784_t6u399_proj_333": [
+      {
+        "time": 5.623,
+        "timestamp": 1774859903327
+      },
+      {
+        "time": 5.408,
+        "timestamp": 1774861805299
+      }
+    ],
+    "stu_1774680593901_0yb94x_proj_366": [
+      {
+        "time": 3.846,
+        "timestamp": 1774681170499
+      },
+      {
+        "time": 3.816,
+        "timestamp": 1774681345266
+      },
+      {
+        "time": 3.814,
+        "timestamp": 1774681362795
+      },
+      {
+        "time": 3.808,
+        "timestamp": 1774681379823
+      },
+      {
+        "time": 3.761,
+        "timestamp": 1774681426998
+      },
+      {
+        "time": 3.732,
+        "timestamp": 1774681515327
+      },
+      {
+        "time": 3.698,
+        "timestamp": 1774681632729
+      },
+      {
+        "time": 3.661,
+        "timestamp": 1774681763033
+      },
+      {
+        "time": 3.651,
+        "timestamp": 1774681793015
+      },
+      {
+        "time": 3.635,
+        "timestamp": 1774681828248
+      },
+      {
+        "time": 3.559,
+        "timestamp": 1774681841147
+      },
+      {
+        "time": 3.503,
+        "timestamp": 1774682000235
+      },
+      {
+        "time": 3.498,
+        "timestamp": 1774682113922
+      },
+      {
+        "time": 3.689,
+        "timestamp": 1776496522341
+      },
+      {
+        "time": 3.71,
+        "timestamp": 1776496552557
+      },
+      {
+        "time": 3.626,
+        "timestamp": 1776496572924
+      },
+      {
+        "time": 3.596,
+        "timestamp": 1776496587601
+      },
+      {
+        "time": 3.725,
+        "timestamp": 1776496622644
+      },
+      {
+        "time": 3.48,
+        "timestamp": 1777100088489
+      }
+    ],
+    "stu_1774531642994_cujv7p_proj_cycle": [
+      {
+        "time": 15.622,
+        "timestamp": 1774532709857
+      },
+      {
+        "time": 15.56,
+        "timestamp": 1774601632516
+      }
+    ],
+    "stu_1774379595825_iaz3kg_proj_366": [
+      {
+        "time": 4.724,
+        "timestamp": 1774379763256
+      },
+      {
+        "time": 4.628,
+        "timestamp": 1775113276200
+      },
+      {
+        "time": 4.507,
+        "timestamp": 1775113694763
+      },
+      {
+        "time": 4.401,
+        "timestamp": 1775114727710
+      },
+      {
+        "time": 4.234,
+        "timestamp": 1776329951999
+      },
+      {
+        "time": 4.16,
+        "timestamp": 1776330112996
+      },
+      {
+        "time": 3.857,
+        "timestamp": 1776331059704
+      }
+    ],
+    "stu_1774857627784_xqih1l_proj_333": [
+      {
+        "time": 7.428,
+        "timestamp": 1774859545716
+      }
+    ],
+    "stu_1774379595825_d11ega_proj_333": [
+      {
+        "time": 4.25,
+        "timestamp": 1774379957310
+      },
+      {
+        "time": 3.211,
+        "timestamp": 1775113095260
+      },
+      {
+        "time": 3.779,
+        "timestamp": 1775113158862
+      }
+    ],
+    "stu_1774531642994_qmnh9z_proj_cycle": [
+      {
+        "time": 22.083,
+        "timestamp": 1774603348129
+      },
+      {
+        "time": 20.083,
+        "timestamp": 1774603378432
+      },
+      {
+        "time": 18.679,
+        "timestamp": 1775810806479
+      },
+      {
+        "time": 17.138,
+        "timestamp": 1775811095132
+      }
+    ],
+    "stu_1774941797525_5ybapb_proj_cycle": [
+      {
+        "time": 45.532,
+        "timestamp": 1776157159530
+      },
+      {
+        "time": 39.437,
+        "timestamp": 1776158198017
+      },
+      {
+        "time": 37.547,
+        "timestamp": 1776761786666
+      },
+      {
+        "time": 33.157,
+        "timestamp": 1776763293252
+      }
+    ],
+    "stu_1774941797525_vk2jbo_proj_333": [
+      {
+        "time": 6.576,
+        "timestamp": 1775552384273
+      }
+    ],
+    "stu_1774379595825_wofamk_proj_333": [
+      {
+        "time": 4.286,
+        "timestamp": 1774379921340
+      },
+      {
+        "time": 3.912,
+        "timestamp": 1775112897894
+      },
+      {
+        "time": 3.424,
+        "timestamp": 1775113558371
+      },
+      {
+        "time": 3.331,
+        "timestamp": 1775113978772
+      },
+      {
+        "time": 3.21,
+        "timestamp": 1775114510246
+      }
+    ],
+    "stu_1774531642994_cujv7p_proj_333": [
+      {
+        "time": 4.327,
+        "timestamp": 1774531722407
+      }
+    ],
+    "stu_1774941797525_331f5o_proj_333": [
+      {
+        "time": 5.786,
+        "timestamp": 1775552245354
+      },
+      {
+        "time": 5.858,
+        "timestamp": 1775553759921
+      }
+    ],
+    "stu_1774941797525_9hq2og_proj_333": [
+      {
+        "time": 5.237,
+        "timestamp": 1775551954412
+      },
+      {
+        "time": 5.469,
+        "timestamp": 1775553641287
+      },
+      {
+        "time": 5.374,
+        "timestamp": 1775553660099
+      }
+    ],
+    "stu_1774857627784_yg9ove_proj_366": [
+      {
+        "time": 13.232,
+        "timestamp": 1776069112906
+      },
+      {
+        "time": 9.929,
+        "timestamp": 1776071094533
+      }
+    ],
+    "stu_1774531642994_myvf38_proj_333": [
+      {
+        "time": 5.836,
+        "timestamp": 1774532086041
+      }
+    ],
+    "stu_1774857627784_1pdvhw_proj_366": [
+      {
+        "time": 11.037,
+        "timestamp": 1776068562486
+      }
+    ],
+    "stu_1774941797525_qpl1sj_proj_333": [
+      {
+        "time": 6.639,
+        "timestamp": 1775552565126
+      },
+      {
+        "time": 5.892,
+        "timestamp": 1775552793359
+      },
+      {
+        "time": 5.948,
+        "timestamp": 1775553094983
+      }
+    ],
+    "stu_1774531642994_4sgcn4_proj_366": [
+      {
+        "time": 5.905,
+        "timestamp": 1774532342895
+      },
+      {
+        "time": 6.88,
+        "timestamp": 1774532521327
+      }
+    ],
+    "stu_1774379595825_zdwm1s_proj_366": [
+      {
+        "time": 4.244,
+        "timestamp": 1774379690968
+      },
+      {
+        "time": 3.819,
+        "timestamp": 1775112513683
+      },
+      {
+        "time": 3.731,
+        "timestamp": 1775114256076
+      },
+      {
+        "time": 3.637,
+        "timestamp": 1776329401230
+      },
+      {
+        "time": 3.635,
+        "timestamp": 1776329685916
+      }
+    ],
+    "stu_1774379595825_0txpcl_proj_366": [
+      {
+        "time": 5.241,
+        "timestamp": 1774379981590
+      }
+    ],
+    "stu_1774857627784_tutc2s_proj_cycle": [
+      {
+        "time": 32.561,
+        "timestamp": 1776675335043
+      },
+      {
+        "time": 30.884,
+        "timestamp": 1776676394894
+      }
+    ],
+    "stu_1774857627784_2agyix_proj_366": [
+      {
+        "time": 9.819,
+        "timestamp": 1776068924346
+      },
+      {
+        "time": 8.806,
+        "timestamp": 1776071765263
+      }
+    ],
+    "stu_1774379595825_dvzaem_proj_cycle": [
+      {
+        "time": 16.497,
+        "timestamp": 1774379792951
+      },
+      {
+        "time": 15.02,
+        "timestamp": 1774517020630
+      }
+    ],
+    "stu_1774379595825_plwugz_proj_cycle": [
+      {
+        "time": 13.506,
+        "timestamp": 1774379747436
+      },
+      {
+        "time": 13.441,
+        "timestamp": 1774516221819
+      },
+      {
+        "time": 13.275,
+        "timestamp": 1774516972540
+      },
+      {
+        "time": 12.735,
+        "timestamp": 1775726109851
+      }
+    ],
+    "stu_1774531642994_my0x51_proj_333": [
+      {
+        "time": 5.047,
+        "timestamp": 1774531949028
+      }
+    ],
+    "stu_1774531642994_excnaj_proj_333": [
+      {
+        "time": 4.231,
+        "timestamp": 1774531989686
+      }
+    ],
+    "stu_1774857627784_7vw9nv_proj_333": [
+      {
+        "time": 4.841,
+        "timestamp": 1774860230460
+      },
+      {
+        "time": 4.762,
+        "timestamp": 1774861670608
+      }
+    ],
+    "stu_1774857627784_yg9ove_proj_333": [
+      {
+        "time": 6.097,
+        "timestamp": 1774860026436
+      },
+      {
+        "time": 5.895,
+        "timestamp": 1774861274384
+      }
+    ],
+    "stu_1774531642994_840owl_proj_333": [
+      {
+        "time": 6.892,
+        "timestamp": 1774531685774
+      }
+    ],
+    "stu_1774531642994_qmnh9z_proj_333": [
+      {
+        "time": 4.23,
+        "timestamp": 1774532094789
+      }
+    ],
+    "stu_1774941797525_5ybapb_proj_333": [
+      {
+        "time": 6.171,
+        "timestamp": 1775551696181
+      },
+      {
+        "time": 5.519,
+        "timestamp": 1775552841770
+      }
+    ],
+    "stu_1776157388779_tj94m4_proj_333": [
+      {
+        "time": 7.339,
+        "timestamp": 1776157673207
+      },
+      {
+        "time": 6.93,
+        "timestamp": 1776158158193
+      }
+    ],
+    "stu_1774531642994_w3vd9j_proj_1776416124160_ansr": [
+      {
+        "time": 17.153,
+        "timestamp": 1776416908083
+      },
+      {
+        "time": 17.34,
+        "timestamp": 1777020197438
+      },
+      {
+        "time": 17.714,
+        "timestamp": 1777021230250
+      }
+    ],
+    "stu_1774941797525_7wbpid_proj_cycle": [
+      {
+        "time": 24.401,
+        "timestamp": 1774947352719
+      },
+      {
+        "time": 24.62,
+        "timestamp": 1776157281774
+      },
+      {
+        "time": 19.956,
+        "timestamp": 1776762241892
+      }
+    ],
+    "stu_1774941797525_aeo9g8_proj_333": [
+      {
+        "time": 8.389,
+        "timestamp": 1776158233764
+      }
+    ],
+    "stu_1774857627784_1s28mm_proj_366": [
+      {
+        "time": 9.081,
+        "timestamp": 1776068704013
+      }
+    ],
+    "stu_1774857627784_8wswga_proj_333": [
+      {
+        "time": 4.29,
+        "timestamp": 1774860414271
+      },
+      {
+        "time": 4.366,
+        "timestamp": 1774861401478
+      }
+    ],
+    "stu_1774531642994_9bfggv_proj_366": [
+      {
+        "time": 8.013,
+        "timestamp": 1774532540614
+      }
+    ],
+    "stu_1774857627784_uij6cm_proj_366": [
+      {
+        "time": 10.494,
+        "timestamp": 1776069732499
+      },
+      {
+        "time": 9.548,
+        "timestamp": 1776070056344
+      },
+      {
+        "time": 9.405,
+        "timestamp": 1776071250936
+      }
+    ],
+    "stu_1774941797525_o4fwus_proj_366": [
+      {
+        "time": 10.286,
+        "timestamp": 1776157019928
+      },
+      {
+        "time": 9.916,
+        "timestamp": 1776157338177
+      },
+      {
+        "time": 9.656,
+        "timestamp": 1776158254578
+      },
+      {
+        "time": 9.15,
+        "timestamp": 1776761634802
+      },
+      {
+        "time": 8.525,
+        "timestamp": 1776762905329
+      }
+    ],
+    "stu_1774857627784_42jujr_proj_366": [
+      {
+        "time": 9.586,
+        "timestamp": 1776069212221
+      },
+      {
+        "time": 10.114,
+        "timestamp": 1776070808157
+      },
+      {
+        "time": 10.214,
+        "timestamp": 1776071897108
+      }
+    ],
+    "stu_1774941797525_ibpi0q_proj_333": [
+      {
+        "time": 7.18,
+        "timestamp": 1775552324926
+      }
+    ],
+    "stu_1774857627784_vda2kw_proj_333": [
+      {
+        "time": 7.124,
+        "timestamp": 1774860635413
+      }
+    ],
+    "stu_1774531642994_4sgcn4_proj_333": [
+      {
+        "time": 5.702,
+        "timestamp": 1774531939477
+      }
+    ],
+    "stu_1774531642994_27xgps_proj_366": [
+      {
+        "time": 6.201,
+        "timestamp": 1774532335420
+      },
+      {
+        "time": 6.369,
+        "timestamp": 1774532507403
+      },
+      {
+        "time": 5.493,
+        "timestamp": 1777022401869
+      }
+    ],
+    "stu_1774531642994_whfzby_proj_cycle": [
+      {
+        "time": 18.506,
+        "timestamp": 1775811824136
+      },
+      {
+        "time": 16.838,
+        "timestamp": 1775812190374
+      },
+      {
+        "time": 15.479,
+        "timestamp": 1775812230493
+      },
+      {
+        "time": 14.521,
+        "timestamp": 1775812673366
+      }
+    ],
+    "stu_1774941797525_h75veb_proj_366": [
+      {
+        "time": 12.808,
+        "timestamp": 1776762348805
+      },
+      {
+        "time": 11.821,
+        "timestamp": 1776762415662
+      }
+    ],
+    "stu_1774857627784_zxescf_proj_333": [
+      {
+        "time": 5.286,
+        "timestamp": 1774860685866
+      },
+      {
+        "time": 5.547,
+        "timestamp": 1774861567558
+      }
+    ],
+    "stu_1774531642994_ixcxsv_proj_333": [
+      {
+        "time": 4.886,
+        "timestamp": 1774531665247
+      }
+    ],
+    "stu_1774857627784_ghhgb6_proj_333": [
+      {
+        "time": 6.81,
+        "timestamp": 1774859690644
+      },
+      {
+        "time": 7.3,
+        "timestamp": 1774862203134
+      }
+    ],
+    "stu_1774941797525_mso1n7_proj_333": [
+      {
+        "time": 5.83,
+        "timestamp": 1775552436085
+      },
+      {
+        "time": 5.72,
+        "timestamp": 1775553705402
+      }
+    ],
+    "stu_1774531642994_2m8o3e_proj_366": [
+      {
+        "time": 5.534,
+        "timestamp": 1774532240996
+      },
+      {
+        "time": 5.994,
+        "timestamp": 1774532463138
+      }
+    ],
+    "stu_1774531642994_dcidbf_proj_333": [
+      {
+        "time": 4.921,
+        "timestamp": 1774532053949
+      }
+    ],
+    "stu_1774680593901_sfrawy_proj_cycle": [
+      {
+        "time": 9.905,
+        "timestamp": 1775284754027
+      },
+      {
+        "time": 9.728,
+        "timestamp": 1775286022097
+      },
+      {
+        "time": 10.006,
+        "timestamp": 1775289271375
+      },
+      {
+        "time": 10.061,
+        "timestamp": 1775289306373
+      },
+      {
+        "time": 10.081,
+        "timestamp": 1775289476665
+      },
+      {
+        "time": 10.04,
+        "timestamp": 1775289534775
+      },
+      {
+        "time": 9.788,
+        "timestamp": 1775289564158
+      },
+      {
+        "time": 9.711,
+        "timestamp": 1775289626163
+      },
+      {
+        "time": 9.488,
+        "timestamp": 1775289674092
+      },
+      {
+        "time": 10.283,
+        "timestamp": 1775289717036
+      },
+      {
+        "time": 9.993,
+        "timestamp": 1775289806628
+      },
+      {
+        "time": 9.381,
+        "timestamp": 1775289839980
+      },
+      {
+        "time": 10.092,
+        "timestamp": 1775289880745
+      },
+      {
+        "time": 9.667,
+        "timestamp": 1775289943325
+      },
+      {
+        "time": 9.94,
+        "timestamp": 1775290155223
+      },
+      {
+        "time": 9.19,
+        "timestamp": 1775290351339
+      },
+      {
+        "time": 9.688,
+        "timestamp": 1776498417604
+      },
+      {
+        "time": 9.524,
+        "timestamp": 1776498519215
+      }
+    ],
+    "stu_1774857627784_548zbo_proj_366": [
+      {
+        "time": 10.499,
+        "timestamp": 1776068477184
+      }
+    ],
+    "stu_1774379595825_hw9onw_proj_366": [
+      {
+        "time": 5.117,
+        "timestamp": 1774379811395
+      },
+      {
+        "time": 4.55,
+        "timestamp": 1775112827747
+      },
+      {
+        "time": 4.55,
+        "timestamp": 1775114453797
+      },
+      {
+        "time": 3.958,
+        "timestamp": 1776329901264
+      }
+    ],
+    "stu_1774531642994_4do14v_proj_366": [
+      {
+        "time": 6.55,
+        "timestamp": 1774532497349
+      }
+    ],
+    "stu_1774531642994_excnaj_proj_366": [
+      {
+        "time": 4.7,
+        "timestamp": 1774532531189
+      }
+    ],
+    "stu_1774531642994_pc9t9n_proj_366": [
+      {
+        "time": 5.54,
+        "timestamp": 1774532379372
+      },
+      {
+        "time": 4.624,
+        "timestamp": 1774532582272
+      }
+    ],
+    "stu_1776157472931_pd68jy_proj_333": [
+      {
+        "time": 5.63,
+        "timestamp": 1776157785271
+      },
+      {
+        "time": 6.153,
+        "timestamp": 1776158082793
+      },
+      {
+        "time": 5.411,
+        "timestamp": 1776158865104
+      }
+    ],
+    "stu_1774857627784_zxescf_proj_366": [
+      {
+        "time": 7.799,
+        "timestamp": 1776069683938
+      }
+    ],
+    "stu_1774531642994_zm3670_proj_cycle": [
+      {
+        "time": 31.179,
+        "timestamp": 1774603301846
+      }
+    ],
+    "stu_1774857627784_b5fa0b_proj_333": [
+      {
+        "time": 5.53,
+        "timestamp": 1774860085949
+      }
+    ],
+    "stu_1774379595825_w3oc7w_proj_333": [
+      {
+        "time": 2.865,
+        "timestamp": 1420071426121
+      },
+      {
+        "time": 2.909,
+        "timestamp": 1774379652183
+      },
+      {
+        "time": 2.875,
+        "timestamp": 1774516249494
+      },
+      {
+        "time": 2.703,
+        "timestamp": 1775112925636
+      },
+      {
+        "time": 2.608,
+        "timestamp": 1775113986320
+      },
+      {
+        "time": 2.573,
+        "timestamp": 1775114135131
+      },
+      {
+        "time": 2.567,
+        "timestamp": 1775114330526
+      },
+      {
+        "time": 2.424,
+        "timestamp": 1775114747828
+      },
+      {
+        "time": 2.698,
+        "timestamp": 1776935826329
+      },
+      {
+        "time": 2.681,
+        "timestamp": 1776935911575
+      },
+      {
+        "time": 2.374,
+        "timestamp": 1776935998692
+      }
+    ],
+    "stu_1774680593901_sfrawy_proj_366": [
+      {
+        "time": 3.735,
+        "timestamp": 1774681494517
+      },
+      {
+        "time": 3.702,
+        "timestamp": 1774681521177
+      },
+      {
+        "time": 3.651,
+        "timestamp": 1774681652092
+      },
+      {
+        "time": 3.648,
+        "timestamp": 1774682081093
+      },
+      {
+        "time": 3.708,
+        "timestamp": 1776496506312
+      },
+      {
+        "time": 3.681,
+        "timestamp": 1776496542260
+      },
+      {
+        "time": 3.599,
+        "timestamp": 1776496691751
+      },
+      {
+        "time": 3.542,
+        "timestamp": 1776497091681
+      }
+    ],
+    "stu_1774531642994_840owl_proj_366": [
+      {
+        "time": 7.452,
+        "timestamp": 1774532235086
+      }
+    ],
+    "stu_1774941797525_xpsq5x_proj_333": [
+      {
+        "time": 4.168,
+        "timestamp": 1775551618679
+      },
+      {
+        "time": 3.671,
+        "timestamp": 1776156897285
+      }
+    ],
+    "stu_1774680593901_0yb94x_proj_cycle": [
+      {
+        "time": 10.186,
+        "timestamp": 1775284744313
+      },
+      {
+        "time": 9.981,
+        "timestamp": 1775285042080
+      },
+      {
+        "time": 10.291,
+        "timestamp": 1775285131413
+      },
+      {
+        "time": 9.873,
+        "timestamp": 1775285429614
+      },
+      {
+        "time": 9.721,
+        "timestamp": 1775285599258
+      },
+      {
+        "time": 10.674,
+        "timestamp": 1775285687099
+      },
+      {
+        "time": 9.871,
+        "timestamp": 1775285879510
+      },
+      {
+        "time": 10.372,
+        "timestamp": 1775286010278
+      },
+      {
+        "time": 10.746,
+        "timestamp": 1775286118918
+      },
+      {
+        "time": 9.938,
+        "timestamp": 1775286160222
+      },
+      {
+        "time": 10.869,
+        "timestamp": 1776498593346
+      },
+      {
+        "time": 10.649,
+        "timestamp": 1777099276470
+      },
+      {
+        "time": 10.374,
+        "timestamp": 1777099365314
+      },
+      {
+        "time": 10.664,
+        "timestamp": 1777099383936
+      },
+      {
+        "time": 10.975,
+        "timestamp": 1777099417041
+      },
+      {
+        "time": 10.134,
+        "timestamp": 1777099570779
+      },
+      {
+        "time": 10.264,
+        "timestamp": 1777099650768
+      },
+      {
+        "time": 10.086,
+        "timestamp": 1777099657305
+      },
+      {
+        "time": 9.63,
+        "timestamp": 1777099787565
+      },
+      {
+        "time": 9.961,
+        "timestamp": 1777099852013
+      },
+      {
+        "time": 9.584,
+        "timestamp": 1777099873784
+      },
+      {
+        "time": 9.96,
+        "timestamp": 1777099913637
+      }
+    ],
+    "stu_1774941797525_5ybapb_proj_366": [
+      {
+        "time": 10.043,
+        "timestamp": 1776157512637
+      },
+      {
+        "time": 9.206,
+        "timestamp": 1776158487353
+      },
+      {
+        "time": 8.803,
+        "timestamp": 1776762116937
+      }
+    ],
+    "stu_1774680593901_0yb94x_proj_333": [
+      {
+        "time": 2.89,
+        "timestamp": 1776494715085
+      },
+      {
+        "time": 2.799,
+        "timestamp": 1776494941178
+      },
+      {
+        "time": 2.739,
+        "timestamp": 1776495007828
+      },
+      {
+        "time": 2.697,
+        "timestamp": 1776496418180
+      },
+      {
+        "time": 2.804,
+        "timestamp": 1776496455406
+      },
+      {
+        "time": 2.558,
+        "timestamp": 1776496748069
+      },
+      {
+        "time": 2.841,
+        "timestamp": 1776496823646
+      },
+      {
+        "time": 2.432,
+        "timestamp": 1776496846086
+      },
+      {
+        "time": 2.881,
+        "timestamp": 1776496884351
+      },
+      {
+        "time": 2.679,
+        "timestamp": 1776496907414
+      },
+      {
+        "time": 2.529,
+        "timestamp": 1776497020813
+      }
+    ],
+    "stu_1774531642994_zfyk67_proj_333": [
+      {
+        "time": 5.706,
+        "timestamp": 1774531676918
+      }
+    ],
+    "stu_1774379595825_zdwm1s_proj_cycle": [
+      {
+        "time": 13.435,
+        "timestamp": 1774379698619
+      },
+      {
+        "time": 14.544,
+        "timestamp": 1774516205319
+      },
+      {
+        "time": 13.135,
+        "timestamp": 1774516756956
+      },
+      {
+        "time": 12.71,
+        "timestamp": 1774516934412
+      }
+    ],
+    "stu_1774857627784_tutc2s_proj_333": [
+      {
+        "time": 5.899,
+        "timestamp": 1774860752151
+      },
+      {
+        "time": 6.026,
+        "timestamp": 1774861893021
+      }
+    ],
+    "stu_1774531642994_excnaj_proj_1776416124160_ansr": [
+      {
+        "time": 12.512,
+        "timestamp": 1777022057089
+      },
+      {
+        "time": 11.045,
+        "timestamp": 1777022083366
+      }
+    ],
+    "stu_1774379595825_w3oc7w_proj_cycle": [
+      {
+        "time": 11.712,
+        "timestamp": 1774379672173
+      },
+      {
+        "time": 9.721,
+        "timestamp": 1774516205064
+      },
+      {
+        "time": 9.414,
+        "timestamp": 1774516231125
+      },
+      {
+        "time": 9.253,
+        "timestamp": 1774516851559
+      },
+      {
+        "time": 10.582,
+        "timestamp": 1775725206000
+      },
+      {
+        "time": 10.978,
+        "timestamp": 1775725207000
+      },
+      {
+        "time": 10.563,
+        "timestamp": 1775725210000
+      },
+      {
+        "time": 10.039,
+        "timestamp": 1775725212000
+      },
+      {
+        "time": 10.669,
+        "timestamp": 1775725213000
+      },
+      {
+        "time": 10.885,
+        "timestamp": 1775725214000
+      },
+      {
+        "time": 10.663,
+        "timestamp": 1775725216000
+      },
+      {
+        "time": 10.041,
+        "timestamp": 1775725217000
+      },
+      {
+        "time": 10.387,
+        "timestamp": 1775725218000
+      },
+      {
+        "time": 10.797,
+        "timestamp": 1775725219000
+      },
+      {
+        "time": 10.64,
+        "timestamp": 1775725221000
+      },
+      {
+        "time": 10.875,
+        "timestamp": 1775725223000
+      },
+      {
+        "time": 10.497,
+        "timestamp": 1775725224000
+      },
+      {
+        "time": 10.7,
+        "timestamp": 1775726145637
+      },
+      {
+        "time": 10.572,
+        "timestamp": 1775726181997
+      },
+      {
+        "time": 10.548,
+        "timestamp": 1775726205236
+      },
+      {
+        "time": 10.515,
+        "timestamp": 1776934115336
+      },
+      {
+        "time": 9.037,
+        "timestamp": 1776934569887
+      },
+      {
+        "time": 10.29,
+        "timestamp": 1776935240201
+      },
+      {
+        "time": 9.716,
+        "timestamp": 1776935285902
+      }
+    ],
+    "stu_1774531642994_xlzr1a_proj_366": [
+      {
+        "time": 3.68,
+        "timestamp": 1774532372441
+      },
+      {
+        "time": 3.885,
+        "timestamp": 1774532575952
+      }
+    ],
+    "stu_1776157472931_pd68jy_proj_366": [
+      {
+        "time": 9.708,
+        "timestamp": 1776762193617
+      }
+    ],
+    "stu_1774857627784_ixjy4j_proj_366": [
+      {
+        "time": 9.308,
+        "timestamp": 1776069610928
+      },
+      {
+        "time": 8.46,
+        "timestamp": 1776070176831
+      }
+    ],
+    "stu_1774531642994_3ntpx3_proj_333": [
+      {
+        "time": 7.081,
+        "timestamp": 1774532024705
+      }
+    ],
+    "stu_1774857627784_zxescf_proj_cycle": [
+      {
+        "time": 30.09,
+        "timestamp": 1776675169356
+      }
+    ],
+    "stu_1774857627784_1s28mm_proj_333": [
+      {
+        "time": 9.066,
+        "timestamp": 1774859596441
+      }
+    ],
+    "stu_1774941797525_qpl1sj_proj_cycle": [
+      {
+        "time": 54.791,
+        "timestamp": 1776763021411
+      }
+    ],
+    "stu_1774857627784_1pdvhw_proj_333": [
+      {
+        "time": 6.268,
+        "timestamp": 1774859482883
+      }
+    ],
+    "stu_1774379595825_8dw6oy_proj_333": [
+      {
+        "time": 4.183,
+        "timestamp": 1774379836472
+      },
+      {
+        "time": 3.499,
+        "timestamp": 1775113471535
+      }
+    ],
+    "stu_1774531642994_dcidbf_proj_366": [
+      {
+        "time": 5.955,
+        "timestamp": 1774532362954
+      },
+      {
+        "time": 5.084,
+        "timestamp": 1774532570052
+      }
+    ],
+    "stu_1774941797525_xpsq5x_proj_366": [
+      {
+        "time": 6.45,
+        "timestamp": 1776158104701
+      },
+      {
+        "time": 5.307,
+        "timestamp": 1776761587984
+      }
+    ],
+    "stu_1777097051534_r116nr_proj_333": [
+      {
+        "time": 3.531,
+        "timestamp": 1777103698923
+      }
+    ],
+    "stu_1774531642994_ixcxsv_proj_cycle": [
+      {
+        "time": 18.449,
+        "timestamp": 1774532678278
+      }
+    ],
+    "stu_1774857627784_v2rh2u_proj_cycle": [
+      {
+        "time": 45.702,
+        "timestamp": 1776675110464
+      },
+      {
+        "time": 34.018,
+        "timestamp": 1776675787398
+      },
+      {
+        "time": 38.642,
+        "timestamp": 1776676599853
+      }
+    ],
+    "stu_1774857627784_uij6cm_proj_cycle": [
+      {
+        "time": 30.845,
+        "timestamp": 1776675035822
+      },
+      {
+        "time": 35.1,
+        "timestamp": 1776676680050
+      }
+    ],
+    "stu_1774531642994_ncgskv_proj_333": [
+      {
+        "time": 5.047,
+        "timestamp": 1774532044102
+      }
+    ],
+    "stu_1774857627784_ixjy4j_proj_333": [
+      {
+        "time": 6.206,
+        "timestamp": 1774860457453
+      },
+      {
+        "time": 6.092,
+        "timestamp": 1774861938258
+      }
+    ],
+    "stu_1774379595825_zdwm1s_proj_333": [
+      {
+        "time": 3.587,
+        "timestamp": 1774379684855
+      },
+      {
+        "time": 3.48,
+        "timestamp": 1775112750074
+      },
+      {
+        "time": 3.363,
+        "timestamp": 1775112987485
+      },
+      {
+        "time": 3.191,
+        "timestamp": 1775725201000
+      },
+      {
+        "time": 2.865,
+        "timestamp": 1776328350904
+      }
+    ],
+    "stu_1774857627784_irx136_proj_366": [
+      {
+        "time": 10.461,
+        "timestamp": 1776068781030
+      }
+    ],
+    "stu_1774857627784_2ntp6r_proj_366": [
+      {
+        "time": 12.266,
+        "timestamp": 1776068178781
+      },
+      {
+        "time": 9.699,
+        "timestamp": 1776070393017
+      }
+    ],
+    "stu_1774941797525_9mz6gf_proj_333": [
+      {
+        "time": 7.846,
+        "timestamp": 1776157057519
+      },
+      {
+        "time": 6.902,
+        "timestamp": 1776157137511
+      },
+      {
+        "time": 6.183,
+        "timestamp": 1776157829394
+      },
+      {
+        "time": 5.581,
+        "timestamp": 1776157954410
+      }
+    ],
+    "stu_1774857627784_is3pyy_proj_333": [
+      {
+        "time": 6.689,
+        "timestamp": 1774860921762
+      }
+    ],
+    "stu_1774857627784_rqg2s6_proj_333": [
+      {
+        "time": 9.441,
+        "timestamp": 1774859868839
+      }
+    ],
+    "stu_1774531642994_cujv7p_proj_366": [
+      {
+        "time": 5.905,
+        "timestamp": 1774532261000
+      },
+      {
+        "time": 6.131,
+        "timestamp": 1774532479817
+      },
+      {
+        "time": 6.422,
+        "timestamp": 1777021174015
+      },
+      {
+        "time": 5.844,
+        "timestamp": 1777022181118
+      },
+      {
+        "time": 5.347,
+        "timestamp": 1777022191471
+      }
+    ],
+    "stu_1774531642994_guycvl_proj_333": [
+      {
+        "time": 5.14,
+        "timestamp": 1774531998169
+      }
+    ],
+    "stu_1774531642994_eqtnw4_proj_1776416124160_ansr": [
+      {
+        "time": 18.083,
+        "timestamp": 1776416796711
+      },
+      {
+        "time": 15.337,
+        "timestamp": 1777020048548
+      }
+    ],
+    "stu_1774531642994_5krucm_proj_333": [
+      {
+        "time": 5.766,
+        "timestamp": 1774532121014
+      }
+    ],
+    "stu_1774857627784_v2rh2u_proj_333": [
+      {
+        "time": 5.874,
+        "timestamp": 1774860356804
+      },
+      {
+        "time": 5.656,
+        "timestamp": 1774861160443
+      },
+      {
+        "time": 5.961,
+        "timestamp": 1774862284718
+      }
+    ],
+    "stu_1774379595825_57xt39_proj_366": [
+      {
+        "time": 4.854,
+        "timestamp": 1774379862162
+      },
+      {
+        "time": 5.639,
+        "timestamp": 1775112958766
+      },
+      {
+        "time": 5.444,
+        "timestamp": 1775114064202
+      },
+      {
+        "time": 4.673,
+        "timestamp": 1775114366290
+      },
+      {
+        "time": 15.142,
+        "timestamp": 1776328914762
+      },
+      {
+        "time": 4.515,
+        "timestamp": 1776329365524
+      },
+      {
+        "time": 4.462,
+        "timestamp": 1776329501680
+      },
+      {
+        "time": 4.326,
+        "timestamp": 1776330040979
+      },
+      {
+        "time": 4.268,
+        "timestamp": 1776330376120
+      },
+      {
+        "time": 4.213,
+        "timestamp": 1776330478985
+      },
+      {
+        "time": 4.141,
+        "timestamp": 1776330656420
+      }
+    ],
+    "stu_1774857627784_plz2oy_proj_366": [
+      {
+        "time": 10.809,
+        "timestamp": 1776070022423
+      },
+      {
+        "time": 10.817,
+        "timestamp": 1776071522587
+      }
+    ],
+    "stu_1774857627784_57pcek_proj_333": [
+      {
+        "time": 6.56,
+        "timestamp": 1774860855365
+      }
+    ],
+    "stu_1774531642994_whfzby_proj_366": [
+      {
+        "time": 4.748,
+        "timestamp": 1774532410436
+      },
+      {
+        "time": 4.698,
+        "timestamp": 1774532606332
+      }
+    ],
+    "stu_1774531642994_dcidbf_proj_cycle": [
+      {
+        "time": 27.83,
+        "timestamp": 1774602182520
+      },
+      {
+        "time": 17.401,
+        "timestamp": 1775811549245
+      }
+    ],
+    "stu_1774857627784_528w78_proj_333": [
+      {
+        "time": 6.937,
+        "timestamp": 1774860307602
+      }
+    ],
+    "stu_1774857627784_plz2oy_proj_333": [
+      {
+        "time": 5.397,
+        "timestamp": 1774860952072
+      },
+      {
+        "time": 7.454,
+        "timestamp": 1774861861701
+      }
+    ],
+    "stu_1774531642994_cujv7p_proj_1776416124160_ansr": [
+      {
+        "time": 14.489,
+        "timestamp": 1776417247675
+      }
+    ],
+    "stu_1774531642994_9oe47h_proj_333": [
+      {
+        "time": 5.848,
+        "timestamp": 1774531967215
+      }
+    ],
+    "stu_1774857627784_zv6b6s_proj_366": [
+      {
+        "time": 10.181,
+        "timestamp": 1776068345980
+      },
+      {
+        "time": 10.302,
+        "timestamp": 1776070739744
+      },
+      {
+        "time": 9.223,
+        "timestamp": 1776071940556
+      }
+    ],
+    "stu_1776157388779_tj94m4_proj_366": [
+      {
+        "time": 15.183,
+        "timestamp": 1776762509549
+      }
+    ],
+    "stu_1774857627784_l6pilf_proj_333": [
+      {
+        "time": 6.264,
+        "timestamp": 1774859968747
+      },
+      {
+        "time": 5.914,
+        "timestamp": 1774862002374
+      }
+    ],
+    "stu_1774531642994_eqtnw4_proj_366": [
+      {
+        "time": 6.485,
+        "timestamp": 1774532271691
+      },
+      {
+        "time": 7.126,
+        "timestamp": 1774532490040
+      }
+    ],
+    "stu_1774941797525_g2pew6_proj_333": [
+      {
+        "time": 8.134,
+        "timestamp": 1775551859583
+      },
+      {
+        "time": 7.64,
+        "timestamp": 1776157309697
+      }
+    ],
+    "stu_1774857627784_zv6b6s_proj_333": [
+      {
+        "time": 8.958,
+        "timestamp": 1774859362710
+      },
+      {
+        "time": 6.319,
+        "timestamp": 1774861366211
+      }
+    ],
+    "stu_1774379595825_plwugz_proj_366": [
+      {
+        "time": 4.475,
+        "timestamp": 1774379740731
+      },
+      {
+        "time": 4.001,
+        "timestamp": 1775112848540
+      },
+      {
+        "time": 3.685,
+        "timestamp": 1776330408642
+      }
+    ],
+    "stu_1774857627784_tutc2s_proj_366": [
+      {
+        "time": 9.275,
+        "timestamp": 1776069772626
+      },
+      {
+        "time": 8.515,
+        "timestamp": 1776070464996
+      }
+    ],
+    "stu_1774531642994_zm3670_proj_333": [
+      {
+        "time": 6.201,
+        "timestamp": 1774532032845
+      }
+    ],
+    "stu_1774941797525_jgk1jm_proj_cycle": [
+      {
+        "time": 70.767,
+        "timestamp": 1774947941126
+      }
+    ],
+    "stu_1774531642994_4do14v_proj_333": [
+      {
+        "time": 5.235,
+        "timestamp": 1774531773084
+      }
+    ],
+    "stu_1774857627784_57pcek_proj_366": [
+      {
+        "time": 9.492,
+        "timestamp": 1776069884051
+      },
+      {
+        "time": 8.652,
+        "timestamp": 1776071147805
+      },
+      {
+        "time": 10.197,
+        "timestamp": 1776072010623
+      }
+    ],
+    "stu_1774531642994_eqtnw4_proj_cycle": [
+      {
+        "time": 22.394,
+        "timestamp": 1774532717801
+      },
+      {
+        "time": 21.723,
+        "timestamp": 1774602599712
+      }
+    ],
+    "stu_1774379595825_57xt39_proj_cycle": [
+      {
+        "time": 17.309,
+        "timestamp": 1774379870458
+      },
+      {
+        "time": 16.714,
+        "timestamp": 1774516241806
+      },
+      {
+        "time": 16.102,
+        "timestamp": 1774516711841
+      },
+      {
+        "time": 16.845,
+        "timestamp": 1775725204000
+      },
+      {
+        "time": 15.791,
+        "timestamp": 1775725209000
+      },
+      {
+        "time": 15.698,
+        "timestamp": 1775725222000
+      },
+      {
+        "time": 15.867,
+        "timestamp": 1776934476276
+      },
+      {
+        "time": 14.366,
+        "timestamp": 1776934991064
+      },
+      {
+        "time": 14.02,
+        "timestamp": 1776935210526
+      }
+    ],
+    "stu_1774379595825_vcdak8_proj_333": [
+      {
+        "time": 3.263,
+        "timestamp": 1774379710010
+      },
+      {
+        "time": 2.93,
+        "timestamp": 1775112485495
+      },
+      {
+        "time": 2.731,
+        "timestamp": 1775113016629
+      }
+    ]
+  },
+  "historyTombstones": {
+    "stu_1774680593901_0yb94x_proj_cycle": [
+      1775285408105,
+      1777099806734
+    ],
+    "stu_1774941797525_o4fwus_proj_333": [
+      1775551757574
+    ],
+    "stu_1774379595825_zdwm1s_proj_cycle": [
+      1775725200000
+    ],
+    "stu_1774379595825_vcdak8_proj_cycle": [
+      1775725201000
+    ],
+    "stu_1774941797525_7wbpid_proj_366": [
+      1776157245348
+    ],
+    "stu_1774379595825_dvzaem_proj_366": [
+      1776331090465,
+      1776331106770,
+      1776331118500
+    ],
+    "stu_1774680593901_0yb94x_proj_333": [
+      1775289650100,
+      1775289823284,
+      1775289869825,
+      1776495057413
+    ],
+    "stu_1774680593901_sfrawy_proj_366": [
+      1776496513433
+    ],
+    "stu_1774680593901_0yb94x_proj_366": [
+      1776496728889
+    ],
+    "stu_1774379595825_57xt39_proj_cycle": [
+      1776934729555
+    ],
+    "stu_1774680593901_unifpg_proj_cycle": [
+      1777099617150,
+      1777099842388
+    ],
+    "stu_1774680593901_unifpg_proj_366": [
+      1777100116913
+    ]
+  },
+  "customProjectsByClass": {
+    "class_1774531636617": [
+      {
+        "id": "proj_1776416124160_ansr",
+        "name": "9-Cycle",
+        "isCustom": true
+      }
+    ]
+  },
+  "currentClassId": "class_1774531636617",
+  "currentProjectId": null,
+  "recordContext": {
+    "studentId": null,
+    "projectId": null,
+    "updatedAt": 0
+  },
+  "todaySubmitted": {
+    "2026-04-04_proj_cycle": [
+      "stu_1774680593901_0yb94x",
+      "stu_1774680593901_sfrawy",
+      "stu_1774680593901_unifpg"
+    ],
+    "2026-04-04_proj_333": [
+      "stu_1774680593901_0yb94x"
+    ],
+    "2026-04-07_proj_333": [
+      "stu_1774941797525_331f5o",
+      "stu_1774941797525_5ybapb",
+      "stu_1774941797525_7wbpid",
+      "stu_1774941797525_9hq2og",
+      "stu_1774941797525_g2pew6",
+      "stu_1774941797525_h75veb",
+      "stu_1774941797525_ibpi0q",
+      "stu_1774941797525_jgk1jm",
+      "stu_1774941797525_mso1n7",
+      "stu_1774941797525_o4fwus",
+      "stu_1774941797525_pm45o4",
+      "stu_1774941797525_qpl1sj",
+      "stu_1774941797525_vk2jbo",
+      "stu_1774941797525_wuegto",
+      "stu_1774941797525_xpsq5x"
+    ],
+    "2026-04-09_proj_cycle": [
+      "stu_1774379595825_plwugz",
+      "stu_1774379595825_w3oc7w"
+    ],
+    "2026-04-09_proj_333": [
+      "stu_1774379595825_zdwm1s"
+    ],
+    "2026-04-10_proj_cycle": [
+      "stu_1774531642994_27xgps",
+      "stu_1774531642994_dcidbf",
+      "stu_1774531642994_qmnh9z",
+      "stu_1774531642994_vkcnt0",
+      "stu_1774531642994_whfzby"
+    ],
+    "2026-04-13_proj_366": [
+      "stu_1774857627784_1pdvhw",
+      "stu_1774857627784_1s28mm",
+      "stu_1774857627784_2agyix",
+      "stu_1774857627784_2ntp6r",
+      "stu_1774857627784_42jujr",
+      "stu_1774857627784_528w78",
+      "stu_1774857627784_548zbo",
+      "stu_1774857627784_57pcek",
+      "stu_1774857627784_7vw9nv",
+      "stu_1774857627784_8wswga",
+      "stu_1774857627784_ghhgb6",
+      "stu_1774857627784_irx136",
+      "stu_1774857627784_ixjy4j",
+      "stu_1774857627784_l6pilf",
+      "stu_1774857627784_plz2oy",
+      "stu_1774857627784_tutc2s",
+      "stu_1774857627784_uij6cm",
+      "stu_1774857627784_unb8xo",
+      "stu_1774857627784_v2rh2u",
+      "stu_1774857627784_xqih1l",
+      "stu_1774857627784_yg9ove",
+      "stu_1774857627784_zv6b6s",
+      "stu_1774857627784_zxescf"
+    ],
+    "2026-04-14_proj_333": [
+      "stu_1774941797525_7wbpid",
+      "stu_1774941797525_9mz6gf",
+      "stu_1774941797525_aeo9g8",
+      "stu_1774941797525_g2pew6",
+      "stu_1774941797525_o4fwus",
+      "stu_1774941797525_pm45o4",
+      "stu_1774941797525_xpsq5x",
+      "stu_1776157388779_tj94m4",
+      "stu_1776157472931_pd68jy"
+    ],
+    "2026-04-14_proj_366": [
+      "stu_1774941797525_5ybapb",
+      "stu_1774941797525_7wbpid",
+      "stu_1774941797525_9hq2og",
+      "stu_1774941797525_9mz6gf",
+      "stu_1774941797525_mso1n7",
+      "stu_1774941797525_o4fwus",
+      "stu_1774941797525_wuegto",
+      "stu_1774941797525_xpsq5x"
+    ],
+    "2026-04-14_proj_cycle": [
+      "stu_1774941797525_5ybapb",
+      "stu_1774941797525_7wbpid",
+      "stu_1774941797525_9hq2og",
+      "stu_1774941797525_9mz6gf",
+      "stu_1774941797525_mso1n7",
+      "stu_1774941797525_wuegto",
+      "stu_1774941797525_xpsq5x"
+    ],
+    "2015-01-01_proj_333": [
+      "stu_1774379595825_w3oc7w"
+    ],
+    "2026-04-16_proj_333": [
+      "stu_1774379595825_zdwm1s"
+    ],
+    "2026-04-16_proj_366": [
+      "stu_1774379595825_57xt39",
+      "stu_1774379595825_8dw6oy",
+      "stu_1774379595825_d11ega",
+      "stu_1774379595825_dvzaem",
+      "stu_1774379595825_hw9onw",
+      "stu_1774379595825_iaz3kg",
+      "stu_1774379595825_plwugz",
+      "stu_1774379595825_vcdak8",
+      "stu_1774379595825_w3oc7w",
+      "stu_1774379595825_wofamk",
+      "stu_1774379595825_zdwm1s",
+      "stu_1774379595825_zxetfr"
+    ],
+    "2026-04-16_proj_cycle": [
+      "stu_1774379595825_zxetfr"
+    ],
+    "2026-04-17_proj_1776416124160_ansr": [
+      "stu_1774531642994_27xgps",
+      "stu_1774531642994_2m8o3e",
+      "stu_1774531642994_3ntpx3",
+      "stu_1774531642994_9bfggv",
+      "stu_1774531642994_9oe47h",
+      "stu_1774531642994_cujv7p",
+      "stu_1774531642994_dcidbf",
+      "stu_1774531642994_eqtnw4",
+      "stu_1774531642994_vkcnt0",
+      "stu_1774531642994_w3vd9j",
+      "stu_1774531642994_whfzby"
+    ],
+    "2026-04-18_proj_333": [
+      "stu_1774680593901_0yb94x",
+      "stu_1774680593901_sfrawy",
+      "stu_1774680593901_unifpg"
+    ],
+    "2026-04-18_proj_366": [
+      "stu_1774680593901_0yb94x",
+      "stu_1774680593901_sfrawy"
+    ],
+    "2026-04-18_proj_cycle": [
+      "stu_1774680593901_0yb94x",
+      "stu_1774680593901_sfrawy",
+      "stu_1774680593901_unifpg"
+    ],
+    "2026-04-20_proj_cycle": [
+      "stu_1774857627784_42jujr",
+      "stu_1774857627784_548zbo",
+      "stu_1774857627784_8wswga",
+      "stu_1774857627784_ghhgb6",
+      "stu_1774857627784_tutc2s",
+      "stu_1774857627784_uij6cm",
+      "stu_1774857627784_v2rh2u",
+      "stu_1774857627784_zv6b6s",
+      "stu_1774857627784_zxescf",
+      "stu_1776676026409_usit8d"
+    ],
+    "2026-04-21_proj_366": [
+      "stu_1774941797525_5ybapb",
+      "stu_1774941797525_7wbpid",
+      "stu_1774941797525_9mz6gf",
+      "stu_1774941797525_g2pew6",
+      "stu_1774941797525_h75veb",
+      "stu_1774941797525_o4fwus",
+      "stu_1774941797525_qpl1sj",
+      "stu_1774941797525_xpsq5x",
+      "stu_1776157388779_tj94m4",
+      "stu_1776157472931_pd68jy"
+    ],
+    "2026-04-21_proj_cycle": [
+      "stu_1774941797525_5ybapb",
+      "stu_1774941797525_7wbpid",
+      "stu_1774941797525_9mz6gf",
+      "stu_1774941797525_qpl1sj",
+      "stu_1774941797525_xpsq5x"
+    ],
+    "2026-04-23_proj_cycle": [
+      "stu_1774379595825_57xt39",
+      "stu_1774379595825_d11ega",
+      "stu_1774379595825_hw9onw",
+      "stu_1774379595825_vcdak8",
+      "stu_1774379595825_w3oc7w",
+      "stu_1774379595825_wofamk"
+    ],
+    "2026-04-23_proj_333": [
+      "stu_1774379595825_57xt39",
+      "stu_1774379595825_w3oc7w"
+    ],
+    "2026-04-24_proj_1776416124160_ansr": [
+      "stu_1774531642994_3ntpx3",
+      "stu_1774531642994_9bfggv",
+      "stu_1774531642994_9oe47h",
+      "stu_1774531642994_dcidbf",
+      "stu_1774531642994_eqtnw4",
+      "stu_1774531642994_excnaj",
+      "stu_1774531642994_vkcnt0",
+      "stu_1774531642994_w3vd9j",
+      "stu_1774531642994_zm3670"
+    ],
+    "2026-04-24_proj_333": [
+      "stu_1774531642994_27xgps",
+      "stu_1774531642994_vkcnt0",
+      "stu_1774531642994_w3vd9j"
+    ],
+    "2026-04-24_proj_366": [
+      "stu_1774531642994_27xgps",
+      "stu_1774531642994_cujv7p"
+    ]
+  },
+  "displayConfig": {
+    "autoRotate": false,
+    "projectIds": [
+      "proj_cycle"
+    ],
+    "fixedProjectId": "proj_cycle",
+    "durationSeconds": 10
+  },
+  "lastUpdated": 1777111488525,
+  "clientLastUpdated": 1777104540118
+}
